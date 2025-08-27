@@ -1,0 +1,119 @@
+2025-07-31 12:41:21.169 | INFO     | __main__:startup:447 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-31 12:41:21.171 | INFO     | __main__:startup:448 - ✅ Sistema iniciado com sucesso!
+2025-07-31 12:41:29.313 | INFO     | __main__:upload_extrato:1051 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 12:41:29.314 | INFO     | __main__:upload_extrato:1080 - Lendo conteúdo do arquivo...
+2025-07-31 12:41:29.314 | INFO     | __main__:upload_extrato:1082 - Arquivo lido: 15174 bytes
+2025-07-31 12:41:29.314 | INFO     | __main__:upload_extrato:1084 - Processando arquivo...
+2025-07-31 12:41:29.314 | INFO     | __main__:processar_arquivo:219 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 12:41:29.315 | INFO     | __main__:processar_arquivo:258 - Processando arquivo Excel...
+2025-07-31 12:41:29.459 | INFO     | __main__:processar_arquivo:265 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-31 12:41:29.465 | INFO     | __main__:processar_arquivo:359 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-07-31 12:41:29.465 | INFO     | __main__:upload_extrato:1086 - Processadas 154 transações
+2025-07-31 12:41:29.465 | INFO     | __main__:upload_extrato:1090 - Total de transações no sistema: 154
+2025-07-31 12:41:29.465 | INFO     | __main__:upload_extrato:1103 - Extrato AAI processado com sucesso: 154 transações
+2025-07-31 12:42:05.725 | INFO     | __main__:startup:447 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-31 12:42:05.726 | INFO     | __main__:startup:448 - ✅ Sistema iniciado com sucesso!
+2025-07-31 12:42:16.957 | INFO     | __main__:upload_extrato:1051 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 12:42:16.957 | INFO     | __main__:upload_extrato:1080 - Lendo conteúdo do arquivo...
+2025-07-31 12:42:16.957 | INFO     | __main__:upload_extrato:1082 - Arquivo lido: 15174 bytes
+2025-07-31 12:42:16.957 | INFO     | __main__:upload_extrato:1084 - Processando arquivo...
+2025-07-31 12:42:16.957 | INFO     | __main__:processar_arquivo:219 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 12:42:16.958 | INFO     | __main__:processar_arquivo:258 - Processando arquivo Excel...
+2025-07-31 12:42:17.092 | INFO     | __main__:processar_arquivo:265 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-31 12:42:17.097 | INFO     | __main__:processar_arquivo:359 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-07-31 12:42:17.097 | INFO     | __main__:upload_extrato:1086 - Processadas 154 transações
+2025-07-31 12:42:17.097 | INFO     | __main__:upload_extrato:1090 - Total de transações no sistema: 154
+2025-07-31 12:42:17.098 | INFO     | __main__:upload_extrato:1103 - Extrato AAI processado com sucesso: 154 transações
+2025-07-31 13:17:30.447 | INFO     | __main__:startup:447 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-31 13:17:30.448 | INFO     | __main__:startup:448 - ✅ Sistema iniciado com sucesso!
+2025-07-31 13:17:44.564 | INFO     | __main__:upload_extrato:1051 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 13:17:44.565 | INFO     | __main__:upload_extrato:1080 - Lendo conteúdo do arquivo...
+2025-07-31 13:17:44.565 | INFO     | __main__:upload_extrato:1082 - Arquivo lido: 15174 bytes
+2025-07-31 13:17:44.565 | INFO     | __main__:upload_extrato:1084 - Processando arquivo...
+2025-07-31 13:17:44.565 | INFO     | __main__:processar_arquivo:219 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 13:17:44.565 | INFO     | __main__:processar_arquivo:258 - Processando arquivo Excel...
+2025-07-31 13:17:44.835 | INFO     | __main__:processar_arquivo:265 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-31 13:17:44.859 | INFO     | __main__:processar_arquivo:359 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-07-31 13:17:44.860 | INFO     | __main__:upload_extrato:1086 - Processadas 154 transações
+2025-07-31 13:17:44.860 | INFO     | __main__:upload_extrato:1090 - Total de transações no sistema: 154
+2025-07-31 13:17:44.860 | INFO     | __main__:upload_extrato:1103 - Extrato AAI processado com sucesso: 154 transações
+2025-07-31 14:38:15.905 | INFO     | __main__:startup:447 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-31 14:38:15.905 | INFO     | __main__:startup:448 - ✅ Sistema iniciado com sucesso!
+2025-07-31 14:38:29.515 | INFO     | __main__:upload_extrato:1051 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 14:38:29.515 | INFO     | __main__:upload_extrato:1080 - Lendo conteúdo do arquivo...
+2025-07-31 14:38:29.515 | INFO     | __main__:upload_extrato:1082 - Arquivo lido: 15174 bytes
+2025-07-31 14:38:29.515 | INFO     | __main__:upload_extrato:1084 - Processando arquivo...
+2025-07-31 14:38:29.515 | INFO     | __main__:processar_arquivo:219 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 14:38:29.515 | INFO     | __main__:processar_arquivo:258 - Processando arquivo Excel...
+2025-07-31 14:38:29.669 | INFO     | __main__:processar_arquivo:265 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-31 14:38:29.674 | INFO     | __main__:processar_arquivo:359 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-07-31 14:38:29.674 | INFO     | __main__:upload_extrato:1086 - Processadas 154 transações
+2025-07-31 14:38:29.674 | INFO     | __main__:upload_extrato:1090 - Total de transações no sistema: 154
+2025-07-31 14:38:29.674 | INFO     | __main__:upload_extrato:1103 - Extrato AAI processado com sucesso: 154 transações
+2025-07-31 14:38:51.161 | INFO     | __main__:conciliar_transacao:3272 - Recebida solicitação de conciliação: transacao_id='3ca609e5-c847-4663-a54c-8566f55f5463' classificacao='CUSTOS AAI' plano_contas='Advogados' item='Veritas' forma_pagamento='Tarifa' banco_origem='AAI' centro_custo='Thera Geral' nome_recebedor='teste' data_pagamento='2025-07-25' data_referencia='' observacoes='123' contraparte='Não identificado'
+2025-07-31 14:38:51.161 | INFO     | __main__:conciliar_transacao:3302 - Transação 3ca609e5-c847-4663-a54c-8566f55f5463 conciliada com sucesso
+2025-07-31 14:39:23.085 | INFO     | __main__:conciliar_transacao:3272 - Recebida solicitação de conciliação: transacao_id='0a83a832-dac8-43c0-9f7e-bb4358d46384' classificacao='DESPESA COM RH' plano_contas='Assessor de Produtos' item='Fixo' forma_pagamento='PIX' banco_origem='AAI' centro_custo='Ribeirão Preto' nome_recebedor='guilherme rossetti' data_pagamento='2025-07-18' data_referencia='2025-06-30' observacoes='12345' contraparte='enviado guilherme rossetti goncal'
+2025-07-31 14:39:23.085 | INFO     | __main__:conciliar_transacao:3302 - Transação 0a83a832-dac8-43c0-9f7e-bb4358d46384 conciliada com sucesso
+2025-07-31 14:40:30.320 | INFO     | __main__:conciliar_transacao:3272 - Recebida solicitação de conciliação: transacao_id='669aa1ab-85ec-43f7-ab55-13d2f34c695f' classificacao='DESPESA COM MARKETING' plano_contas='Agência de Mktg' item='0' forma_pagamento='PIX' banco_origem='AAI' centro_custo='Campinas' nome_recebedor='America Park' data_pagamento='2025-07-14' data_referencia='2025-06-16' observacoes='ref evento' contraparte='enviado america park'
+2025-07-31 14:40:30.321 | INFO     | __main__:conciliar_transacao:3302 - Transação 669aa1ab-85ec-43f7-ab55-13d2f34c695f conciliada com sucesso
+2025-07-31 14:59:54.809 | INFO     | __main__:startup:475 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-31 14:59:54.809 | INFO     | __main__:startup:476 - ✅ Sistema iniciado com sucesso!
+2025-07-31 16:22:47.015 | INFO     | __main__:startup:475 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-31 16:22:47.016 | INFO     | __main__:startup:476 - ✅ Sistema iniciado com sucesso!
+2025-07-31 16:24:23.286 | INFO     | __main__:upload_extrato:1083 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 16:24:23.286 | INFO     | __main__:upload_extrato:1112 - Lendo conteúdo do arquivo...
+2025-07-31 16:24:23.286 | INFO     | __main__:upload_extrato:1114 - Arquivo lido: 15174 bytes
+2025-07-31 16:24:23.286 | INFO     | __main__:upload_extrato:1116 - Processando arquivo...
+2025-07-31 16:24:23.287 | INFO     | __main__:processar_arquivo:247 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-31 16:24:23.287 | INFO     | __main__:processar_arquivo:286 - Processando arquivo Excel...
+2025-07-31 16:24:23.429 | INFO     | __main__:processar_arquivo:293 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-31 16:24:23.435 | INFO     | __main__:processar_arquivo:387 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-07-31 16:24:23.435 | INFO     | __main__:upload_extrato:1118 - Processadas 154 transações
+2025-07-31 16:24:23.435 | INFO     | __main__:upload_extrato:1122 - Total de transações no sistema: 154
+2025-07-31 16:24:23.435 | INFO     | __main__:upload_extrato:1135 - Extrato AAI processado com sucesso: 154 transações
+2025-07-31 16:26:02.971 | INFO     | __main__:conciliar_transacao:3304 - Recebida solicitação de conciliação: transacao_id='e2c330f6-4b62-4162-afe1-643659163cf8' classificacao='DESPESA COM RH' plano_contas='Assessor de Produtos' item='Variável' forma_pagamento='PIX' banco_origem='AAI' centro_custo='Thera Geral' nome_recebedor='GUILHERME ROSSETTI' data_pagamento='2025-07-18' data_referencia='2025-06-30' observacoes='TESTE' contraparte='enviado guilherme rossetti goncal'
+2025-07-31 16:26:02.972 | INFO     | __main__:conciliar_transacao:3334 - Transação e2c330f6-4b62-4162-afe1-643659163cf8 conciliada com sucesso
+2025-07-31 16:29:39.052 | INFO     | __main__:limpar_dados:3277 - Dados limpos: 154 transações e 1 extratos removidos
+2025-07-31 16:29:52.756 | INFO     | __main__:upload_extrato:1083 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-31 16:29:52.756 | INFO     | __main__:upload_extrato:1112 - Lendo conteúdo do arquivo...
+2025-07-31 16:29:52.757 | INFO     | __main__:upload_extrato:1114 - Arquivo lido: 26506 bytes
+2025-07-31 16:29:52.757 | INFO     | __main__:upload_extrato:1116 - Processando arquivo...
+2025-07-31 16:29:52.757 | INFO     | __main__:processar_arquivo:247 - Iniciando processamento de Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-31 16:29:52.757 | INFO     | __main__:processar_arquivo:286 - Processando arquivo Excel...
+2025-07-31 16:29:52.779 | INFO     | __main__:processar_arquivo:293 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-31 16:29:52.800 | INFO     | __main__:processar_arquivo:387 - Processamento concluído para AAI: 444 transações de 448 linhas
+2025-07-31 16:29:52.800 | INFO     | __main__:upload_extrato:1118 - Processadas 444 transações
+2025-07-31 16:29:52.800 | INFO     | __main__:upload_extrato:1122 - Total de transações no sistema: 444
+2025-07-31 16:29:52.800 | INFO     | __main__:upload_extrato:1135 - Extrato AAI processado com sucesso: 444 transações
+2025-07-31 16:30:00.593 | INFO     | __main__:upload_extrato:1083 - Recebido upload: Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-31 16:30:00.593 | INFO     | __main__:upload_extrato:1112 - Lendo conteúdo do arquivo...
+2025-07-31 16:30:00.593 | INFO     | __main__:upload_extrato:1114 - Arquivo lido: 26568 bytes
+2025-07-31 16:30:00.593 | INFO     | __main__:upload_extrato:1116 - Processando arquivo...
+2025-07-31 16:30:00.593 | INFO     | __main__:processar_arquivo:247 - Iniciando processamento de Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-31 16:30:00.594 | INFO     | __main__:processar_arquivo:286 - Processando arquivo Excel...
+2025-07-31 16:30:00.613 | INFO     | __main__:processar_arquivo:293 - Arquivo lido com 423 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-31 16:30:00.687 | INFO     | __main__:processar_arquivo:387 - Processamento concluído para EDUCAÇÃO: 419 transações de 423 linhas
+2025-07-31 16:30:00.687 | INFO     | __main__:upload_extrato:1118 - Processadas 419 transações
+2025-07-31 16:30:00.687 | INFO     | __main__:upload_extrato:1122 - Total de transações no sistema: 863
+2025-07-31 16:30:00.687 | INFO     | __main__:upload_extrato:1135 - Extrato EDUCAÇÃO processado com sucesso: 419 transações
+2025-07-31 16:31:39.387 | INFO     | __main__:conciliar_transacao:3304 - Recebida solicitação de conciliação: transacao_id='c2d773a1-d4b6-46b0-b92f-f265bd5db8db' classificacao='DESPESAS OPERACIONAIS' plano_contas='Internet' item='Algar' forma_pagamento='Outros' banco_origem='AAI' centro_custo='Araraquara' nome_recebedor='ALGAR TELECOM' data_pagamento='2025-01-20' data_referencia='2025-06-26' observacoes='' contraparte='Não identificado'
+2025-07-31 16:31:39.387 | INFO     | __main__:conciliar_transacao:3334 - Transação c2d773a1-d4b6-46b0-b92f-f265bd5db8db conciliada com sucesso
+2025-08-01 09:58:25.101 | INFO     | __main__:startup:475 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-01 09:58:25.102 | INFO     | __main__:startup:476 - ✅ Sistema iniciado com sucesso!
+2025-08-01 10:01:36.660 | INFO     | __main__:startup:475 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-01 10:01:36.660 | INFO     | __main__:startup:476 - ✅ Sistema iniciado com sucesso!
+2025-08-01 10:06:33.647 | INFO     | __main__:excluir_item:6807 - Item excluído: Bônus de DESPESA COM RH/Assessor Comercial
+2025-08-01 10:07:17.290 | INFO     | __main__:excluir_item:6807 - Item excluído: Bônus de DESPESA COM RH/Assessor de Produtos
+2025-08-01 10:08:24.663 | INFO     | __main__:upload_extrato:1083 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-08-01 10:08:24.663 | INFO     | __main__:upload_extrato:1112 - Lendo conteúdo do arquivo...
+2025-08-01 10:08:24.664 | INFO     | __main__:upload_extrato:1114 - Arquivo lido: 15174 bytes
+2025-08-01 10:08:24.664 | INFO     | __main__:upload_extrato:1116 - Processando arquivo...
+2025-08-01 10:08:24.664 | INFO     | __main__:processar_arquivo:247 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-08-01 10:08:24.664 | INFO     | __main__:processar_arquivo:286 - Processando arquivo Excel...
+2025-08-01 10:08:24.998 | INFO     | __main__:processar_arquivo:293 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-08-01 10:08:25.006 | INFO     | __main__:processar_arquivo:387 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-08-01 10:08:25.007 | INFO     | __main__:upload_extrato:1118 - Processadas 154 transações
+2025-08-01 10:08:25.007 | INFO     | __main__:upload_extrato:1122 - Total de transações no sistema: 154
+2025-08-01 10:08:25.007 | INFO     | __main__:upload_extrato:1135 - Extrato AAI processado com sucesso: 154 transações
+2025-08-01 10:09:13.129 | INFO     | __main__:conciliar_transacao:3304 - Recebida solicitação de conciliação: transacao_id='ab025cb5-d00b-4785-8807-3aa74edef4a6' classificacao='DESPESA COM RH' plano_contas='Assessor de Produtos' item='Bônus ' forma_pagamento='PIX' banco_origem='AAI' centro_custo='Ribeirão Preto' nome_recebedor='GABRIEL ASSALIN' data_pagamento='2025-07-10' data_referencia='2025-07-31' observacoes='BONUS DE TESTE DE IMPLEMENTAÇÃO' contraparte='enviado gabriel mattar assalin'
+2025-08-01 10:09:13.130 | INFO     | __main__:conciliar_transacao:3335 - Transação ab025cb5-d00b-4785-8807-3aa74edef4a6 conciliada com sucesso

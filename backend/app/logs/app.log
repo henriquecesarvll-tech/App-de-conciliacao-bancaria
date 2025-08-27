@@ -1,0 +1,36 @@
+2025-08-26 12:56:33.644 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-26 12:56:33.646 | INFO     | __main__:carregar_lookups_cache:4467 - 🔄 Carregando lookups para cache...
+2025-08-26 12:56:35.512 | INFO     | __main__:carregar_lookups_cache:4483 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-26 12:56:35.512 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-26 13:14:05.011 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-26 13:14:05.014 | INFO     | __main__:carregar_lookups_cache:4467 - 🔄 Carregando lookups para cache...
+2025-08-26 13:14:06.269 | INFO     | __main__:carregar_lookups_cache:4483 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-26 13:14:06.278 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-26 13:14:09.470 | INFO     | __main__:get_stats:4206 - 📊 Calculando estatísticas do Supabase...
+2025-08-26 13:14:10.845 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 59 transações pendentes do Supabase
+2025-08-26 13:14:12.495 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 13:14:13.832 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 13:14:14.363 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 13:14:14.367 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 13:14:14.368 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-26 13:14:14.515 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-26 13:14:14.516 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-26 13:14:14.519 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 13:14:14.520 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-26 13:14:14.645 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-26 13:14:14.646 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-26 13:14:18.965 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 13:14:19.652 | INFO     | __main__:obter_classificacoes:7867 - 🔄 Cache miss - consultando banco...
+2025-08-26 13:14:20.211 | INFO     | __main__:obter_classificacoes:7919 - ✅ Estrutura carregada: 8 classificações
+2025-08-26 13:14:20.212 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-26 13:14:20.401 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-26 13:14:20.402 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-26 13:14:20.914 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 13:14:21.931 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 59 transações pendentes do Supabase
+2025-08-26 13:14:22.914 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-26 13:14:23.087 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-26 13:14:23.088 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-26 13:14:23.091 | INFO     | __main__:obter_classificacoes:7864 - ✅ Usando classificações do cache
+2025-08-26 13:14:27.035 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-26 13:14:27.163 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-26 13:14:27.164 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)

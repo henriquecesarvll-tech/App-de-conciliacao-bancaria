@@ -1,0 +1,316 @@
+2025-08-25 12:20:24.252 | INFO     | __main__:startup:558 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-25 12:20:24.254 | INFO     | __main__:startup:559 - ✅ Sistema iniciado com sucesso!
+2025-08-25 12:20:31.874 | INFO     | __main__:get_stats:4201 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 12:20:33.294 | INFO     | __main__:get_stats:4212 - ✅ Stats do Supabase: 81 total, 65 pendentes, 16 conciliados
+2025-08-25 12:21:20.392 | INFO     | __main__:listar_pendentes:1693 - 📋 Carregando 65 transações pendentes do Supabase
+2025-08-25 12:22:18.657 | INFO     | __main__:listar_transacoes:4238 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 12:22:19.280 | INFO     | __main__:listar_transacoes:4251 - 📊 Encontradas 81 transações
+2025-08-25 12:22:25.455 | INFO     | __main__:listar_transacoes:4325 - ✅ Processadas 81 transações com lookup
+2025-08-25 12:22:25.459 | INFO     | __main__:obter_classificacoes:7827 - 🔄 Cache miss - consultando banco...
+2025-08-25 12:22:25.788 | INFO     | __main__:obter_classificacoes:7879 - ✅ Estrutura carregada: 8 classificações
+2025-08-25 12:22:34.077 | INFO     | __main__:conciliar_transacao:4413 - 🔖 Conciliando transação: 68611cd8-73f1-4a86-93d1-d6d0f91af0ed
+2025-08-25 12:22:34.347 | INFO     | __main__:conciliar_transacao:4429 - 🔍 Buscando classificação: CUSTOS AAI
+2025-08-25 12:22:34.431 | INFO     | __main__:conciliar_transacao:4437 - ✅ Classificação encontrada: cb49dc87-05d3-4f54-80e8-897a30793723
+2025-08-25 12:22:34.431 | INFO     | __main__:conciliar_transacao:4440 - 🔍 Buscando plano: Gravador de voz
+2025-08-25 12:22:34.489 | INFO     | __main__:conciliar_transacao:4446 - ✅ Plano encontrado: e343c0f4-f76b-44e0-a2c2-933b80d948c5
+2025-08-25 12:22:34.490 | INFO     | __main__:conciliar_transacao:4449 - 🔍 Buscando item: Link Solution
+2025-08-25 12:22:34.533 | INFO     | __main__:conciliar_transacao:4455 - ✅ Item encontrado: ff3e4ea4-74c6-4406-a57e-72e47e446ea1
+2025-08-25 12:22:34.629 | INFO     | __main__:conciliar_transacao:4460 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-25 12:22:34.629 | INFO     | __main__:conciliar_transacao:4480 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': 'cb49dc87-05d3-4f54-80e8-897a30793723', 'plano_contas_id': 'e343c0f4-f76b-44e0-a2c2-933b80d948c5', 'item_id': 'ff3e4ea4-74c6-4406-a57e-72e47e446ea1', 'forma_pagamento': 'PIX', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Ribeirão Preto', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-02', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-25T12:22:34.629664'}
+2025-08-25 12:22:34.780 | INFO     | __main__:conciliar_transacao:4488 - ✅ Transação 68611cd8-73f1-4a86-93d1-d6d0f91af0ed conciliada com sucesso
+2025-08-25 12:22:34.781 | INFO     | cache_service:invalidate_pattern:157 - Cache invalidated: 0 keys
+2025-08-25 12:22:34.781 | INFO     | cache_service:invalidate_pattern:157 - Cache invalidated: 0 keys
+2025-08-25 12:22:37.236 | INFO     | __main__:listar_pendentes:1693 - 📋 Carregando 64 transações pendentes do Supabase
+2025-08-25 12:22:38.605 | INFO     | __main__:listar_transacoes:4238 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 12:22:38.683 | INFO     | __main__:listar_transacoes:4251 - 📊 Encontradas 81 transações
+2025-08-25 12:22:41.019 | INFO     | __main__:listar_transacoes:4325 - ✅ Processadas 81 transações com lookup
+2025-08-25 12:22:41.021 | INFO     | __main__:obter_classificacoes:7824 - ✅ Usando classificações do cache
+2025-08-25 12:22:49.113 | INFO     | __main__:conciliar_transacao:4413 - 🔖 Conciliando transação: 0dc7b7e5-b4b0-4147-b5da-aea0e8bf4e86
+2025-08-25 12:22:49.508 | INFO     | __main__:conciliar_transacao:4429 - 🔍 Buscando classificação: DESPESA COM RH
+2025-08-25 12:22:49.647 | INFO     | __main__:conciliar_transacao:4437 - ✅ Classificação encontrada: 4246f823-b58f-4b37-ad5c-924a6e7dd913
+2025-08-25 12:22:49.647 | INFO     | __main__:conciliar_transacao:4440 - 🔍 Buscando plano: Assessor de Produtos
+2025-08-25 12:22:49.748 | INFO     | __main__:conciliar_transacao:4446 - ✅ Plano encontrado: 7ee2205d-5c3f-4887-a95a-9a7063d44e1b
+2025-08-25 12:22:49.749 | INFO     | __main__:conciliar_transacao:4449 - 🔍 Buscando item: Bonificação - CFA - 2s.2024
+2025-08-25 12:22:49.850 | INFO     | __main__:conciliar_transacao:4455 - ✅ Item encontrado: b27ed7cc-4c1d-450e-a6d8-3497c983adf9
+2025-08-25 12:22:49.956 | INFO     | __main__:conciliar_transacao:4460 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-25 12:22:49.957 | INFO     | __main__:conciliar_transacao:4480 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '4246f823-b58f-4b37-ad5c-924a6e7dd913', 'plano_contas_id': '7ee2205d-5c3f-4887-a95a-9a7063d44e1b', 'item_id': 'b27ed7cc-4c1d-450e-a6d8-3497c983adf9', 'forma_pagamento': 'Boleto', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Campinas', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-04', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-25T12:22:49.957124'}
+2025-08-25 12:22:50.061 | INFO     | __main__:conciliar_transacao:4488 - ✅ Transação 0dc7b7e5-b4b0-4147-b5da-aea0e8bf4e86 conciliada com sucesso
+2025-08-25 12:22:50.062 | INFO     | cache_service:invalidate_pattern:157 - Cache invalidated: 0 keys
+2025-08-25 12:22:50.062 | INFO     | cache_service:invalidate_pattern:157 - Cache invalidated: 0 keys
+2025-08-25 12:22:51.406 | INFO     | __main__:listar_pendentes:1693 - 📋 Carregando 63 transações pendentes do Supabase
+2025-08-25 12:22:53.469 | INFO     | __main__:listar_transacoes:4238 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 12:22:53.578 | INFO     | __main__:listar_transacoes:4251 - 📊 Encontradas 81 transações
+2025-08-25 12:22:58.945 | INFO     | __main__:listar_transacoes:4325 - ✅ Processadas 81 transações com lookup
+2025-08-25 12:22:58.948 | INFO     | __main__:obter_classificacoes:7824 - ✅ Usando classificações do cache
+2025-08-25 12:23:07.718 | INFO     | __main__:get_stats:4201 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 12:23:07.881 | INFO     | __main__:get_stats:4212 - ✅ Stats do Supabase: 81 total, 63 pendentes, 18 conciliados
+2025-08-25 12:23:09.113 | INFO     | __main__:listar_pendentes:1693 - 📋 Carregando 63 transações pendentes do Supabase
+2025-08-25 12:23:13.184 | INFO     | __main__:get_stats:4201 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 12:23:13.299 | INFO     | __main__:get_stats:4212 - ✅ Stats do Supabase: 81 total, 63 pendentes, 18 conciliados
+2025-08-25 12:23:18.158 | INFO     | __main__:get_stats:4201 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 12:23:18.274 | INFO     | __main__:get_stats:4212 - ✅ Stats do Supabase: 81 total, 63 pendentes, 18 conciliados
+2025-08-25 12:23:19.234 | INFO     | __main__:listar_pendentes:1693 - 📋 Carregando 63 transações pendentes do Supabase
+2025-08-25 12:26:29.129 | INFO     | __main__:startup:558 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-25 12:26:29.129 | INFO     | __main__:startup:559 - ✅ Sistema iniciado com sucesso!
+2025-08-25 12:26:35.326 | INFO     | __main__:listar_pendentes:1693 - 📋 Carregando 63 transações pendentes do Supabase
+2025-08-25 12:26:36.722 | INFO     | __main__:listar_transacoes:4238 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 12:26:36.850 | INFO     | __main__:listar_transacoes:4251 - 📊 Encontradas 81 transações
+2025-08-25 12:26:42.248 | INFO     | __main__:listar_transacoes:4325 - ✅ Processadas 81 transações com lookup
+2025-08-25 12:26:42.251 | INFO     | __main__:obter_classificacoes:7827 - 🔄 Cache miss - consultando banco...
+2025-08-25 12:26:42.547 | INFO     | __main__:obter_classificacoes:7879 - ✅ Estrutura carregada: 8 classificações
+2025-08-25 13:17:58.629 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-25 13:17:58.630 | INFO     | __main__:carregar_lookups_cache:4465 - 🔄 Carregando lookups para cache...
+2025-08-25 13:18:00.432 | INFO     | __main__:carregar_lookups_cache:4481 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 13:18:00.432 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-25 13:18:00.432 | INFO     | __main__:startup_event:4545 - 🚀 Iniciando sistema...
+2025-08-25 13:18:00.432 | INFO     | __main__:carregar_lookups_cache:4465 - 🔄 Carregando lookups para cache...
+2025-08-25 13:18:01.001 | INFO     | __main__:carregar_lookups_cache:4481 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 13:18:01.001 | INFO     | __main__:startup_event:4550 - ✅ Sistema inicializado
+2025-08-25 13:18:15.592 | INFO     | __main__:get_stats:4204 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 13:18:15.879 | INFO     | __main__:get_stats:4215 - ✅ Stats do Supabase: 81 total, 63 pendentes, 18 conciliados
+2025-08-25 13:18:15.879 | ERROR    | __main__:get_stats:4225 - ❌ Erro ao calcular stats: CacheService.set() got an unexpected keyword argument 'ttl'
+2025-08-25 13:19:01.513 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 63 transações pendentes do Supabase
+2025-08-25 13:19:06.625 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:19:06.844 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:19:06.845 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=17, plano=17, item=17)
+2025-08-25 13:19:06.849 | INFO     | __main__:obter_classificacoes:7877 - 🔄 Cache miss - consultando banco...
+2025-08-25 13:19:07.237 | ERROR    | __main__:obter_classificacoes:7934 - ❌ ERRO ao obter classificações: CacheService.set() got an unexpected keyword argument 'ttl'
+2025-08-25 13:19:14.588 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:19:14.882 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:19:14.883 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=17, plano=17, item=17)
+2025-08-25 13:19:14.887 | INFO     | __main__:obter_classificacoes:7877 - 🔄 Cache miss - consultando banco...
+2025-08-25 13:19:15.303 | ERROR    | __main__:obter_classificacoes:7934 - ❌ ERRO ao obter classificações: CacheService.set() got an unexpected keyword argument 'ttl'
+2025-08-25 13:29:54.571 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-25 13:29:54.571 | INFO     | __main__:carregar_lookups_cache:4465 - 🔄 Carregando lookups para cache...
+2025-08-25 13:29:55.233 | INFO     | __main__:carregar_lookups_cache:4481 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 13:29:55.234 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-25 13:30:06.070 | INFO     | __main__:get_stats:4204 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 13:30:06.395 | INFO     | __main__:get_stats:4215 - ✅ Stats do Supabase: 81 total, 63 pendentes, 18 conciliados
+2025-08-25 13:30:08.589 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:30:16.530 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 63 transações pendentes do Supabase
+2025-08-25 13:30:17.913 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:30:18.026 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:30:18.027 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=17, plano=17, item=17)
+2025-08-25 13:30:18.030 | INFO     | __main__:obter_classificacoes:7865 - 🔄 Cache miss - consultando banco...
+2025-08-25 13:30:18.386 | ERROR    | __main__:obter_classificacoes:7922 - ❌ ERRO ao obter classificações: CacheService.set() got an unexpected keyword argument 'ttl'
+2025-08-25 13:32:08.822 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-25 13:32:08.822 | INFO     | __main__:carregar_lookups_cache:4465 - 🔄 Carregando lookups para cache...
+2025-08-25 13:32:09.555 | INFO     | __main__:carregar_lookups_cache:4481 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 13:32:09.555 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-25 13:32:09.864 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 63 transações pendentes do Supabase
+2025-08-25 13:32:12.090 | INFO     | __main__:get_stats:4204 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 13:32:12.200 | INFO     | __main__:get_stats:4215 - ✅ Stats do Supabase: 81 total, 63 pendentes, 18 conciliados
+2025-08-25 13:32:13.764 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 63 transações pendentes do Supabase
+2025-08-25 13:32:15.782 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:32:15.904 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:32:15.904 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=17, plano=17, item=17)
+2025-08-25 13:32:15.907 | INFO     | __main__:obter_classificacoes:7865 - 🔄 Cache miss - consultando banco...
+2025-08-25 13:32:16.243 | INFO     | __main__:obter_classificacoes:7917 - ✅ Estrutura carregada: 8 classificações
+2025-08-25 13:32:25.381 | INFO     | __main__:conciliar_transacao:4370 - 🔖 Conciliando transação: a8d5163b-e873-4312-9d2c-595cfcc30c89
+2025-08-25 13:32:25.551 | INFO     | __main__:conciliar_transacao:4386 - 🔍 Buscando classificação: DESPESA COM RH
+2025-08-25 13:32:25.697 | INFO     | __main__:conciliar_transacao:4394 - ✅ Classificação encontrada: 4246f823-b58f-4b37-ad5c-924a6e7dd913
+2025-08-25 13:32:25.697 | INFO     | __main__:conciliar_transacao:4397 - 🔍 Buscando plano: Assessor de Produtos
+2025-08-25 13:32:25.818 | INFO     | __main__:conciliar_transacao:4403 - ✅ Plano encontrado: 7ee2205d-5c3f-4887-a95a-9a7063d44e1b
+2025-08-25 13:32:25.819 | INFO     | __main__:conciliar_transacao:4406 - 🔍 Buscando item: Bônus 
+2025-08-25 13:32:25.947 | INFO     | __main__:conciliar_transacao:4412 - ✅ Item encontrado: f0a29de0-9fe8-4dc8-95ce-db657f363eb5
+2025-08-25 13:32:26.068 | INFO     | __main__:conciliar_transacao:4417 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-25 13:32:26.068 | INFO     | __main__:conciliar_transacao:4437 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '4246f823-b58f-4b37-ad5c-924a6e7dd913', 'plano_contas_id': '7ee2205d-5c3f-4887-a95a-9a7063d44e1b', 'item_id': 'f0a29de0-9fe8-4dc8-95ce-db657f363eb5', 'forma_pagamento': 'Boleto', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Araraquara', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-04', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-25T13:32:26.068644'}
+2025-08-25 13:32:26.268 | INFO     | __main__:conciliar_transacao:4445 - ✅ Transação a8d5163b-e873-4312-9d2c-595cfcc30c89 conciliada com sucesso
+2025-08-25 13:32:27.489 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 62 transações pendentes do Supabase
+2025-08-25 13:32:28.589 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:32:28.590 | INFO     | __main__:carregar_lookups_cache:4465 - 🔄 Carregando lookups para cache...
+2025-08-25 13:32:28.946 | INFO     | __main__:carregar_lookups_cache:4481 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 13:32:29.075 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:32:29.076 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=18, plano=18, item=18)
+2025-08-25 13:32:29.079 | INFO     | __main__:obter_classificacoes:7865 - 🔄 Cache miss - consultando banco...
+2025-08-25 13:32:29.421 | INFO     | __main__:obter_classificacoes:7917 - ✅ Estrutura carregada: 8 classificações
+2025-08-25 13:34:03.537 | INFO     | __main__:get_stats:4204 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 13:34:03.918 | INFO     | __main__:get_stats:4215 - ✅ Stats do Supabase: 81 total, 62 pendentes, 19 conciliados
+2025-08-25 13:34:51.772 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:35:25.334 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:35:25.337 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:35:25.340 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:35:25.552 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:35:25.553 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=18, plano=18, item=18)
+2025-08-25 13:35:25.556 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:35:25.558 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:35:25.710 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:35:25.711 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=18, plano=18, item=18)
+2025-08-25 13:36:12.122 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:36:18.181 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:36:38.795 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:36:38.800 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:36:38.800 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:36:39.010 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:36:39.010 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=18, plano=18, item=18)
+2025-08-25 13:36:39.015 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:36:39.016 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:36:39.145 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:36:39.146 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=18, plano=18, item=18)
+2025-08-25 13:38:13.594 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:38:16.653 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 62 transações pendentes do Supabase
+2025-08-25 13:38:19.950 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:38:20.099 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:38:20.100 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=18, plano=18, item=18)
+2025-08-25 13:38:20.103 | INFO     | __main__:obter_classificacoes:7862 - ✅ Usando classificações do cache
+2025-08-25 13:38:22.951 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:38:23.051 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:38:23.052 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=18, plano=18, item=18)
+2025-08-25 13:38:27.894 | INFO     | __main__:conciliar_transacao:4370 - 🔖 Conciliando transação: 3b8e72f2-8411-4c18-a5f2-8dea35b3644f
+2025-08-25 13:38:28.003 | INFO     | __main__:conciliar_transacao:4386 - 🔍 Buscando classificação: DESPESA COM RH
+2025-08-25 13:38:28.101 | INFO     | __main__:conciliar_transacao:4394 - ✅ Classificação encontrada: 4246f823-b58f-4b37-ad5c-924a6e7dd913
+2025-08-25 13:38:28.101 | INFO     | __main__:conciliar_transacao:4397 - 🔍 Buscando plano: Assistente Operacional
+2025-08-25 13:38:28.203 | INFO     | __main__:conciliar_transacao:4403 - ✅ Plano encontrado: f75909c9-4f0b-4485-8d70-f60cec5a5c28
+2025-08-25 13:38:28.204 | INFO     | __main__:conciliar_transacao:4406 - 🔍 Buscando item: Fixo
+2025-08-25 13:38:28.310 | INFO     | __main__:conciliar_transacao:4412 - ✅ Item encontrado: 04cc30cf-4b77-4a6f-90a1-10adbe02994f
+2025-08-25 13:38:28.411 | INFO     | __main__:conciliar_transacao:4417 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-25 13:38:28.411 | INFO     | __main__:conciliar_transacao:4437 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '4246f823-b58f-4b37-ad5c-924a6e7dd913', 'plano_contas_id': 'f75909c9-4f0b-4485-8d70-f60cec5a5c28', 'item_id': '04cc30cf-4b77-4a6f-90a1-10adbe02994f', 'forma_pagamento': 'PIX', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Campinas', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-04', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-25T13:38:28.411655'}
+2025-08-25 13:38:28.533 | INFO     | __main__:conciliar_transacao:4445 - ✅ Transação 3b8e72f2-8411-4c18-a5f2-8dea35b3644f conciliada com sucesso
+2025-08-25 13:38:29.675 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 61 transações pendentes do Supabase
+2025-08-25 13:38:31.008 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:38:31.009 | INFO     | __main__:carregar_lookups_cache:4465 - 🔄 Carregando lookups para cache...
+2025-08-25 13:38:31.321 | INFO     | __main__:carregar_lookups_cache:4481 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 13:38:31.426 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:38:31.426 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=19, plano=19, item=19)
+2025-08-25 13:38:31.429 | INFO     | __main__:obter_classificacoes:7865 - 🔄 Cache miss - consultando banco...
+2025-08-25 13:38:31.739 | INFO     | __main__:obter_classificacoes:7917 - ✅ Estrutura carregada: 8 classificações
+2025-08-25 13:38:42.262 | INFO     | __main__:get_stats:4204 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 13:38:42.471 | INFO     | __main__:get_stats:4215 - ✅ Stats do Supabase: 81 total, 61 pendentes, 20 conciliados
+2025-08-25 13:38:49.451 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:41:03.596 | INFO     | __main__:obter_classificacoes:7862 - ✅ Usando classificações do cache
+2025-08-25 13:41:03.598 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 13:41:04.010 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 13:41:04.011 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=19, plano=19, item=19)
+2025-08-25 13:41:11.039 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 13:41:12.987 | INFO     | __main__:listar_usuarios:9219 - 🔍 Listando usuários...
+2025-08-25 13:41:13.247 | INFO     | __main__:listar_usuarios:9228 - ✅ Query executada, encontrados: 3 usuários
+2025-08-25 13:41:14.657 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 14:08:49.018 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-25 14:08:49.018 | INFO     | __main__:carregar_lookups_cache:4465 - 🔄 Carregando lookups para cache...
+2025-08-25 14:08:50.589 | INFO     | __main__:carregar_lookups_cache:4481 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 14:08:50.589 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-25 14:09:44.016 | INFO     | __main__:get_stats:4204 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 14:09:44.348 | INFO     | __main__:get_stats:4215 - ✅ Stats do Supabase: 81 total, 61 pendentes, 20 conciliados
+2025-08-25 14:09:44.348 | ERROR    | __main__:get_stats:4225 - ❌ Erro ao calcular stats: name 'stats_data' is not defined
+2025-08-25 14:10:24.201 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-25 14:10:24.201 | INFO     | __main__:carregar_lookups_cache:4465 - 🔄 Carregando lookups para cache...
+2025-08-25 14:10:24.701 | INFO     | __main__:carregar_lookups_cache:4481 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 14:10:24.701 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-25 14:10:41.336 | INFO     | __main__:get_stats:4204 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 14:10:41.717 | INFO     | __main__:get_stats:4215 - ✅ Stats do Supabase: 81 total, 61 pendentes, 20 conciliados
+2025-08-25 14:10:44.721 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 61 transações pendentes do Supabase
+2025-08-25 14:10:45.945 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 14:10:47.399 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 14:10:47.403 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 14:10:47.404 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:10:47.541 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 14:10:47.542 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=19, plano=19, item=19)
+2025-08-25 14:10:47.546 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 14:10:47.547 | INFO     | __main__:listar_transacoes:4239 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:10:47.691 | INFO     | __main__:listar_transacoes:4262 - 📊 Encontradas 81 transações
+2025-08-25 14:10:47.691 | INFO     | __main__:listar_transacoes:4288 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=19, plano=19, item=19)
+2025-08-25 14:11:16.263 | INFO     | __main__:get_stats:4191 - Stats do cache
+2025-08-25 14:20:11.736 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-25 14:20:11.736 | INFO     | __main__:carregar_lookups_cache:4467 - 🔄 Carregando lookups para cache...
+2025-08-25 14:20:12.483 | INFO     | __main__:carregar_lookups_cache:4483 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 14:20:12.483 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-25 14:20:20.371 | INFO     | __main__:get_stats:4206 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 14:20:26.163 | INFO     | __main__:obter_classificacoes:7867 - 🔄 Cache miss - consultando banco...
+2025-08-25 14:20:26.540 | INFO     | __main__:obter_classificacoes:7919 - ✅ Estrutura carregada: 8 classificações
+2025-08-25 14:20:26.541 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:20:26.674 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:20:26.675 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=19, plano=19, item=19)
+2025-08-25 14:20:27.411 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:20:28.060 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:20:28.063 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:20:28.064 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:20:28.194 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:20:28.195 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=19, plano=19, item=19)
+2025-08-25 14:20:28.199 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:20:28.200 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:20:28.319 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:20:28.320 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=19, plano=19, item=19)
+2025-08-25 14:21:15.927 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:21:43.952 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 61 transações pendentes do Supabase
+2025-08-25 14:21:51.479 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:21:51.717 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:21:51.717 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=19, plano=19, item=19)
+2025-08-25 14:21:51.722 | INFO     | __main__:obter_classificacoes:7864 - ✅ Usando classificações do cache
+2025-08-25 14:21:58.825 | INFO     | __main__:conciliar_transacao:4372 - 🔖 Conciliando transação: 4b9a884e-2a12-4135-885b-2260695388be
+2025-08-25 14:21:59.207 | INFO     | __main__:conciliar_transacao:4388 - 🔍 Buscando classificação: CUSTOS AAI
+2025-08-25 14:21:59.461 | INFO     | __main__:conciliar_transacao:4396 - ✅ Classificação encontrada: cb49dc87-05d3-4f54-80e8-897a30793723
+2025-08-25 14:21:59.461 | INFO     | __main__:conciliar_transacao:4399 - 🔍 Buscando plano: Gravador de voz
+2025-08-25 14:21:59.629 | INFO     | __main__:conciliar_transacao:4405 - ✅ Plano encontrado: e343c0f4-f76b-44e0-a2c2-933b80d948c5
+2025-08-25 14:21:59.629 | INFO     | __main__:conciliar_transacao:4408 - 🔍 Buscando item: Link Solution
+2025-08-25 14:21:59.748 | INFO     | __main__:conciliar_transacao:4414 - ✅ Item encontrado: ff3e4ea4-74c6-4406-a57e-72e47e446ea1
+2025-08-25 14:21:59.872 | INFO     | __main__:conciliar_transacao:4419 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-25 14:21:59.872 | INFO     | __main__:conciliar_transacao:4439 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': 'cb49dc87-05d3-4f54-80e8-897a30793723', 'plano_contas_id': 'e343c0f4-f76b-44e0-a2c2-933b80d948c5', 'item_id': 'ff3e4ea4-74c6-4406-a57e-72e47e446ea1', 'forma_pagamento': 'PIX', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Campinas', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-04', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-25T14:21:59.872342'}
+2025-08-25 14:22:00.046 | INFO     | __main__:conciliar_transacao:4447 - ✅ Transação 4b9a884e-2a12-4135-885b-2260695388be conciliada com sucesso
+2025-08-25 14:22:02.421 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 60 transações pendentes do Supabase
+2025-08-25 14:22:06.519 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:22:06.519 | INFO     | __main__:carregar_lookups_cache:4467 - 🔄 Carregando lookups para cache...
+2025-08-25 14:22:06.833 | INFO     | __main__:carregar_lookups_cache:4483 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 14:22:06.939 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:22:06.940 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=20, plano=20, item=20)
+2025-08-25 14:22:06.943 | INFO     | __main__:obter_classificacoes:7867 - 🔄 Cache miss - consultando banco...
+2025-08-25 14:22:07.324 | INFO     | __main__:obter_classificacoes:7919 - ✅ Estrutura carregada: 8 classificações
+2025-08-25 14:22:17.074 | INFO     | __main__:conciliar_transacao:4372 - 🔖 Conciliando transação: c0c5c47f-12e1-407a-9100-28402cb04a3c
+2025-08-25 14:22:17.245 | INFO     | __main__:conciliar_transacao:4388 - 🔍 Buscando classificação: DESPESA COM RH
+2025-08-25 14:22:17.348 | INFO     | __main__:conciliar_transacao:4396 - ✅ Classificação encontrada: 4246f823-b58f-4b37-ad5c-924a6e7dd913
+2025-08-25 14:22:17.348 | INFO     | __main__:conciliar_transacao:4399 - 🔍 Buscando plano: Assessor de Produtos
+2025-08-25 14:22:17.453 | INFO     | __main__:conciliar_transacao:4405 - ✅ Plano encontrado: 7ee2205d-5c3f-4887-a95a-9a7063d44e1b
+2025-08-25 14:22:17.453 | INFO     | __main__:conciliar_transacao:4408 - 🔍 Buscando item: Bônus 
+2025-08-25 14:22:17.570 | INFO     | __main__:conciliar_transacao:4414 - ✅ Item encontrado: f0a29de0-9fe8-4dc8-95ce-db657f363eb5
+2025-08-25 14:22:17.684 | INFO     | __main__:conciliar_transacao:4419 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-25 14:22:17.684 | INFO     | __main__:conciliar_transacao:4439 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '4246f823-b58f-4b37-ad5c-924a6e7dd913', 'plano_contas_id': '7ee2205d-5c3f-4887-a95a-9a7063d44e1b', 'item_id': 'f0a29de0-9fe8-4dc8-95ce-db657f363eb5', 'forma_pagamento': 'PIX', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Campinas', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-10', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-25T14:22:17.684857'}
+2025-08-25 14:22:17.799 | INFO     | __main__:conciliar_transacao:4447 - ✅ Transação c0c5c47f-12e1-407a-9100-28402cb04a3c conciliada com sucesso
+2025-08-25 14:22:19.739 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 59 transações pendentes do Supabase
+2025-08-25 14:22:20.334 | INFO     | __main__:get_stats:4206 - 📊 Calculando estatísticas do Supabase...
+2025-08-25 14:22:27.431 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:28.337 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:28.341 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:28.342 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:22:28.342 | INFO     | __main__:carregar_lookups_cache:4467 - 🔄 Carregando lookups para cache...
+2025-08-25 14:22:28.663 | INFO     | __main__:carregar_lookups_cache:4483 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-25 14:22:28.778 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:22:28.779 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-25 14:22:28.784 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:28.785 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:22:28.895 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:22:28.896 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-25 14:22:33.511 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:34.324 | INFO     | __main__:obter_classificacoes:7867 - 🔄 Cache miss - consultando banco...
+2025-08-25 14:22:34.736 | INFO     | __main__:obter_classificacoes:7919 - ✅ Estrutura carregada: 8 classificações
+2025-08-25 14:22:34.737 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:22:34.852 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:22:34.853 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-25 14:22:44.747 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:47.081 | INFO     | __main__:listar_usuarios:9221 - 🔍 Listando usuários...
+2025-08-25 14:22:47.254 | INFO     | __main__:listar_usuarios:9230 - ✅ Query executada, encontrados: 3 usuários
+2025-08-25 14:22:49.660 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:52.880 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 59 transações pendentes do Supabase
+2025-08-25 14:22:56.012 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:56.697 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:56.700 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:56.700 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:22:56.771 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:22:56.772 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-25 14:22:56.778 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-25 14:22:56.779 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-25 14:22:56.839 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-25 14:22:56.839 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-25 14:23:04.357 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 11:13:20.760 | INFO     | __main__:startup:557 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-26 11:13:20.760 | INFO     | __main__:carregar_lookups_cache:4467 - 🔄 Carregando lookups para cache...
+2025-08-26 11:13:22.899 | INFO     | __main__:carregar_lookups_cache:4483 - ✅ Lookups carregados: 8 classificações, 91 planos, 220 itens
+2025-08-26 11:13:22.899 | INFO     | __main__:startup:562 - ✅ Sistema iniciado com sucesso!
+2025-08-26 11:13:50.519 | INFO     | __main__:get_stats:4206 - 📊 Calculando estatísticas do Supabase...
+2025-08-26 11:13:59.053 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 59 transações pendentes do Supabase
+2025-08-26 11:14:01.800 | INFO     | __main__:listar_transacoes:4241 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-26 11:14:01.968 | INFO     | __main__:listar_transacoes:4264 - 📊 Encontradas 81 transações
+2025-08-26 11:14:01.968 | INFO     | __main__:listar_transacoes:4290 - ✅ Processadas 81 transações com lookup otimizado (cache hits: classificação=21, plano=21, item=21)
+2025-08-26 11:14:01.971 | INFO     | __main__:obter_classificacoes:7867 - 🔄 Cache miss - consultando banco...
+2025-08-26 11:14:02.365 | INFO     | __main__:obter_classificacoes:7919 - ✅ Estrutura carregada: 8 classificações
+2025-08-26 11:14:04.497 | INFO     | __main__:get_stats:4192 - Stats do cache
+2025-08-26 11:14:05.629 | INFO     | __main__:listar_pendentes:1696 - 📋 Carregando 59 transações pendentes do Supabase
+2025-08-26 11:14:07.113 | INFO     | __main__:get_stats:4192 - Stats do cache

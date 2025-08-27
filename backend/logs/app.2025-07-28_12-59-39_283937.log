@@ -1,0 +1,577 @@
+2025-07-28 12:59:39.286 | INFO     | app.main:startup:38 - 🚀 Iniciando aplicação...
+2025-07-28 12:59:39.287 | ERROR    | app.database:init_supabase:24 - ❌ Erro ao conectar com Supabase: Client.__init__() got an unexpected keyword argument 'proxy'
+2025-07-28 13:53:32.485 | INFO     | app.main:startup:39 - 🚀 Iniciando aplicação em modo de teste...
+2025-07-28 13:53:32.486 | INFO     | app.main:startup:40 - ✅ Aplicação iniciada com sucesso!
+2025-07-28 13:53:32.486 | INFO     | app.main:startup:39 - 🚀 Iniciando aplicação em modo de teste...
+2025-07-28 13:53:32.486 | INFO     | app.main:startup:40 - ✅ Aplicação iniciada com sucesso!
+2025-07-28 13:53:32.715 | INFO     | app.main:startup:39 - 🚀 Iniciando aplicação em modo de teste...
+2025-07-28 13:53:32.716 | INFO     | app.main:startup:40 - ✅ Aplicação iniciada com sucesso!
+2025-07-28 13:54:29.414 | INFO     | app.main:startup:39 - 🚀 Iniciando aplicação em modo de teste...
+2025-07-28 13:54:29.414 | INFO     | app.main:startup:40 - ✅ Aplicação iniciada com sucesso!
+2025-07-28 14:20:05.724 | INFO     | app.main:startup:147 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:20:05.724 | INFO     | app.main:startup:147 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:20:05.725 | INFO     | app.main:startup:148 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:20:05.724 | INFO     | app.main:startup:147 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:20:05.725 | INFO     | app.main:startup:148 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:20:05.725 | INFO     | app.main:startup:148 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:20:23.970 | INFO     | app.main:startup:147 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:20:23.970 | INFO     | app.main:startup:148 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:24:07.489 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:24:07.490 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:24:08.167 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:24:08.167 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:24:20.278 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:24:20.279 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:24:32.344 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:24:32.344 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:24:40.237 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:24:40.238 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:24:42.631 | INFO     | app.main:upload_extrato:292 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:24:42.631 | INFO     | app.main:upload_extrato:303 - Lendo conteúdo do arquivo...
+2025-07-28 14:24:42.631 | INFO     | app.main:upload_extrato:305 - Arquivo lido: 26565 bytes
+2025-07-28 14:24:42.631 | INFO     | app.main:upload_extrato:307 - Processando Excel...
+2025-07-28 14:24:42.632 | INFO     | app.main:processar_excel:82 - Iniciando processamento Excel para banco AAI
+2025-07-28 14:24:42.780 | INFO     | app.main:processar_excel:86 - Excel lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:24:42.789 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 198: could not convert string to float: '27.328,22'
+2025-07-28 14:24:42.789 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 199: could not convert string to float: '490.468,35'
+2025-07-28 14:24:42.790 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 217: could not convert string to float: '445.159,80'
+2025-07-28 14:24:42.791 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 223: could not convert string to float: '354.790,77'
+2025-07-28 14:24:42.791 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 224: could not convert string to float: '354.752,14'
+2025-07-28 14:24:42.793 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 254: could not convert string to float: '42.060,34'
+2025-07-28 14:24:42.794 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 263: could not convert string to float: '6.137,54'
+2025-07-28 14:24:42.794 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 265: could not convert string to float: '5.178,18'
+2025-07-28 14:24:42.794 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 266: could not convert string to float: '5.021,95'
+2025-07-28 14:24:42.795 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 268: could not convert string to float: '32,26'
+2025-07-28 14:24:42.795 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 270: could not convert string to float: '-51.509,74'
+2025-07-28 14:24:42.796 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 273: could not convert string to float: '292,42'
+2025-07-28 14:24:42.796 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 274: could not convert string to float: '284,00'
+2025-07-28 14:24:42.797 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 295: could not convert string to float: '213.821,40'
+2025-07-28 14:24:42.797 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 298: could not convert string to float: '273.791,93'
+2025-07-28 14:24:42.798 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 332: could not convert string to float: '943,91'
+2025-07-28 14:24:42.799 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 333: could not convert string to float: '839,51'
+2025-07-28 14:24:42.799 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 334: could not convert string to float: '542,13'
+2025-07-28 14:24:42.799 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 337: could not convert string to float: '-600,28'
+2025-07-28 14:24:42.800 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 357: could not convert string to float: '4.923,36'
+2025-07-28 14:24:42.800 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 364: could not convert string to float: '356,59'
+2025-07-28 14:24:42.801 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 365: could not convert string to float: '343,96'
+2025-07-28 14:24:42.803 | INFO     | app.main:processar_excel:149 - Processamento concluído: 422 transações de 448 linhas
+2025-07-28 14:24:42.804 | INFO     | app.main:upload_extrato:309 - Processadas 422 transações
+2025-07-28 14:24:42.804 | INFO     | app.main:upload_extrato:313 - Total de transações no sistema: 422
+2025-07-28 14:24:42.804 | INFO     | app.main:upload_extrato:326 - Extrato AAI processado com sucesso: 422 transações
+2025-07-28 14:24:42.804 | INFO     | app.main:upload_extrato:340 - Retornando resultado: {'success': True, 'message': 'Extrato AAI processado com sucesso!', 'extrato': {'id': '227dd73c-6d39-4360-a323-f53421872d66', 'banco': 'AAI', 'arquivo': 'Extrato Bancário - AAI.xlsx', 'total_transacoes': 422, 'processado_em': '2025-07-28T14:24:42.804471', 'status': 'PROCESSADO'}, 'total_transacoes': 422, 'resumo': {'creditos': 14, 'debitos': 408, 'valor_total': -1203008.92}}
+2025-07-28 14:24:52.623 | INFO     | app.main:upload_extrato:292 - Recebido upload: Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 14:24:52.623 | INFO     | app.main:upload_extrato:303 - Lendo conteúdo do arquivo...
+2025-07-28 14:24:52.623 | INFO     | app.main:upload_extrato:305 - Arquivo lido: 26851 bytes
+2025-07-28 14:24:52.624 | INFO     | app.main:upload_extrato:307 - Processando Excel...
+2025-07-28 14:24:52.624 | INFO     | app.main:processar_excel:82 - Iniciando processamento Excel para banco EDUCAÇÃO
+2025-07-28 14:24:52.637 | INFO     | app.main:processar_excel:86 - Excel lido com 423 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:24:52.650 | INFO     | app.main:processar_excel:149 - Processamento concluído: 419 transações de 423 linhas
+2025-07-28 14:24:52.651 | INFO     | app.main:upload_extrato:309 - Processadas 419 transações
+2025-07-28 14:24:52.651 | INFO     | app.main:upload_extrato:313 - Total de transações no sistema: 841
+2025-07-28 14:24:52.651 | INFO     | app.main:upload_extrato:326 - Extrato EDUCAÇÃO processado com sucesso: 419 transações
+2025-07-28 14:24:52.651 | INFO     | app.main:upload_extrato:340 - Retornando resultado: {'success': True, 'message': 'Extrato EDUCAÇÃO processado com sucesso!', 'extrato': {'id': '38dee098-e016-49af-8cb0-cf218b6ba6c0', 'banco': 'EDUCAÇÃO', 'arquivo': 'Extrato Bancário - EDUCA.xlsx', 'total_transacoes': 419, 'processado_em': '2025-07-28T14:24:52.651510', 'status': 'PROCESSADO'}, 'total_transacoes': 419, 'resumo': {'creditos': 80, 'debitos': 339, 'valor_total': -97636.96}}
+2025-07-28 14:25:35.195 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:25:35.195 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:25:35.921 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:25:35.921 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:30:16.323 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:30:16.323 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:30:17.044 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:30:17.044 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:30:21.253 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:30:21.254 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:30:22.009 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:30:22.010 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:30:34.957 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:30:34.958 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:30:35.712 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:30:35.713 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:30:36.244 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:30:36.244 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:30:37.014 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:30:37.014 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:31:46.352 | INFO     | app.main:upload_extrato:315 - Recebido upload: Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 14:31:46.352 | INFO     | app.main:upload_extrato:326 - Lendo conteúdo do arquivo...
+2025-07-28 14:31:46.353 | INFO     | app.main:upload_extrato:328 - Arquivo lido: 26851 bytes
+2025-07-28 14:31:46.353 | INFO     | app.main:upload_extrato:330 - Processando Excel...
+2025-07-28 14:31:46.353 | INFO     | app.main:processar_excel:82 - Iniciando processamento Excel para banco EDUCAÇÃO
+2025-07-28 14:31:46.495 | INFO     | app.main:processar_excel:86 - Excel lido com 423 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:31:46.508 | INFO     | app.main:processar_excel:149 - Processamento concluído: 419 transações de 423 linhas
+2025-07-28 14:31:46.508 | INFO     | app.main:upload_extrato:332 - Processadas 419 transações
+2025-07-28 14:31:46.509 | INFO     | app.main:upload_extrato:336 - Total de transações no sistema: 419
+2025-07-28 14:31:46.509 | INFO     | app.main:upload_extrato:349 - Extrato EDUCAÇÃO processado com sucesso: 419 transações
+2025-07-28 14:31:46.509 | INFO     | app.main:upload_extrato:363 - Retornando resultado: {'success': True, 'message': 'Extrato EDUCAÇÃO processado com sucesso!', 'extrato': {'id': '42aa37b0-d77b-41d8-bcd9-17b54f022bb6', 'banco': 'EDUCAÇÃO', 'arquivo': 'Extrato Bancário - EDUCA.xlsx', 'total_transacoes': 419, 'processado_em': '2025-07-28T14:31:46.509411', 'status': 'PROCESSADO'}, 'total_transacoes': 419, 'resumo': {'creditos': 80, 'debitos': 339, 'valor_total': -97636.96}}
+2025-07-28 14:31:57.086 | INFO     | app.main:upload_extrato:315 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:31:57.086 | INFO     | app.main:upload_extrato:326 - Lendo conteúdo do arquivo...
+2025-07-28 14:31:57.086 | INFO     | app.main:upload_extrato:328 - Arquivo lido: 26565 bytes
+2025-07-28 14:31:57.086 | INFO     | app.main:upload_extrato:330 - Processando Excel...
+2025-07-28 14:31:57.087 | INFO     | app.main:processar_excel:82 - Iniciando processamento Excel para banco AAI
+2025-07-28 14:31:57.101 | INFO     | app.main:processar_excel:86 - Excel lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:31:57.108 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 198: could not convert string to float: '27.328,22'
+2025-07-28 14:31:57.108 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 199: could not convert string to float: '490.468,35'
+2025-07-28 14:31:57.109 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 217: could not convert string to float: '445.159,80'
+2025-07-28 14:31:57.109 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 223: could not convert string to float: '354.790,77'
+2025-07-28 14:31:57.110 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 224: could not convert string to float: '354.752,14'
+2025-07-28 14:31:57.111 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 254: could not convert string to float: '42.060,34'
+2025-07-28 14:31:57.112 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 263: could not convert string to float: '6.137,54'
+2025-07-28 14:31:57.112 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 265: could not convert string to float: '5.178,18'
+2025-07-28 14:31:57.112 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 266: could not convert string to float: '5.021,95'
+2025-07-28 14:31:57.112 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 268: could not convert string to float: '32,26'
+2025-07-28 14:31:57.113 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 270: could not convert string to float: '-51.509,74'
+2025-07-28 14:31:57.113 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 273: could not convert string to float: '292,42'
+2025-07-28 14:31:57.113 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 274: could not convert string to float: '284,00'
+2025-07-28 14:31:57.114 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 295: could not convert string to float: '213.821,40'
+2025-07-28 14:31:57.115 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 298: could not convert string to float: '273.791,93'
+2025-07-28 14:31:57.116 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 332: could not convert string to float: '943,91'
+2025-07-28 14:31:57.116 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 333: could not convert string to float: '839,51'
+2025-07-28 14:31:57.116 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 334: could not convert string to float: '542,13'
+2025-07-28 14:31:57.116 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 337: could not convert string to float: '-600,28'
+2025-07-28 14:31:57.117 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 357: could not convert string to float: '4.923,36'
+2025-07-28 14:31:57.118 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 364: could not convert string to float: '356,59'
+2025-07-28 14:31:57.118 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 365: could not convert string to float: '343,96'
+2025-07-28 14:31:57.121 | INFO     | app.main:processar_excel:149 - Processamento concluído: 422 transações de 448 linhas
+2025-07-28 14:31:57.121 | INFO     | app.main:upload_extrato:332 - Processadas 422 transações
+2025-07-28 14:31:57.121 | INFO     | app.main:upload_extrato:336 - Total de transações no sistema: 841
+2025-07-28 14:31:57.121 | INFO     | app.main:upload_extrato:349 - Extrato AAI processado com sucesso: 422 transações
+2025-07-28 14:31:57.122 | INFO     | app.main:upload_extrato:363 - Retornando resultado: {'success': True, 'message': 'Extrato AAI processado com sucesso!', 'extrato': {'id': 'c0e5ec28-ab72-458f-9e93-a066df2d6689', 'banco': 'AAI', 'arquivo': 'Extrato Bancário - AAI.xlsx', 'total_transacoes': 422, 'processado_em': '2025-07-28T14:31:57.121904', 'status': 'PROCESSADO'}, 'total_transacoes': 422, 'resumo': {'creditos': 14, 'debitos': 408, 'valor_total': -1203008.92}}
+2025-07-28 14:32:22.595 | INFO     | app.main:limpar_dados:731 - Dados limpos: 841 transações e 2 extratos removidos
+2025-07-28 14:32:31.405 | INFO     | app.main:upload_extrato:315 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:32:31.406 | INFO     | app.main:upload_extrato:326 - Lendo conteúdo do arquivo...
+2025-07-28 14:32:31.406 | INFO     | app.main:upload_extrato:328 - Arquivo lido: 26565 bytes
+2025-07-28 14:32:31.406 | INFO     | app.main:upload_extrato:330 - Processando Excel...
+2025-07-28 14:32:31.406 | INFO     | app.main:processar_excel:82 - Iniciando processamento Excel para banco AAI
+2025-07-28 14:32:31.420 | INFO     | app.main:processar_excel:86 - Excel lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:32:31.427 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 198: could not convert string to float: '27.328,22'
+2025-07-28 14:32:31.427 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 199: could not convert string to float: '490.468,35'
+2025-07-28 14:32:31.429 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 217: could not convert string to float: '445.159,80'
+2025-07-28 14:32:31.429 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 223: could not convert string to float: '354.790,77'
+2025-07-28 14:32:31.430 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 224: could not convert string to float: '354.752,14'
+2025-07-28 14:32:31.431 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 254: could not convert string to float: '42.060,34'
+2025-07-28 14:32:31.432 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 263: could not convert string to float: '6.137,54'
+2025-07-28 14:32:31.432 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 265: could not convert string to float: '5.178,18'
+2025-07-28 14:32:31.432 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 266: could not convert string to float: '5.021,95'
+2025-07-28 14:32:31.432 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 268: could not convert string to float: '32,26'
+2025-07-28 14:32:31.433 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 270: could not convert string to float: '-51.509,74'
+2025-07-28 14:32:31.433 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 273: could not convert string to float: '292,42'
+2025-07-28 14:32:31.433 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 274: could not convert string to float: '284,00'
+2025-07-28 14:32:31.434 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 295: could not convert string to float: '213.821,40'
+2025-07-28 14:32:31.435 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 298: could not convert string to float: '273.791,93'
+2025-07-28 14:32:31.436 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 332: could not convert string to float: '943,91'
+2025-07-28 14:32:31.436 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 333: could not convert string to float: '839,51'
+2025-07-28 14:32:31.436 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 334: could not convert string to float: '542,13'
+2025-07-28 14:32:31.437 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 337: could not convert string to float: '-600,28'
+2025-07-28 14:32:31.438 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 357: could not convert string to float: '4.923,36'
+2025-07-28 14:32:31.438 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 364: could not convert string to float: '356,59'
+2025-07-28 14:32:31.439 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 365: could not convert string to float: '343,96'
+2025-07-28 14:32:31.441 | INFO     | app.main:processar_excel:149 - Processamento concluído: 422 transações de 448 linhas
+2025-07-28 14:32:31.441 | INFO     | app.main:upload_extrato:332 - Processadas 422 transações
+2025-07-28 14:32:31.442 | INFO     | app.main:upload_extrato:336 - Total de transações no sistema: 422
+2025-07-28 14:32:31.442 | INFO     | app.main:upload_extrato:349 - Extrato AAI processado com sucesso: 422 transações
+2025-07-28 14:32:31.442 | INFO     | app.main:upload_extrato:363 - Retornando resultado: {'success': True, 'message': 'Extrato AAI processado com sucesso!', 'extrato': {'id': 'b4c2f5f8-9277-471f-85ad-e1a36356f5fc', 'banco': 'AAI', 'arquivo': 'Extrato Bancário - AAI.xlsx', 'total_transacoes': 422, 'processado_em': '2025-07-28T14:32:31.442145', 'status': 'PROCESSADO'}, 'total_transacoes': 422, 'resumo': {'creditos': 14, 'debitos': 408, 'valor_total': -1203008.92}}
+2025-07-28 14:34:08.518 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:34:08.518 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:34:09.330 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:34:09.331 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:34:14.169 | INFO     | app.main:limpar_dados:731 - Dados limpos: 422 transações e 1 extratos removidos
+2025-07-28 14:34:15.082 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:34:15.082 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:34:15.774 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:34:15.775 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:34:36.388 | INFO     | app.main:upload_extrato:315 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:34:36.388 | INFO     | app.main:upload_extrato:344 - Lendo conteúdo do arquivo...
+2025-07-28 14:34:36.389 | INFO     | app.main:upload_extrato:346 - Arquivo lido: 26565 bytes
+2025-07-28 14:34:36.389 | INFO     | app.main:upload_extrato:348 - Processando Excel...
+2025-07-28 14:34:36.389 | INFO     | app.main:processar_excel:82 - Iniciando processamento Excel para banco AAI
+2025-07-28 14:34:36.538 | INFO     | app.main:processar_excel:86 - Excel lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:34:36.545 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 198: could not convert string to float: '27.328,22'
+2025-07-28 14:34:36.545 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 199: could not convert string to float: '490.468,35'
+2025-07-28 14:34:36.546 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 217: could not convert string to float: '445.159,80'
+2025-07-28 14:34:36.547 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 223: could not convert string to float: '354.790,77'
+2025-07-28 14:34:36.547 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 224: could not convert string to float: '354.752,14'
+2025-07-28 14:34:36.549 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 254: could not convert string to float: '42.060,34'
+2025-07-28 14:34:36.549 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 263: could not convert string to float: '6.137,54'
+2025-07-28 14:34:36.549 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 265: could not convert string to float: '5.178,18'
+2025-07-28 14:34:36.550 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 266: could not convert string to float: '5.021,95'
+2025-07-28 14:34:36.550 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 268: could not convert string to float: '32,26'
+2025-07-28 14:34:36.550 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 270: could not convert string to float: '-51.509,74'
+2025-07-28 14:34:36.551 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 273: could not convert string to float: '292,42'
+2025-07-28 14:34:36.551 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 274: could not convert string to float: '284,00'
+2025-07-28 14:34:36.552 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 295: could not convert string to float: '213.821,40'
+2025-07-28 14:34:36.552 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 298: could not convert string to float: '273.791,93'
+2025-07-28 14:34:36.553 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 332: could not convert string to float: '943,91'
+2025-07-28 14:34:36.553 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 333: could not convert string to float: '839,51'
+2025-07-28 14:34:36.554 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 334: could not convert string to float: '542,13'
+2025-07-28 14:34:36.554 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 337: could not convert string to float: '-600,28'
+2025-07-28 14:34:36.555 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 357: could not convert string to float: '4.923,36'
+2025-07-28 14:34:36.556 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 364: could not convert string to float: '356,59'
+2025-07-28 14:34:36.556 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 365: could not convert string to float: '343,96'
+2025-07-28 14:34:36.559 | INFO     | app.main:processar_excel:149 - Processamento concluído: 422 transações de 448 linhas
+2025-07-28 14:34:36.559 | INFO     | app.main:upload_extrato:350 - Processadas 422 transações
+2025-07-28 14:34:36.559 | INFO     | app.main:upload_extrato:354 - Total de transações no sistema: 422
+2025-07-28 14:34:36.559 | INFO     | app.main:upload_extrato:367 - Extrato AAI processado com sucesso: 422 transações
+2025-07-28 14:34:40.513 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:34:40.514 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:34:41.243 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:34:41.244 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:35:22.251 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:35:22.251 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:35:37.236 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:35:37.236 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:37:57.525 | INFO     | app.main:limpar_dados:849 - Dados limpos: 422 transações e 1 extratos removidos
+2025-07-28 14:38:04.563 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:38:04.564 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:38:16.932 | INFO     | app.main:upload_extrato:315 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:38:16.932 | INFO     | app.main:upload_extrato:344 - Lendo conteúdo do arquivo...
+2025-07-28 14:38:16.933 | INFO     | app.main:upload_extrato:346 - Arquivo lido: 26595 bytes
+2025-07-28 14:38:16.933 | INFO     | app.main:upload_extrato:348 - Processando Excel...
+2025-07-28 14:38:16.933 | INFO     | app.main:processar_excel:82 - Iniciando processamento Excel para banco AAI
+2025-07-28 14:38:17.084 | INFO     | app.main:processar_excel:86 - Excel lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:38:17.091 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 198: could not convert string to float: '27.328,22'
+2025-07-28 14:38:17.091 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 199: could not convert string to float: '490.468,35'
+2025-07-28 14:38:17.092 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 217: could not convert string to float: '445.159,80'
+2025-07-28 14:38:17.093 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 223: could not convert string to float: '354.790,77'
+2025-07-28 14:38:17.093 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 224: could not convert string to float: '354.752,14'
+2025-07-28 14:38:17.094 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 254: could not convert string to float: '42.060,34'
+2025-07-28 14:38:17.095 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 263: could not convert string to float: '6.137,54'
+2025-07-28 14:38:17.095 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 265: could not convert string to float: '5.178,18'
+2025-07-28 14:38:17.095 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 266: could not convert string to float: '5.021,95'
+2025-07-28 14:38:17.096 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 268: could not convert string to float: '32,26'
+2025-07-28 14:38:17.096 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 270: could not convert string to float: '-51.509,74'
+2025-07-28 14:38:17.096 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 273: could not convert string to float: '292,42'
+2025-07-28 14:38:17.097 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 274: could not convert string to float: '284,00'
+2025-07-28 14:38:17.098 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 295: could not convert string to float: '213.821,40'
+2025-07-28 14:38:17.098 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 298: could not convert string to float: '273.791,93'
+2025-07-28 14:38:17.099 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 332: could not convert string to float: '943,91'
+2025-07-28 14:38:17.100 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 333: could not convert string to float: '839,51'
+2025-07-28 14:38:17.100 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 334: could not convert string to float: '542,13'
+2025-07-28 14:38:17.100 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 337: could not convert string to float: '-600,28'
+2025-07-28 14:38:17.101 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 357: could not convert string to float: '4.923,36'
+2025-07-28 14:38:17.101 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 364: could not convert string to float: '356,59'
+2025-07-28 14:38:17.102 | WARNING  | app.main:processar_excel:146 - Erro ao processar linha 365: could not convert string to float: '343,96'
+2025-07-28 14:38:17.106 | INFO     | app.main:processar_excel:149 - Processamento concluído: 422 transações de 448 linhas
+2025-07-28 14:38:17.106 | INFO     | app.main:upload_extrato:350 - Processadas 422 transações
+2025-07-28 14:38:17.106 | INFO     | app.main:upload_extrato:354 - Total de transações no sistema: 422
+2025-07-28 14:38:17.107 | INFO     | app.main:upload_extrato:367 - Extrato AAI processado com sucesso: 422 transações
+2025-07-28 14:39:09.633 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:39:09.634 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:39:16.261 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:39:16.262 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:39:41.542 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:39:41.543 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:40:22.491 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:40:22.491 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:40:37.487 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:40:37.488 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:42:11.148 | INFO     | app.main:limpar_dados:856 - Dados limpos: 422 transações e 1 extratos removidos
+2025-07-28 14:42:20.521 | INFO     | app.main:upload_extrato:315 - Recebido upload: Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 14:42:20.521 | INFO     | app.main:upload_extrato:344 - Lendo conteúdo do arquivo...
+2025-07-28 14:42:20.522 | INFO     | app.main:upload_extrato:346 - Arquivo lido: 26851 bytes
+2025-07-28 14:42:20.522 | INFO     | app.main:upload_extrato:348 - Processando Excel...
+2025-07-28 14:42:20.522 | INFO     | app.main:processar_excel:82 - Iniciando processamento Excel para banco EDUCAÇÃO
+2025-07-28 14:42:20.538 | INFO     | app.main:processar_excel:86 - Excel lido com 423 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:42:20.553 | INFO     | app.main:processar_excel:149 - Processamento concluído: 419 transações de 423 linhas
+2025-07-28 14:42:20.554 | INFO     | app.main:upload_extrato:350 - Processadas 419 transações
+2025-07-28 14:42:20.554 | INFO     | app.main:upload_extrato:354 - Total de transações no sistema: 419
+2025-07-28 14:42:20.554 | INFO     | app.main:upload_extrato:367 - Extrato EDUCAÇÃO processado com sucesso: 419 transações
+2025-07-28 14:43:25.457 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:25.458 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:25.459 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:25.466 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:25.475 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:25.476 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:25.492 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:25.494 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:25.553 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:25.555 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:25.577 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:25.578 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:25.595 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:25.598 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:25.603 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:25.604 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:26.855 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:26.856 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:26.860 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:26.861 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:26.890 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:26.891 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:26.934 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:26.935 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:26.951 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:26.952 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:26.972 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:26.973 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:26.978 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:26.979 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:43:26.980 | INFO     | app.main:startup:162 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:43:26.981 | INFO     | app.main:startup:163 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:45:02.305 | INFO     | app.main:startup:202 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:45:02.306 | INFO     | app.main:startup:203 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:45:12.663 | INFO     | app.main:upload_extrato:355 - Recebido upload: Extrato Bancário - AAI.csv para banco AAI
+2025-07-28 14:45:12.663 | INFO     | app.main:upload_extrato:384 - Lendo conteúdo do arquivo...
+2025-07-28 14:45:12.663 | INFO     | app.main:upload_extrato:386 - Arquivo lido: 42765 bytes
+2025-07-28 14:45:12.664 | INFO     | app.main:upload_extrato:388 - Processando arquivo...
+2025-07-28 14:45:12.664 | INFO     | app.main:processar_arquivo:82 - Iniciando processamento de Extrato Bancário - AAI.csv para banco AAI
+2025-07-28 14:45:12.664 | INFO     | app.main:processar_arquivo:87 - Processando arquivo CSV...
+2025-07-28 14:45:12.667 | INFO     | app.main:processar_arquivo:98 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', ' Valor (R$) ', 'Saldo (R$)']
+2025-07-28 14:45:12.668 | ERROR    | app.main:processar_arquivo:188 - ERRO CRÍTICO ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+2025-07-28 14:45:12.668 | ERROR    | app.main:processar_arquivo:189 - Tipo do erro: <class 'ValueError'>
+2025-07-28 14:45:12.669 | ERROR    | app.main:processar_arquivo:191 - Traceback completo: Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 105, in processar_arquivo
+    raise ValueError(f"Colunas obrigatórias não encontradas: {colunas_faltando}")
+ValueError: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+2025-07-28 14:45:12.669 | ERROR    | app.main:upload_extrato:491 - ERRO ao processar extrato AAI: Erro ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+2025-07-28 14:45:12.669 | ERROR    | app.main:upload_extrato:492 - Tipo do erro: <class 'ValueError'>
+2025-07-28 14:45:12.670 | ERROR    | app.main:upload_extrato:494 - Traceback: Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 105, in processar_arquivo
+    raise ValueError(f"Colunas obrigatórias não encontradas: {colunas_faltando}")
+ValueError: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 389, in upload_extrato
+    transacoes = processar_arquivo(content, file.filename, banco)
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 192, in processar_arquivo
+    raise ValueError(f"Erro ao processar arquivo: {str(e)}")
+ValueError: Erro ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+2025-07-28 14:46:06.171 | INFO     | app.main:startup:202 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:46:06.172 | INFO     | app.main:startup:203 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:46:36.128 | INFO     | app.main:upload_extrato:355 - Recebido upload: Extrato Bancário - AAI.csv para banco AAI
+2025-07-28 14:46:36.128 | INFO     | app.main:upload_extrato:384 - Lendo conteúdo do arquivo...
+2025-07-28 14:46:36.128 | INFO     | app.main:upload_extrato:386 - Arquivo lido: 42765 bytes
+2025-07-28 14:46:36.128 | INFO     | app.main:upload_extrato:388 - Processando arquivo...
+2025-07-28 14:46:36.129 | INFO     | app.main:processar_arquivo:82 - Iniciando processamento de Extrato Bancário - AAI.csv para banco AAI
+2025-07-28 14:46:36.129 | INFO     | app.main:processar_arquivo:87 - Processando arquivo CSV...
+2025-07-28 14:46:36.132 | INFO     | app.main:processar_arquivo:98 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', ' Valor (R$) ', 'Saldo (R$)']
+2025-07-28 14:46:36.133 | ERROR    | app.main:processar_arquivo:188 - ERRO CRÍTICO ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+2025-07-28 14:46:36.133 | ERROR    | app.main:processar_arquivo:189 - Tipo do erro: <class 'ValueError'>
+2025-07-28 14:46:36.133 | ERROR    | app.main:processar_arquivo:191 - Traceback completo: Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 105, in processar_arquivo
+    raise ValueError(f"Colunas obrigatórias não encontradas: {colunas_faltando}")
+ValueError: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+2025-07-28 14:46:36.134 | ERROR    | app.main:upload_extrato:491 - ERRO ao processar extrato AAI: Erro ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+2025-07-28 14:46:36.134 | ERROR    | app.main:upload_extrato:492 - Tipo do erro: <class 'ValueError'>
+2025-07-28 14:46:36.135 | ERROR    | app.main:upload_extrato:494 - Traceback: Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 105, in processar_arquivo
+    raise ValueError(f"Colunas obrigatórias não encontradas: {colunas_faltando}")
+ValueError: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 389, in upload_extrato
+    transacoes = processar_arquivo(content, file.filename, banco)
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 192, in processar_arquivo
+    raise ValueError(f"Erro ao processar arquivo: {str(e)}")
+ValueError: Erro ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+2025-07-28 14:46:43.846 | INFO     | app.main:upload_extrato:355 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:46:43.847 | INFO     | app.main:upload_extrato:384 - Lendo conteúdo do arquivo...
+2025-07-28 14:46:43.847 | INFO     | app.main:upload_extrato:386 - Arquivo lido: 26595 bytes
+2025-07-28 14:46:43.847 | INFO     | app.main:upload_extrato:388 - Processando arquivo...
+2025-07-28 14:46:43.848 | INFO     | app.main:processar_arquivo:82 - Iniciando processamento de Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:46:43.848 | INFO     | app.main:processar_arquivo:95 - Processando arquivo Excel...
+2025-07-28 14:46:44.021 | INFO     | app.main:processar_arquivo:98 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:46:44.040 | INFO     | app.main:processar_arquivo:184 - Processamento concluído: 444 transações de 448 linhas
+2025-07-28 14:46:44.040 | INFO     | app.main:upload_extrato:390 - Processadas 444 transações
+2025-07-28 14:46:44.040 | INFO     | app.main:upload_extrato:394 - Total de transações no sistema: 444
+2025-07-28 14:46:44.040 | INFO     | app.main:upload_extrato:407 - Extrato AAI processado com sucesso: 444 transações
+2025-07-28 14:47:22.965 | INFO     | app.main:upload_extrato:355 - Recebido upload: Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 14:47:22.965 | INFO     | app.main:upload_extrato:384 - Lendo conteúdo do arquivo...
+2025-07-28 14:47:22.966 | INFO     | app.main:upload_extrato:386 - Arquivo lido: 26856 bytes
+2025-07-28 14:47:22.966 | INFO     | app.main:upload_extrato:388 - Processando arquivo...
+2025-07-28 14:47:22.966 | INFO     | app.main:processar_arquivo:82 - Iniciando processamento de Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 14:47:22.966 | INFO     | app.main:processar_arquivo:95 - Processando arquivo Excel...
+2025-07-28 14:47:22.983 | INFO     | app.main:processar_arquivo:98 - Arquivo lido com 423 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:47:22.997 | INFO     | app.main:processar_arquivo:184 - Processamento concluído: 419 transações de 423 linhas
+2025-07-28 14:47:22.997 | INFO     | app.main:upload_extrato:390 - Processadas 419 transações
+2025-07-28 14:47:22.997 | INFO     | app.main:upload_extrato:394 - Total de transações no sistema: 863
+2025-07-28 14:47:22.998 | INFO     | app.main:upload_extrato:407 - Extrato EDUCAÇÃO processado com sucesso: 419 transações
+2025-07-28 14:48:06.998 | INFO     | app.main:limpar_dados:896 - Dados limpos: 863 transações e 2 extratos removidos
+2025-07-28 14:48:26.945 | INFO     | app.main:startup:202 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:48:26.946 | INFO     | app.main:startup:203 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:48:27.020 | INFO     | app.main:startup:202 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:48:27.021 | INFO     | app.main:startup:203 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:48:27.118 | INFO     | app.main:startup:202 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:48:27.118 | INFO     | app.main:startup:203 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:48:27.127 | INFO     | app.main:startup:202 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:48:27.128 | INFO     | app.main:startup:203 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:48:27.163 | INFO     | app.main:startup:202 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:48:27.164 | INFO     | app.main:startup:203 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:48:27.195 | INFO     | app.main:startup:202 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 14:48:27.195 | INFO     | app.main:startup:203 - ✅ Sistema iniciado com sucesso!
+2025-07-28 14:48:27.819 | INFO     | app.main:upload_extrato:355 - Recebido upload: Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 14:48:27.820 | INFO     | app.main:upload_extrato:384 - Lendo conteúdo do arquivo...
+2025-07-28 14:48:27.820 | INFO     | app.main:upload_extrato:386 - Arquivo lido: 26856 bytes
+2025-07-28 14:48:27.820 | INFO     | app.main:upload_extrato:388 - Processando arquivo...
+2025-07-28 14:48:27.820 | INFO     | app.main:processar_arquivo:82 - Iniciando processamento de Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 14:48:27.821 | INFO     | app.main:processar_arquivo:95 - Processando arquivo Excel...
+2025-07-28 14:48:27.837 | INFO     | app.main:processar_arquivo:98 - Arquivo lido com 423 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:48:27.852 | INFO     | app.main:processar_arquivo:184 - Processamento concluído: 419 transações de 423 linhas
+2025-07-28 14:48:27.852 | INFO     | app.main:upload_extrato:390 - Processadas 419 transações
+2025-07-28 14:48:27.852 | INFO     | app.main:upload_extrato:394 - Total de transações no sistema: 419
+2025-07-28 14:48:27.853 | INFO     | app.main:upload_extrato:407 - Extrato EDUCAÇÃO processado com sucesso: 419 transações
+2025-07-28 14:48:32.242 | INFO     | app.main:limpar_dados:896 - Dados limpos: 419 transações e 1 extratos removidos
+2025-07-28 14:48:40.604 | INFO     | app.main:upload_extrato:355 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:48:40.604 | INFO     | app.main:upload_extrato:384 - Lendo conteúdo do arquivo...
+2025-07-28 14:48:40.605 | INFO     | app.main:upload_extrato:386 - Arquivo lido: 26595 bytes
+2025-07-28 14:48:40.605 | INFO     | app.main:upload_extrato:388 - Processando arquivo...
+2025-07-28 14:48:40.605 | INFO     | app.main:processar_arquivo:82 - Iniciando processamento de Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:48:40.605 | INFO     | app.main:processar_arquivo:95 - Processando arquivo Excel...
+2025-07-28 14:48:40.619 | INFO     | app.main:processar_arquivo:98 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:48:40.635 | INFO     | app.main:processar_arquivo:184 - Processamento concluído: 444 transações de 448 linhas
+2025-07-28 14:48:40.635 | INFO     | app.main:upload_extrato:390 - Processadas 444 transações
+2025-07-28 14:48:40.636 | INFO     | app.main:upload_extrato:394 - Total de transações no sistema: 444
+2025-07-28 14:48:40.636 | INFO     | app.main:upload_extrato:407 - Extrato AAI processado com sucesso: 444 transações
+2025-07-28 14:56:26.836 | INFO     | app.main:limpar_dados:896 - Dados limpos: 444 transações e 1 extratos removidos
+2025-07-28 14:56:36.344 | INFO     | app.main:upload_extrato:355 - Recebido upload: Extrato Bancário - AAI.csv para banco AAI
+2025-07-28 14:56:36.345 | INFO     | app.main:upload_extrato:384 - Lendo conteúdo do arquivo...
+2025-07-28 14:56:36.345 | INFO     | app.main:upload_extrato:386 - Arquivo lido: 42765 bytes
+2025-07-28 14:56:36.345 | INFO     | app.main:upload_extrato:388 - Processando arquivo...
+2025-07-28 14:56:36.345 | INFO     | app.main:processar_arquivo:82 - Iniciando processamento de Extrato Bancário - AAI.csv para banco AAI
+2025-07-28 14:56:36.345 | INFO     | app.main:processar_arquivo:87 - Processando arquivo CSV...
+2025-07-28 14:56:36.347 | INFO     | app.main:processar_arquivo:98 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', ' Valor (R$) ', 'Saldo (R$)']
+2025-07-28 14:56:36.348 | ERROR    | app.main:processar_arquivo:188 - ERRO CRÍTICO ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+2025-07-28 14:56:36.348 | ERROR    | app.main:processar_arquivo:189 - Tipo do erro: <class 'ValueError'>
+2025-07-28 14:56:36.348 | ERROR    | app.main:processar_arquivo:191 - Traceback completo: Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 105, in processar_arquivo
+    raise ValueError(f"Colunas obrigatórias não encontradas: {colunas_faltando}")
+ValueError: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+2025-07-28 14:56:36.349 | ERROR    | app.main:upload_extrato:491 - ERRO ao processar extrato AAI: Erro ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+2025-07-28 14:56:36.349 | ERROR    | app.main:upload_extrato:492 - Tipo do erro: <class 'ValueError'>
+2025-07-28 14:56:36.350 | ERROR    | app.main:upload_extrato:494 - Traceback: Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 105, in processar_arquivo
+    raise ValueError(f"Colunas obrigatórias não encontradas: {colunas_faltando}")
+ValueError: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 389, in upload_extrato
+    transacoes = processar_arquivo(content, file.filename, banco)
+  File "C:\Users\Henrique\bank-reconciliation\backend\app\main.py", line 192, in processar_arquivo
+    raise ValueError(f"Erro ao processar arquivo: {str(e)}")
+ValueError: Erro ao processar arquivo: Colunas obrigatórias não encontradas: ['Valor (R$)']
+
+2025-07-28 14:56:57.562 | INFO     | app.main:upload_extrato:355 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:56:57.562 | INFO     | app.main:upload_extrato:384 - Lendo conteúdo do arquivo...
+2025-07-28 14:56:57.562 | INFO     | app.main:upload_extrato:386 - Arquivo lido: 26595 bytes
+2025-07-28 14:56:57.562 | INFO     | app.main:upload_extrato:388 - Processando arquivo...
+2025-07-28 14:56:57.562 | INFO     | app.main:processar_arquivo:82 - Iniciando processamento de Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 14:56:57.563 | INFO     | app.main:processar_arquivo:95 - Processando arquivo Excel...
+2025-07-28 14:56:57.577 | INFO     | app.main:processar_arquivo:98 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 14:56:57.592 | INFO     | app.main:processar_arquivo:184 - Processamento concluído: 444 transações de 448 linhas
+2025-07-28 14:56:57.592 | INFO     | app.main:upload_extrato:390 - Processadas 444 transações
+2025-07-28 14:56:57.592 | INFO     | app.main:upload_extrato:394 - Total de transações no sistema: 444
+2025-07-28 14:56:57.593 | INFO     | app.main:upload_extrato:407 - Extrato AAI processado com sucesso: 444 transações
+2025-07-28 18:54:53.193 | INFO     | __main__:startup:253 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-28 18:54:53.194 | INFO     | __main__:startup:254 - ✅ Sistema iniciado com sucesso!
+2025-07-28 18:55:11.078 | INFO     | __main__:upload_extrato:406 - Recebido upload: Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 18:55:11.079 | INFO     | __main__:upload_extrato:435 - Lendo conteúdo do arquivo...
+2025-07-28 18:55:11.079 | INFO     | __main__:upload_extrato:437 - Arquivo lido: 26856 bytes
+2025-07-28 18:55:11.079 | INFO     | __main__:upload_extrato:439 - Processando arquivo...
+2025-07-28 18:55:11.079 | INFO     | __main__:processar_arquivo:101 - Iniciando processamento de Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 18:55:11.080 | INFO     | __main__:processar_arquivo:140 - Processando arquivo Excel...
+2025-07-28 18:55:11.340 | INFO     | __main__:processar_arquivo:147 - Arquivo lido com 423 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 18:55:11.426 | INFO     | __main__:processar_arquivo:235 - Processamento concluído para EDUCAÇÃO: 419 transações de 423 linhas
+2025-07-28 18:55:11.426 | INFO     | __main__:upload_extrato:441 - Processadas 419 transações
+2025-07-28 18:55:11.427 | INFO     | __main__:upload_extrato:445 - Total de transações no sistema: 419
+2025-07-28 18:55:11.427 | INFO     | __main__:upload_extrato:458 - Extrato EDUCAÇÃO processado com sucesso: 419 transações
+2025-07-28 18:55:37.112 | INFO     | __main__:limpar_dados:947 - Dados limpos: 419 transações e 1 extratos removidos
+2025-07-28 18:55:47.747 | INFO     | __main__:upload_extrato:406 - Recebido upload: Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 18:55:47.748 | INFO     | __main__:upload_extrato:435 - Lendo conteúdo do arquivo...
+2025-07-28 18:55:47.748 | INFO     | __main__:upload_extrato:437 - Arquivo lido: 26506 bytes
+2025-07-28 18:55:47.748 | INFO     | __main__:upload_extrato:439 - Processando arquivo...
+2025-07-28 18:55:47.748 | INFO     | __main__:processar_arquivo:101 - Iniciando processamento de Extrato Bancário - AAI.xlsx para banco AAI
+2025-07-28 18:55:47.748 | INFO     | __main__:processar_arquivo:140 - Processando arquivo Excel...
+2025-07-28 18:55:47.762 | INFO     | __main__:processar_arquivo:147 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 18:55:47.779 | INFO     | __main__:processar_arquivo:235 - Processamento concluído para AAI: 444 transações de 448 linhas
+2025-07-28 18:55:47.780 | INFO     | __main__:upload_extrato:441 - Processadas 444 transações
+2025-07-28 18:55:47.780 | INFO     | __main__:upload_extrato:445 - Total de transações no sistema: 444
+2025-07-28 18:55:47.780 | INFO     | __main__:upload_extrato:458 - Extrato AAI processado com sucesso: 444 transações
+2025-07-28 18:55:53.616 | INFO     | __main__:limpar_dados:947 - Dados limpos: 444 transações e 1 extratos removidos
+2025-07-28 18:56:31.497 | INFO     | __main__:upload_extrato:406 - Recebido upload: Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 18:56:31.497 | INFO     | __main__:upload_extrato:435 - Lendo conteúdo do arquivo...
+2025-07-28 18:56:31.497 | INFO     | __main__:upload_extrato:437 - Arquivo lido: 26568 bytes
+2025-07-28 18:56:31.498 | INFO     | __main__:upload_extrato:439 - Processando arquivo...
+2025-07-28 18:56:31.498 | INFO     | __main__:processar_arquivo:101 - Iniciando processamento de Extrato Bancário - EDUCA.xlsx para banco EDUCAÇÃO
+2025-07-28 18:56:31.498 | INFO     | __main__:processar_arquivo:140 - Processando arquivo Excel...
+2025-07-28 18:56:31.511 | INFO     | __main__:processar_arquivo:147 - Arquivo lido com 423 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-28 18:56:31.602 | INFO     | __main__:processar_arquivo:235 - Processamento concluído para EDUCAÇÃO: 419 transações de 423 linhas
+2025-07-28 18:56:31.602 | INFO     | __main__:upload_extrato:441 - Processadas 419 transações
+2025-07-28 18:56:31.603 | INFO     | __main__:upload_extrato:445 - Total de transações no sistema: 419
+2025-07-28 18:56:31.603 | INFO     | __main__:upload_extrato:458 - Extrato EDUCAÇÃO processado com sucesso: 419 transações
+2025-07-29 11:26:16.565 | INFO     | __main__:startup:253 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 11:26:16.567 | INFO     | __main__:startup:254 - ✅ Sistema iniciado com sucesso!
+2025-07-29 11:26:54.584 | INFO     | __main__:upload_extrato:406 - Recebido upload: Extrato Bancário - AAI.csv para banco AAI
+2025-07-29 11:26:54.585 | INFO     | __main__:upload_extrato:435 - Lendo conteúdo do arquivo...
+2025-07-29 11:26:54.585 | INFO     | __main__:upload_extrato:437 - Arquivo lido: 42765 bytes
+2025-07-29 11:26:54.585 | INFO     | __main__:upload_extrato:439 - Processando arquivo...
+2025-07-29 11:26:54.585 | INFO     | __main__:processar_arquivo:101 - Iniciando processamento de Extrato Bancário - AAI.csv para banco AAI
+2025-07-29 11:26:54.585 | INFO     | __main__:processar_arquivo:106 - Processando arquivo CSV...
+2025-07-29 11:26:54.593 | INFO     | __main__:processar_arquivo:126 - CSV lido com encoding utf-8 e separador ';'
+2025-07-29 11:26:54.594 | INFO     | __main__:processar_arquivo:147 - Arquivo lido com 448 linhas e colunas: ['Data', 'Histórico', 'Documento', ' Valor (R$) ', 'Saldo (R$)']
+2025-07-29 11:26:54.611 | INFO     | __main__:processar_arquivo:235 - Processamento concluído para AAI: 444 transações de 448 linhas
+2025-07-29 11:26:54.612 | INFO     | __main__:upload_extrato:441 - Processadas 444 transações
+2025-07-29 11:26:54.612 | INFO     | __main__:upload_extrato:445 - Total de transações no sistema: 444
+2025-07-29 11:26:54.612 | INFO     | __main__:upload_extrato:458 - Extrato AAI processado com sucesso: 444 transações
+2025-07-29 11:55:46.427 | INFO     | __main__:startup:253 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 11:55:46.427 | INFO     | __main__:startup:254 - ✅ Sistema iniciado com sucesso!
+2025-07-29 11:57:15.437 | INFO     | __main__:startup:253 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 11:57:15.437 | INFO     | __main__:startup:254 - ✅ Sistema iniciado com sucesso!
+2025-07-29 12:17:07.257 | INFO     | __main__:limpar_dados:947 - Dados limpos: 444 transações e 1 extratos removidos
+2025-07-29 12:18:23.571 | INFO     | __main__:upload_extrato:406 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-29 12:18:23.571 | INFO     | __main__:upload_extrato:435 - Lendo conteúdo do arquivo...
+2025-07-29 12:18:23.571 | INFO     | __main__:upload_extrato:437 - Arquivo lido: 15174 bytes
+2025-07-29 12:18:23.571 | INFO     | __main__:upload_extrato:439 - Processando arquivo...
+2025-07-29 12:18:23.571 | INFO     | __main__:processar_arquivo:101 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-29 12:18:23.571 | INFO     | __main__:processar_arquivo:140 - Processando arquivo Excel...
+2025-07-29 12:18:23.872 | INFO     | __main__:processar_arquivo:147 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-29 12:18:23.878 | INFO     | __main__:processar_arquivo:235 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-07-29 12:18:23.879 | INFO     | __main__:upload_extrato:441 - Processadas 154 transações
+2025-07-29 12:18:23.879 | INFO     | __main__:upload_extrato:445 - Total de transações no sistema: 154
+2025-07-29 12:18:23.879 | INFO     | __main__:upload_extrato:458 - Extrato AAI processado com sucesso: 154 transações
+2025-07-29 12:21:36.322 | INFO     | __main__:startup:253 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 12:21:36.323 | INFO     | __main__:startup:254 - ✅ Sistema iniciado com sucesso!
+2025-07-29 12:32:08.499 | INFO     | __main__:startup:253 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 12:32:08.499 | INFO     | __main__:startup:254 - ✅ Sistema iniciado com sucesso!
+2025-07-29 12:35:08.019 | INFO     | __main__:startup:253 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 12:35:08.020 | INFO     | __main__:startup:254 - ✅ Sistema iniciado com sucesso!
+2025-07-29 12:35:37.468 | INFO     | __main__:startup:253 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 12:35:37.469 | INFO     | __main__:startup:254 - ✅ Sistema iniciado com sucesso!
+2025-07-29 12:36:14.101 | INFO     | __main__:upload_extrato:406 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-29 12:36:14.102 | INFO     | __main__:upload_extrato:435 - Lendo conteúdo do arquivo...
+2025-07-29 12:36:14.102 | INFO     | __main__:upload_extrato:437 - Arquivo lido: 15174 bytes
+2025-07-29 12:36:14.102 | INFO     | __main__:upload_extrato:439 - Processando arquivo...
+2025-07-29 12:36:14.102 | INFO     | __main__:processar_arquivo:101 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-29 12:36:14.103 | INFO     | __main__:processar_arquivo:140 - Processando arquivo Excel...
+2025-07-29 12:36:14.289 | INFO     | __main__:processar_arquivo:147 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-29 12:36:14.297 | INFO     | __main__:processar_arquivo:235 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-07-29 12:36:14.297 | INFO     | __main__:upload_extrato:441 - Processadas 154 transações
+2025-07-29 12:36:14.297 | INFO     | __main__:upload_extrato:445 - Total de transações no sistema: 154
+2025-07-29 12:36:14.297 | INFO     | __main__:upload_extrato:458 - Extrato AAI processado com sucesso: 154 transações
+2025-07-29 12:44:04.843 | INFO     | __main__:startup:259 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 12:44:04.843 | INFO     | __main__:startup:260 - ✅ Sistema iniciado com sucesso!
+2025-07-29 12:44:19.756 | INFO     | __main__:startup:259 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-07-29 12:44:19.757 | INFO     | __main__:startup:260 - ✅ Sistema iniciado com sucesso!
+2025-07-29 12:44:39.403 | INFO     | __main__:upload_extrato:412 - Recebido upload: extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-29 12:44:39.403 | INFO     | __main__:upload_extrato:441 - Lendo conteúdo do arquivo...
+2025-07-29 12:44:39.404 | INFO     | __main__:upload_extrato:443 - Arquivo lido: 15174 bytes
+2025-07-29 12:44:39.404 | INFO     | __main__:upload_extrato:445 - Processando arquivo...
+2025-07-29 12:44:39.404 | INFO     | __main__:processar_arquivo:112 - Iniciando processamento de extrato-pj-25_07_2025_16h14m18s(1).xlsx para banco AAI
+2025-07-29 12:44:39.404 | INFO     | __main__:processar_arquivo:151 - Processando arquivo Excel...
+2025-07-29 12:44:39.537 | INFO     | __main__:processar_arquivo:158 - Arquivo lido com 154 linhas e colunas: ['Data', 'Histórico', 'Documento', 'Valor (R$)', 'Saldo (R$)']
+2025-07-29 12:44:39.542 | INFO     | __main__:processar_arquivo:246 - Processamento concluído para AAI: 154 transações de 154 linhas
+2025-07-29 12:44:39.542 | INFO     | __main__:upload_extrato:447 - Processadas 154 transações
+2025-07-29 12:44:39.542 | INFO     | __main__:upload_extrato:451 - Total de transações no sistema: 154
+2025-07-29 12:44:39.542 | INFO     | __main__:upload_extrato:464 - Extrato AAI processado com sucesso: 154 transações
+2025-07-29 13:53:44.080 | INFO     | __main__:startup:371 - ✅ Sistema iniciado com sucesso!
+2025-07-29 13:54:12.504 | INFO     | __main__:startup:371 - ✅ Sistema iniciado com sucesso!
+2025-07-29 13:54:35.551 | INFO     | __main__:startup:371 - ✅ Sistema iniciado com sucesso!
+2025-07-29 13:55:12.251 | INFO     | __main__:startup:371 - ✅ Sistema iniciado com sucesso!
+2025-07-29 13:55:34.820 | INFO     | __main__:startup:371 - ✅ Sistema iniciado com sucesso!

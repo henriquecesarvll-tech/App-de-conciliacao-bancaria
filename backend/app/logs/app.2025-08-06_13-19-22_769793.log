@@ -1,0 +1,858 @@
+2025-08-06 13:19:22.768 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 13:19:22.769 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 13:19:31.602 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 154 transações pendentes do Supabase
+2025-08-06 13:19:34.235 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 13:19:34.554 | INFO     | __main__:listar_transacoes:3550 - ✅ Encontradas 154 transações
+2025-08-06 13:19:40.537 | INFO     | __main__:conciliar_transacao:3570 - 🔖 Conciliando transação: 7ee222c3-f326-4ba9-b0f3-8d7abe4b4f9f
+2025-08-06 13:19:40.997 | ERROR    | __main__:conciliar_transacao:3616 - ❌ Erro ao conciliar transação: {'code': 'PGRST204', 'details': None, 'hint': None, 'message': "Could not find the 'classificacao' column of 'transacoes' in the schema cache"}
+2025-08-06 16:07:15.168 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:07:15.169 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:07:19.199 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 154 transações pendentes do Supabase
+2025-08-06 16:07:20.857 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:07:20.947 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 154 pendentes, 0 conciliados
+2025-08-06 16:07:26.935 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 154 transações pendentes do Supabase
+2025-08-06 16:07:28.104 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:07:28.388 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:07:41.074 | INFO     | __main__:conciliar_transacao:3613 - 🔖 Conciliando transação: 3dc061c0-a968-463b-b8c1-f64819c070a1
+2025-08-06 16:07:41.281 | INFO     | __main__:conciliar_transacao:3629 - 🔍 Buscando classificação: CUSTOS AAI
+2025-08-06 16:07:41.403 | INFO     | __main__:conciliar_transacao:3637 - ✅ Classificação encontrada: cb49dc87-05d3-4f54-80e8-897a30793723
+2025-08-06 16:07:41.403 | INFO     | __main__:conciliar_transacao:3640 - 🔍 Buscando plano: E-mail 360
+2025-08-06 16:07:41.545 | INFO     | __main__:conciliar_transacao:3646 - ✅ Plano encontrado: d3e7c02e-8066-431c-9208-ec25d7cc345a
+2025-08-06 16:07:41.546 | INFO     | __main__:conciliar_transacao:3649 - 🔍 Buscando item: BHS AXTER
+2025-08-06 16:07:41.772 | INFO     | __main__:conciliar_transacao:3655 - ✅ Item encontrado: dbdbd976-a1c9-4265-96ec-74fae5c49a25
+2025-08-06 16:07:41.911 | INFO     | __main__:conciliar_transacao:3660 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-06 16:07:41.911 | INFO     | __main__:conciliar_transacao:3680 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': 'cb49dc87-05d3-4f54-80e8-897a30793723', 'plano_contas_id': 'd3e7c02e-8066-431c-9208-ec25d7cc345a', 'item_id': 'dbdbd976-a1c9-4265-96ec-74fae5c49a25', 'forma_pagamento': 'Boleto', 'banco_origem': 'AAI', 'centro_custo': 'Campinas', 'nome_recebedor': 'ABC', 'contraparte': 'Não identificado', 'data_pagamento': '2025-06-02', 'data_referencia': '2025-07-22', 'observacoes': 'TESTE', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-06T16:07:41.911600'}
+2025-08-06 16:07:42.122 | INFO     | __main__:conciliar_transacao:3688 - ✅ Transação 3dc061c0-a968-463b-b8c1-f64819c070a1 conciliada com sucesso
+2025-08-06 16:07:43.938 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 153 transações pendentes do Supabase
+2025-08-06 16:07:44.713 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:07:44.839 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:07:47.396 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:07:47.514 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:07:49.042 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 153 transações pendentes do Supabase
+2025-08-06 16:07:50.414 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:07:50.522 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:07:51.443 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:07:51.556 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:07:51.559 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:07:51.661 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:07:51.662 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:07:51.828 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:07:51.832 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:07:51.940 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:07:51.941 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:07:52.085 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:08:14.546 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:08:14.762 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:08:16.753 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:08:16.866 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:08:19.933 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:08:20.063 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:08:31.118 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:08:31.281 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:08:34.949 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 153 transações pendentes do Supabase
+2025-08-06 16:08:38.160 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:08:38.292 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:08:56.296 | INFO     | __main__:conciliar_transacao:3613 - 🔖 Conciliando transação: 2f054737-f922-4e53-b158-7f01d4c0e5bc
+2025-08-06 16:08:56.465 | INFO     | __main__:conciliar_transacao:3629 - 🔍 Buscando classificação: DESPESA COM RH
+2025-08-06 16:08:56.588 | INFO     | __main__:conciliar_transacao:3637 - ✅ Classificação encontrada: 4246f823-b58f-4b37-ad5c-924a6e7dd913
+2025-08-06 16:08:56.588 | INFO     | __main__:conciliar_transacao:3640 - 🔍 Buscando plano: CLTs
+2025-08-06 16:08:56.697 | ERROR    | __main__:conciliar_transacao:3643 - ❌ Plano não encontrado: CLTs
+2025-08-06 16:12:42.296 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:12:42.297 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:12:45.035 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 153 transações pendentes do Supabase
+2025-08-06 16:12:52.761 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:12:52.939 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:12:55.515 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:12:55.620 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 153 pendentes, 1 conciliados
+2025-08-06 16:12:57.991 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 153 transações pendentes do Supabase
+2025-08-06 16:13:00.546 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:13:00.665 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:13:14.223 | INFO     | __main__:conciliar_transacao:3613 - 🔖 Conciliando transação: 2f054737-f922-4e53-b158-7f01d4c0e5bc
+2025-08-06 16:13:14.385 | INFO     | __main__:conciliar_transacao:3629 - 🔍 Buscando classificação: DESPESA COM RH
+2025-08-06 16:13:14.487 | INFO     | __main__:conciliar_transacao:3637 - ✅ Classificação encontrada: 4246f823-b58f-4b37-ad5c-924a6e7dd913
+2025-08-06 16:13:14.487 | INFO     | __main__:conciliar_transacao:3640 - 🔍 Buscando plano: CLTs
+2025-08-06 16:13:14.594 | INFO     | __main__:conciliar_transacao:3646 - ✅ Plano encontrado: 3b610f98-d854-4a58-8cdd-61e30c9a6aa3
+2025-08-06 16:13:14.594 | INFO     | __main__:conciliar_transacao:3649 - 🔍 Buscando item: Salário
+2025-08-06 16:13:14.695 | INFO     | __main__:conciliar_transacao:3655 - ✅ Item encontrado: 1bf93708-4469-407d-976f-39806ee5de73
+2025-08-06 16:13:14.799 | INFO     | __main__:conciliar_transacao:3660 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-06 16:13:14.799 | INFO     | __main__:conciliar_transacao:3680 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '4246f823-b58f-4b37-ad5c-924a6e7dd913', 'plano_contas_id': '3b610f98-d854-4a58-8cdd-61e30c9a6aa3', 'item_id': '1bf93708-4469-407d-976f-39806ee5de73', 'forma_pagamento': 'PIX', 'banco_origem': 'AAI', 'centro_custo': 'Thera Geral', 'nome_recebedor': 'TESTE', 'contraparte': 'Enviado Maria Gabriela Costa Alve', 'data_pagamento': '2025-06-06', 'data_referencia': '2025-07-22', 'observacoes': 'ABVC', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-06T16:13:14.799262'}
+2025-08-06 16:13:14.908 | INFO     | __main__:conciliar_transacao:3688 - ✅ Transação 2f054737-f922-4e53-b158-7f01d4c0e5bc conciliada com sucesso
+2025-08-06 16:13:16.170 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 152 transações pendentes do Supabase
+2025-08-06 16:13:17.459 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:13:17.707 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:14:20.108 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:14:20.589 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:14:20.592 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:14:20.672 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:14:20.673 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:14:20.778 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:14:20.783 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:14:20.873 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:14:20.874 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:14:20.950 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:14:58.924 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:14:59.309 | INFO     | __main__:listar_transacoes:3592 - ✅ Encontradas 154 transações
+2025-08-06 16:17:19.635 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:17:19.636 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:17:21.810 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:17:22.397 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:17:22.407 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:17:22.471 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:17:22.472 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:17:22.535 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:17:22.535 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:17:22.540 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:17:22.609 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:17:22.610 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:17:22.686 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:17:22.686 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:17:25.760 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:17:25.863 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:17:25.863 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:17:31.035 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:17:31.373 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:17:31.374 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:17:36.329 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:17:36.460 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:17:36.460 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:17:42.742 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:17:42.927 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:17:42.929 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:17:43.043 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:17:43.044 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:17:43.166 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:17:43.166 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:17:43.171 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:17:43.284 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:17:43.285 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:17:43.402 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:17:43.403 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:18:33.863 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:18:34.084 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:18:34.084 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:18:39.999 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: CONCILIADO, Banco: None
+2025-08-06 16:18:40.120 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 2 transações
+2025-08-06 16:18:40.121 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 2
+2025-08-06 16:21:40.004 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:21:40.004 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:21:40.680 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:21:41.400 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:21:41.409 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:21:41.499 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:21:41.500 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:21:41.594 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:21:41.595 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:21:41.600 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:21:41.676 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:21:41.677 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:21:41.750 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:21:41.750 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:21:44.885 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:21:44.962 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:21:44.962 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:22:55.731 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:22:56.119 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:22:56.120 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:23:01.391 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:23:01.570 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:23:18.307 | INFO     | __main__:debug_transacoes:3693 - 🔍 Debug: Consultando transações...
+2025-08-06 16:28:26.467 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:28:26.468 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:28:27.794 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:28:28.486 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:28:30.868 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:28:30.939 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:28:30.942 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:28:31.030 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:28:31.031 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:28:31.127 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:28:31.128 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:28:31.133 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:28:31.224 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:28:31.225 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:28:31.304 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:28:31.305 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:29:57.668 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:29:58.019 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:29:58.020 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:30:20.921 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:30:21.244 | INFO     | __main__:listar_transacoes:3559 - ✅ JOIN query executada: 154 transações
+2025-08-06 16:30:21.244 | INFO     | __main__:listar_transacoes:3595 - ✅ Transações com JOIN processadas: 154
+2025-08-06 16:32:36.824 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:32:36.825 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:32:40.396 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:32:41.016 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:32:41.337 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:32:41.450 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:32:41.451 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:32:41.585 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:32:42.375 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:32:42.380 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:32:42.495 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:32:42.496 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:32:42.607 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:32:43.257 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:34:44.481 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:34:45.002 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:34:47.235 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:34:47.351 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:34:48.377 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:34:48.485 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:34:48.488 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:34:48.605 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:34:48.606 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:34:48.730 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:34:49.409 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:34:49.414 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:34:49.521 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:34:49.522 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:34:49.641 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:34:50.341 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:36:26.987 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:36:26.987 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:36:27.053 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:36:27.660 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:36:27.670 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:36:27.791 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:36:27.792 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:36:27.952 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:36:28.643 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:36:28.648 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:36:28.765 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:36:28.766 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:36:28.888 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:36:29.559 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:36:39.570 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:36:39.745 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:36:39.748 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:36:39.871 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:36:39.872 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:36:39.996 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:36:40.628 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:36:40.633 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:36:40.764 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:36:40.765 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:36:40.899 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:36:41.558 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:37:12.817 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 152 transações pendentes do Supabase
+2025-08-06 16:37:14.377 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:37:14.483 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:37:15.144 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:37:25.038 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 4b0dcb1e-c4b0-42c9-8244-28c686c99d98
+2025-08-06 16:37:25.217 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:37:25.347 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 09f71aae-9381-4088-8668-f4db33bf743b
+2025-08-06 16:37:25.347 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Condomínio
+2025-08-06 16:37:25.455 | ERROR    | __main__:conciliar_transacao:3741 - ❌ Plano não encontrado: Condomínio
+2025-08-06 16:37:48.405 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 4b0dcb1e-c4b0-42c9-8244-28c686c99d98
+2025-08-06 16:37:48.575 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:37:48.684 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 09f71aae-9381-4088-8668-f4db33bf743b
+2025-08-06 16:37:48.684 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Aluguel
+2025-08-06 16:37:48.786 | ERROR    | __main__:conciliar_transacao:3741 - ❌ Plano não encontrado: Aluguel
+2025-08-06 16:37:59.133 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:37:59.303 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:38:00.297 | INFO     | __main__:obter_classificacoes:7130 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 16:38:00.415 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 16:38:01.233 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 16:38:01.702 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 16:38:02.675 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 16:38:02.788 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:38:02.918 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 16:38:03.025 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 16:38:03.476 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 16:38:03.592 | INFO     | __main__:obter_classificacoes:7155 - ✅ Estrutura construída: 8 classificações
+2025-08-06 16:38:03.593 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:38:03.705 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:38:04.463 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:38:04.497 | INFO     | __main__:obter_classificacoes:7130 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 16:38:04.617 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 16:38:05.656 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 16:38:06.099 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 16:38:07.025 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 16:38:07.135 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:38:07.242 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 16:38:07.345 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 16:38:07.812 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 16:38:07.919 | INFO     | __main__:obter_classificacoes:7155 - ✅ Estrutura construída: 8 classificações
+2025-08-06 16:38:07.920 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:38:08.036 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:38:08.809 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:38:10.317 | INFO     | __main__:obter_classificacoes:7130 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 16:38:10.613 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 16:38:11.401 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 16:38:11.831 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 16:38:12.699 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 16:38:12.803 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:38:12.905 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 16:38:13.014 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 16:38:13.488 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 16:38:13.605 | INFO     | __main__:obter_classificacoes:7155 - ✅ Estrutura construída: 8 classificações
+2025-08-06 16:38:13.606 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:38:13.712 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:38:14.374 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:38:42.051 | INFO     | __main__:obter_classificacoes:7130 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 16:38:42.250 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 16:38:42.982 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 16:38:43.412 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 16:38:44.311 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 16:38:44.413 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:38:44.521 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 16:38:44.632 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 16:38:45.051 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 16:38:45.168 | INFO     | __main__:obter_classificacoes:7155 - ✅ Estrutura construída: 8 classificações
+2025-08-06 16:38:45.169 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:38:45.279 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:38:45.935 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:39:14.581 | INFO     | __main__:obter_classificacoes:7130 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 16:39:14.858 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 16:39:15.330 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 16:39:15.590 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 16:39:16.158 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 16:39:16.212 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:39:16.260 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 16:39:16.311 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 16:39:16.529 | INFO     | __main__:obter_classificacoes:7142 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 16:39:16.582 | INFO     | __main__:obter_classificacoes:7155 - ✅ Estrutura construída: 8 classificações
+2025-08-06 16:39:16.583 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:39:16.636 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:39:16.986 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:39:29.145 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:39:29.316 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 152 pendentes, 2 conciliados
+2025-08-06 16:39:32.211 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 152 transações pendentes do Supabase
+2025-08-06 16:39:42.780 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:39:42.966 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:39:43.608 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:39:54.918 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 50230bef-1e52-43be-ab7f-858a185ad9ec
+2025-08-06 16:39:55.052 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM RH
+2025-08-06 16:39:55.108 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 4246f823-b58f-4b37-ad5c-924a6e7dd913
+2025-08-06 16:39:55.108 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: CLTs
+2025-08-06 16:39:55.163 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 3b610f98-d854-4a58-8cdd-61e30c9a6aa3
+2025-08-06 16:39:55.164 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: Férias
+2025-08-06 16:39:55.227 | INFO     | __main__:conciliar_transacao:3753 - ✅ Item encontrado: ed7f3891-b854-4c8a-b9c9-2962abb25949
+2025-08-06 16:39:55.293 | INFO     | __main__:conciliar_transacao:3758 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-06 16:39:55.293 | INFO     | __main__:conciliar_transacao:3778 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '4246f823-b58f-4b37-ad5c-924a6e7dd913', 'plano_contas_id': '3b610f98-d854-4a58-8cdd-61e30c9a6aa3', 'item_id': 'ed7f3891-b854-4c8a-b9c9-2962abb25949', 'forma_pagamento': 'Outros', 'banco_origem': 'AAI', 'centro_custo': 'Thera Geral', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-06-10', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-06T16:39:55.293403'}
+2025-08-06 16:39:55.386 | INFO     | __main__:conciliar_transacao:3786 - ✅ Transação 50230bef-1e52-43be-ab7f-858a185ad9ec conciliada com sucesso
+2025-08-06 16:39:56.859 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 16:39:57.580 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:39:57.632 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:39:58.682 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:39:58.758 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:39:58.760 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:39:58.813 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:39:58.814 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:39:58.917 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:39:59.528 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:39:59.534 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:39:59.592 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:39:59.593 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:39:59.646 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:40:00.178 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:40:41.161 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:40:41.537 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:40:42.554 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:41:56.561 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:41:56.915 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:41:58.421 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 16:42:00.625 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:42:00.741 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:42:01.763 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:42:18.267 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: bf553668-7b8e-49cc-abba-47de54660864
+2025-08-06 16:42:18.434 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:42:18.554 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 09f71aae-9381-4088-8668-f4db33bf743b
+2025-08-06 16:42:18.554 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Aluguel
+2025-08-06 16:42:18.662 | ERROR    | __main__:conciliar_transacao:3741 - ❌ Plano não encontrado: Aluguel
+2025-08-06 16:42:30.414 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: bf553668-7b8e-49cc-abba-47de54660864
+2025-08-06 16:42:30.766 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESAS OPERACIONAIS
+2025-08-06 16:42:30.875 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 09f71aae-9381-4088-8668-f4db33bf743b
+2025-08-06 16:42:30.884 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Viagens
+2025-08-06 16:42:30.997 | ERROR    | __main__:conciliar_transacao:3741 - ❌ Plano não encontrado: Viagens
+2025-08-06 16:42:44.439 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: bf553668-7b8e-49cc-abba-47de54660864
+2025-08-06 16:42:44.613 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: IMPOSTOS
+2025-08-06 16:42:44.718 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd
+2025-08-06 16:42:44.718 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: CSLL
+2025-08-06 16:42:44.829 | ERROR    | __main__:conciliar_transacao:3741 - ❌ Plano não encontrado: CSLL
+2025-08-06 16:43:13.675 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:43:13.849 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:43:14.553 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:43:14.658 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:43:14.661 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:43:14.765 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:43:14.766 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:43:14.880 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:43:15.954 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:43:15.959 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:43:16.068 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:43:16.069 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:43:16.185 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:43:17.173 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:43:21.105 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:43:21.209 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:43:23.362 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 16:43:25.497 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:43:25.614 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:43:26.588 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:43:33.511 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 4b0dcb1e-c4b0-42c9-8244-28c686c99d98
+2025-08-06 16:43:33.782 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 16:43:33.843 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 16:43:33.843 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 16:43:33.903 | ERROR    | __main__:conciliar_transacao:3741 - ❌ Plano não encontrado: Agência de Mktg
+2025-08-06 16:45:33.382 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:45:33.382 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:45:36.121 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:45:36.737 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:45:36.747 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:45:36.858 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:45:36.859 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:45:36.964 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:45:37.933 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:45:37.937 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:45:38.039 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:45:38.040 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:45:38.150 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:45:39.109 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:47:55.488 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 16:47:55.488 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 16:48:02.427 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:48:03.004 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:57:09.622 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:57:10.104 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:57:10.108 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:57:10.249 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:57:10.250 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:57:10.370 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:57:11.391 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:57:11.397 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 16:57:11.514 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 16:57:11.515 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:57:11.629 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:57:12.592 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 16:57:21.733 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 16:57:21.909 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 16:57:22.856 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:01:41.002 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 17:01:41.003 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 17:01:43.639 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:01:44.238 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:01:44.248 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:01:44.364 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:01:44.365 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:01:44.519 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:01:45.543 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:01:45.549 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:01:45.717 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:01:45.718 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:01:45.818 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:01:46.794 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:01:48.606 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:01:48.711 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:01:53.367 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 17:01:55.863 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:01:55.973 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:01:56.936 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:02:58.552 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: bf42efa6-006c-4386-91cc-79670e8a00fd
+2025-08-06 17:02:58.800 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:02:58.909 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:02:58.909 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:02:59.013 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:02:59.013 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:02:59.124 | ERROR    | __main__:conciliar_transacao:3750 - ❌ Item não encontrado: 0
+2025-08-06 17:07:15.695 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 17:07:15.695 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 17:07:19.542 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 17:07:22.287 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:07:22.421 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:07:23.385 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:07:39.506 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 5d3af7aa-5008-4677-a868-6a4e4318ef3a
+2025-08-06 17:07:39.675 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:07:39.778 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:07:39.778 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:07:39.883 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:07:39.888 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:07:40.001 | ERROR    | __main__:conciliar_transacao:3750 - ❌ Item não encontrado: 0
+2025-08-06 17:10:41.337 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 5d3af7aa-5008-4677-a868-6a4e4318ef3a
+2025-08-06 17:10:41.701 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:10:41.818 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:10:41.818 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:10:41.920 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:10:41.920 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:10:42.047 | ERROR    | __main__:conciliar_transacao:3750 - ❌ Item não encontrado: 0
+2025-08-06 17:11:18.594 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-06 17:11:18.594 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-06 17:11:21.448 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 17:11:23.385 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:11:23.512 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:11:24.658 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:11:30.821 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 5d3af7aa-5008-4677-a868-6a4e4318ef3a
+2025-08-06 17:11:31.021 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:11:31.130 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:11:31.131 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:11:31.235 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:11:31.235 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:11:31.379 | ERROR    | __main__:conciliar_transacao:3750 - ❌ Item não encontrado: 0
+2025-08-06 17:13:22.587 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:13:22.997 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:13:25.114 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:13:25.224 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:13:26.004 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:13:26.683 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:13:27.583 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:13:27.692 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:13:27.802 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:13:27.914 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:13:28.362 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:13:28.479 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:13:28.480 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:13:28.595 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:13:29.542 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:13:38.219 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:13:38.386 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:13:39.155 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:13:39.841 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:13:40.703 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:13:40.831 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:13:40.949 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:13:41.062 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:13:41.495 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:13:41.599 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:13:41.601 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:13:41.710 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:13:42.690 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:13:53.841 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:13:53.996 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:13:54.699 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:13:55.319 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:13:56.118 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:13:56.224 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:13:56.338 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:13:56.445 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:13:56.853 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:13:56.951 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:13:56.952 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:13:57.054 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:13:57.990 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:14:51.632 | INFO     | __main__:atualizar_item_normalizado:7413 - ✅ Item atualizado: 0 -> Agência de Mktg
+2025-08-06 17:14:51.635 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:14:51.742 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:14:52.555 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:14:53.253 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:14:54.100 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:14:54.205 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:14:54.303 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:14:54.413 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:14:54.849 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:14:54.962 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:14:54.963 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:14:55.099 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:14:56.090 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:14:56.098 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:14:56.205 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:14:57.011 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:14:57.690 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:14:58.559 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:14:58.675 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:14:58.782 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:14:58.885 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:14:59.286 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:14:59.388 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:14:59.389 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:14:59.494 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:15:00.447 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:15:04.290 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:15:04.397 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:15:08.444 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 17:15:19.068 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:15:19.232 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:15:25.376 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:15:25.477 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:15:27.704 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 17:15:35.348 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:15:35.540 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:15:36.520 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:15:48.969 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 88b4d7a9-506c-498f-9fe0-28b21785deb9
+2025-08-06 17:15:49.137 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:15:49.239 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:15:49.239 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:15:49.356 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:15:49.356 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:15:49.455 | ERROR    | __main__:conciliar_transacao:3750 - ❌ Item não encontrado: 0
+2025-08-06 17:16:36.379 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 17:16:39.367 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:16:39.485 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:16:40.463 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:16:46.936 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: bf553668-7b8e-49cc-abba-47de54660864
+2025-08-06 17:16:47.105 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:16:47.215 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:16:47.215 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:16:47.322 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:16:47.322 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:16:47.431 | ERROR    | __main__:conciliar_transacao:3750 - ❌ Item não encontrado: 0
+2025-08-06 17:16:52.178 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:16:52.488 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:17:14.066 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:17:14.247 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 151 pendentes, 3 conciliados
+2025-08-06 17:17:17.601 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 151 transações pendentes do Supabase
+2025-08-06 17:17:20.552 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:17:20.672 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:17:21.641 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:17:28.119 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 3bbcecd6-b1e0-47c4-8115-b884aae1c386
+2025-08-06 17:17:28.284 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:17:28.386 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:17:28.386 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:17:28.491 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:17:28.492 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:17:28.592 | ERROR    | __main__:conciliar_transacao:3750 - ❌ Item não encontrado: 0
+2025-08-06 17:17:28.593 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 3bbcecd6-b1e0-47c4-8115-b884aae1c386
+2025-08-06 17:17:28.695 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:17:28.795 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:17:28.796 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:17:28.892 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:17:28.892 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:17:28.990 | ERROR    | __main__:conciliar_transacao:3750 - ❌ Item não encontrado: 0
+2025-08-06 17:19:03.937 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:19:04.309 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:19:05.278 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:19:26.780 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 88b4d7a9-506c-498f-9fe0-28b21785deb9
+2025-08-06 17:19:26.973 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:19:27.077 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:19:27.077 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Eventos
+2025-08-06 17:19:27.188 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 0c2f826f-881f-4647-b2f0-4fc09288d61a
+2025-08-06 17:19:27.188 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: Buffet
+2025-08-06 17:19:27.315 | INFO     | __main__:conciliar_transacao:3753 - ✅ Item encontrado: a6b8eeba-2163-4ec9-8cef-a5f2bc939e88
+2025-08-06 17:19:27.429 | INFO     | __main__:conciliar_transacao:3758 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-06 17:19:27.429 | INFO     | __main__:conciliar_transacao:3778 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '196aac03-23c9-4568-9b35-47bcd2d46cfb', 'plano_contas_id': '0c2f826f-881f-4647-b2f0-4fc09288d61a', 'item_id': 'a6b8eeba-2163-4ec9-8cef-a5f2bc939e88', 'forma_pagamento': 'PIX', 'banco_origem': 'AAI', 'centro_custo': 'Ribeirão Preto', 'nome_recebedor': 'teste', 'contraparte': 'Enviado Transurc', 'data_pagamento': '2025-06-02', 'data_referencia': '2025-07-16', 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-06T17:19:27.429698'}
+2025-08-06 17:19:27.555 | INFO     | __main__:conciliar_transacao:3786 - ✅ Transação 88b4d7a9-506c-498f-9fe0-28b21785deb9 conciliada com sucesso
+2025-08-06 17:19:31.618 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 150 transações pendentes do Supabase
+2025-08-06 17:22:12.757 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:22:13.143 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 150 pendentes, 4 conciliados
+2025-08-06 17:22:14.710 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:22:14.818 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:22:15.569 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:22:16.210 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:22:17.078 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:22:17.186 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:22:17.293 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:22:17.404 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:22:17.841 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:22:17.941 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:22:17.943 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:22:18.043 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:22:19.380 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:22:19.406 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:22:19.506 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 150 pendentes, 4 conciliados
+2025-08-06 17:22:26.943 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:22:27.102 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 150 pendentes, 4 conciliados
+2025-08-06 17:22:27.105 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:22:27.215 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 150 pendentes, 4 conciliados
+2025-08-06 17:22:27.216 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:22:27.321 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:22:28.582 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:22:28.587 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:22:28.710 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 150 pendentes, 4 conciliados
+2025-08-06 17:22:28.711 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:22:28.819 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:22:30.026 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:22:41.169 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:22:41.264 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 150 pendentes, 4 conciliados
+2025-08-06 17:22:50.625 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:22:50.790 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:22:51.482 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:22:52.068 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:22:52.920 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:22:53.020 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:22:53.120 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:22:53.224 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:22:53.624 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:22:53.722 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:22:53.723 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:22:53.824 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:22:55.011 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:22:55.016 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:22:55.124 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:22:55.898 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:22:56.511 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:22:57.352 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:22:57.453 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:22:57.543 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:22:57.635 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:22:58.022 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:22:58.122 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:22:58.123 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:22:58.238 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:22:59.526 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:22:59.531 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:22:59.631 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:23:00.327 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:23:00.929 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:23:01.803 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:23:01.901 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:23:01.998 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:23:02.104 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:23:02.520 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:23:02.642 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:23:02.643 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:23:02.747 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:23:04.000 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:23:06.847 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:23:06.952 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:23:07.698 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:23:08.359 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:23:09.212 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:23:09.327 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:23:09.448 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:23:09.566 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:23:10.001 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:23:10.103 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:23:10.104 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:23:10.210 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:23:11.532 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:23:29.260 | INFO     | __main__:excluir_item_normalizado:7463 - ✅ Item excluído: Agência de Mktg de DESPESA COM MARKETING/Eventos
+2025-08-06 17:23:29.263 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:23:29.367 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:23:30.125 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:23:30.811 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:23:31.689 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:23:31.796 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:23:31.918 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:23:32.024 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:23:32.449 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:23:32.581 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:23:32.583 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:23:32.693 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:23:33.943 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:23:34.925 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:23:35.035 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:23:35.774 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:23:36.427 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:23:37.290 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:23:37.408 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:23:37.534 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:23:37.647 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:23:38.060 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:23:38.177 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:23:38.183 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:23:38.302 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:23:39.608 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:23:39.612 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:23:39.721 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:23:40.514 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:23:41.177 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:23:42.050 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:23:42.150 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:23:42.310 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:23:42.420 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:23:42.845 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:23:42.953 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:23:42.954 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:23:43.057 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:23:44.315 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:23:44.319 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:23:44.421 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:23:45.159 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:23:45.809 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:23:46.671 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:23:46.784 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:23:46.884 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:23:46.983 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:23:47.402 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:23:47.500 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:23:47.501 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:23:47.617 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:23:48.873 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:24:02.462 | INFO     | __main__:criar_item_normalizado:7369 - ✅ Item criado: 0 em DESPESA COM MARKETING/Agência de Mktg
+2025-08-06 17:24:02.465 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:24:02.564 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:24:03.267 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:24:03.919 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:24:04.822 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:24:04.921 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:24:05.020 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:24:05.127 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:24:05.554 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:24:05.658 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:24:05.659 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:24:05.786 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:24:07.070 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:24:07.079 | INFO     | __main__:obter_classificacoes:7082 - 🔍 Buscando estrutura completa de classificações...
+2025-08-06 17:24:07.189 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: CUSTOS AAI
+2025-08-06 17:24:07.905 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM MARKETING
+2025-08-06 17:24:08.499 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESA COM RH
+2025-08-06 17:24:09.353 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS FINANCEIRAS
+2025-08-06 17:24:09.455 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: DESPESAS OPERACIONAIS
+2025-08-06 17:24:09.562 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: IMPOSTOS
+2025-08-06 17:24:09.687 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA INVESTIMENTOS
+2025-08-06 17:24:10.131 | INFO     | __main__:obter_classificacoes:7094 - 📁 Processando classificação: RECEITA OUTROS PRODUTOS
+2025-08-06 17:24:10.254 | INFO     | __main__:obter_classificacoes:7107 - ✅ Estrutura construída: 8 classificações
+2025-08-06 17:24:10.255 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:24:10.366 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:24:11.787 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:24:11.792 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:24:11.889 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 150 pendentes, 4 conciliados
+2025-08-06 17:24:14.736 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 150 transações pendentes do Supabase
+2025-08-06 17:24:17.536 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:24:17.653 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:24:18.959 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:24:31.211 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: aede7cc6-bfea-4469-aefa-313ec03e5239
+2025-08-06 17:24:31.414 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-06 17:24:31.511 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-06 17:24:31.511 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Agência de Mktg
+2025-08-06 17:24:31.614 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 272ea24b-ea3c-424a-871f-7b4d66aa63a1
+2025-08-06 17:24:31.615 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: 0
+2025-08-06 17:24:31.722 | INFO     | __main__:conciliar_transacao:3753 - ✅ Item encontrado: ee633f03-115b-48c9-8be4-725724d2af24
+2025-08-06 17:24:31.825 | INFO     | __main__:conciliar_transacao:3758 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-06 17:24:31.825 | INFO     | __main__:conciliar_transacao:3778 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '196aac03-23c9-4568-9b35-47bcd2d46cfb', 'plano_contas_id': '272ea24b-ea3c-424a-871f-7b4d66aa63a1', 'item_id': 'ee633f03-115b-48c9-8be4-725724d2af24', 'forma_pagamento': 'PIX', 'banco_origem': 'AAI', 'centro_custo': 'Campinas', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-06-09', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-06T17:24:31.825711'}
+2025-08-06 17:24:31.967 | INFO     | __main__:conciliar_transacao:3786 - ✅ Transação aede7cc6-bfea-4469-aefa-313ec03e5239 conciliada com sucesso
+2025-08-06 17:24:35.768 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 149 transações pendentes do Supabase
+2025-08-06 17:24:36.420 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:24:36.563 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 149 pendentes, 5 conciliados
+2025-08-06 17:24:37.726 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:24:37.834 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 149 pendentes, 5 conciliados
+2025-08-06 17:24:37.837 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:24:37.935 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 149 pendentes, 5 conciliados
+2025-08-06 17:24:37.936 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:24:38.037 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:24:39.524 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:24:39.530 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:24:39.639 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 149 pendentes, 5 conciliados
+2025-08-06 17:24:39.640 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-06 17:24:39.755 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-06 17:24:41.328 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-06 17:25:12.479 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-06 17:25:12.684 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 149 pendentes, 5 conciliados
+2025-08-07 10:48:03.201 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-07 10:48:03.202 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-07 10:48:06.061 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-07 10:48:07.645 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 149 pendentes, 5 conciliados
+2025-08-07 11:11:34.983 | INFO     | __main__:startup:498 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-07 11:11:34.984 | INFO     | __main__:startup:499 - ✅ Sistema iniciado com sucesso!
+2025-08-07 11:11:37.288 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-07 11:11:38.680 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 149 pendentes, 5 conciliados
+2025-08-07 11:11:41.489 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 149 transações pendentes do Supabase
+2025-08-07 11:11:46.531 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-07 11:11:46.903 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-07 11:11:49.128 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-07 11:12:01.890 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: bf42efa6-006c-4386-91cc-79670e8a00fd
+2025-08-07 11:12:02.067 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: CUSTOS AAI
+2025-08-07 11:12:02.178 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: cb49dc87-05d3-4f54-80e8-897a30793723
+2025-08-07 11:12:02.179 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Relatórios
+2025-08-07 11:12:02.299 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: f6263f24-7e01-425a-a5c4-04229fd9c56a
+2025-08-07 11:12:02.300 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: IR
+2025-08-07 11:12:02.435 | INFO     | __main__:conciliar_transacao:3753 - ✅ Item encontrado: a367b976-39b2-4c90-8720-12239a88e9ef
+2025-08-07 11:12:02.562 | INFO     | __main__:conciliar_transacao:3758 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-07 11:12:02.562 | INFO     | __main__:conciliar_transacao:3778 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': 'cb49dc87-05d3-4f54-80e8-897a30793723', 'plano_contas_id': 'f6263f24-7e01-425a-a5c4-04229fd9c56a', 'item_id': 'a367b976-39b2-4c90-8720-12239a88e9ef', 'forma_pagamento': 'PIX', 'banco_origem': 'AAI', 'centro_custo': 'Campinas', 'nome_recebedor': 'tes1413', 'contraparte': 'Enviado Caixa Economica Federal', 'data_pagamento': '2025-06-02', 'data_referencia': '2025-08-05', 'observacoes': 'rewarew', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-07T11:12:02.562933'}
+2025-08-07 11:12:02.728 | INFO     | __main__:conciliar_transacao:3786 - ✅ Transação bf42efa6-006c-4386-91cc-79670e8a00fd conciliada com sucesso
+2025-08-07 11:12:04.028 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 148 transações pendentes do Supabase
+2025-08-07 11:12:06.105 | INFO     | __main__:listar_transacoes:3536 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-07 11:12:06.227 | INFO     | __main__:listar_transacoes:3549 - 📊 Encontradas 154 transações
+2025-08-07 11:12:08.229 | INFO     | __main__:listar_transacoes:3623 - ✅ Processadas 154 transações com lookup
+2025-08-07 11:12:31.559 | INFO     | __main__:conciliar_transacao:3711 - 🔖 Conciliando transação: 4b0dcb1e-c4b0-42c9-8244-28c686c99d98
+2025-08-07 11:12:31.720 | INFO     | __main__:conciliar_transacao:3727 - 🔍 Buscando classificação: DESPESA COM MARKETING
+2025-08-07 11:12:31.863 | INFO     | __main__:conciliar_transacao:3735 - ✅ Classificação encontrada: 196aac03-23c9-4568-9b35-47bcd2d46cfb
+2025-08-07 11:12:31.863 | INFO     | __main__:conciliar_transacao:3738 - 🔍 Buscando plano: Eventos
+2025-08-07 11:12:31.996 | INFO     | __main__:conciliar_transacao:3744 - ✅ Plano encontrado: 0c2f826f-881f-4647-b2f0-4fc09288d61a
+2025-08-07 11:12:31.996 | INFO     | __main__:conciliar_transacao:3747 - 🔍 Buscando item: Fisio
+2025-08-07 11:12:32.109 | INFO     | __main__:conciliar_transacao:3753 - ✅ Item encontrado: 16ed9c89-a2b2-402b-90ac-0b615bc83f0f
+2025-08-07 11:12:32.215 | INFO     | __main__:conciliar_transacao:3758 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-07 11:12:32.215 | INFO     | __main__:conciliar_transacao:3778 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '196aac03-23c9-4568-9b35-47bcd2d46cfb', 'plano_contas_id': '0c2f826f-881f-4647-b2f0-4fc09288d61a', 'item_id': '16ed9c89-a2b2-402b-90ac-0b615bc83f0f', 'forma_pagamento': 'PIX', 'banco_origem': 'AAI', 'centro_custo': 'Thera Geral', 'nome_recebedor': 'testestes', 'contraparte': 'Enviado Guilherme Rossetti Goncal', 'data_pagamento': '2025-06-02', 'data_referencia': '2025-07-13', 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-07T11:12:32.215652'}
+2025-08-07 11:12:32.333 | INFO     | __main__:conciliar_transacao:3786 - ✅ Transação 4b0dcb1e-c4b0-42c9-8244-28c686c99d98 conciliada com sucesso
+2025-08-07 11:12:33.637 | INFO     | __main__:listar_pendentes:1530 - 📋 Carregando 147 transações pendentes do Supabase
+2025-08-07 11:12:34.378 | INFO     | __main__:get_stats:3500 - 📊 Calculando estatísticas do Supabase...
+2025-08-07 11:12:34.488 | INFO     | __main__:get_stats:3510 - ✅ Stats do Supabase: 154 total, 147 pendentes, 7 conciliados

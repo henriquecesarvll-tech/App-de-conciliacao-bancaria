@@ -1,0 +1,106 @@
+2025-08-20 13:28:46.345 | INFO     | __main__:startup:577 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 13:28:46.347 | INFO     | __main__:startup:578 - ✅ Sistema iniciado com sucesso!
+2025-08-20 13:28:59.742 | INFO     | __main__:startup:577 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 13:28:59.742 | INFO     | __main__:startup:578 - ✅ Sistema iniciado com sucesso!
+2025-08-20 13:29:00.012 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:29:01.103 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:32:49.165 | INFO     | __main__:startup:577 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 13:32:49.175 | INFO     | __main__:startup:578 - ✅ Sistema iniciado com sucesso!
+2025-08-20 13:32:49.325 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:32:50.098 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:37:36.349 | INFO     | __main__:startup:577 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 13:37:36.349 | INFO     | __main__:startup:578 - ✅ Sistema iniciado com sucesso!
+2025-08-20 13:37:42.801 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 74 transações pendentes do Supabase
+2025-08-20 13:38:13.906 | INFO     | __main__:startup:577 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 13:38:13.907 | INFO     | __main__:startup:578 - ✅ Sistema iniciado com sucesso!
+2025-08-20 13:38:14.028 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:38:14.439 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:38:16.009 | INFO     | __main__:listar_usuarios:9187 - 🔍 Listando usuários...
+2025-08-20 13:38:16.131 | INFO     | __main__:listar_usuarios:9196 - ✅ Query executada, encontrados: 3 usuários
+2025-08-20 13:38:16.740 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:38:16.988 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:38:17.970 | INFO     | __main__:obter_classificacoes:7834 - 🔄 Cache miss - consultando banco otimizado...
+2025-08-20 13:38:18.308 | INFO     | __main__:obter_classificacoes:7885 - ✅ Estrutura carregada: 8 classificações
+2025-08-20 13:38:18.309 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 13:38:18.452 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 13:38:20.414 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 13:38:21.654 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:38:21.765 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:38:22.795 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:38:22.901 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:38:22.904 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:38:23.002 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:38:23.002 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 13:38:23.111 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 13:38:24.942 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 13:38:24.945 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:38:25.051 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:38:25.052 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 13:38:25.163 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 13:38:27.094 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 13:38:29.687 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:38:29.789 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:38:32.505 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 74 transações pendentes do Supabase
+2025-08-20 13:38:35.478 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:38:35.583 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:43:18.404 | INFO     | __main__:startup:577 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 13:43:18.405 | INFO     | __main__:startup:578 - ✅ Sistema iniciado com sucesso!
+2025-08-20 13:43:20.780 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:43:20.892 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:43:23.195 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:43:23.296 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 13:43:24.346 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 74 transações pendentes do Supabase
+2025-08-20 13:43:27.951 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 13:43:28.049 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 13:43:29.871 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 13:43:29.874 | INFO     | __main__:obter_classificacoes:7834 - 🔄 Cache miss - consultando banco otimizado...
+2025-08-20 13:43:30.170 | INFO     | __main__:obter_classificacoes:7885 - ✅ Estrutura carregada: 8 classificações
+2025-08-20 13:43:47.599 | INFO     | __main__:conciliar_transacao:4425 - 🔖 Conciliando transação: bf7c2455-c102-4330-b75d-988a0b0cf96a
+2025-08-20 13:43:47.782 | INFO     | __main__:conciliar_transacao:4441 - 🔍 Buscando classificação: DESPESA COM RH
+2025-08-20 13:43:47.859 | INFO     | __main__:conciliar_transacao:4449 - ✅ Classificação encontrada: 4246f823-b58f-4b37-ad5c-924a6e7dd913
+2025-08-20 13:43:47.859 | INFO     | __main__:conciliar_transacao:4452 - 🔍 Buscando plano: Assessor Comercial
+2025-08-20 13:43:47.908 | INFO     | __main__:conciliar_transacao:4458 - ✅ Plano encontrado: f17c8300-1643-4843-bee5-c29921009933
+2025-08-20 13:43:47.908 | INFO     | __main__:conciliar_transacao:4461 - 🔍 Buscando item: Bônus Cluster B
+2025-08-20 13:43:47.990 | INFO     | __main__:conciliar_transacao:4467 - ✅ Item encontrado: aeab98f7-f05b-47b5-bdf0-4ca3122123c6
+2025-08-20 13:43:48.050 | INFO     | __main__:conciliar_transacao:4472 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-20 13:43:48.051 | INFO     | __main__:conciliar_transacao:4492 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': '4246f823-b58f-4b37-ad5c-924a6e7dd913', 'plano_contas_id': 'f17c8300-1643-4843-bee5-c29921009933', 'item_id': 'aeab98f7-f05b-47b5-bdf0-4ca3122123c6', 'forma_pagamento': 'PIX', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Thera Geral', 'nome_recebedor': 'abc', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-09', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-20T13:43:48.051157'}
+2025-08-20 13:43:48.182 | INFO     | __main__:conciliar_transacao:4500 - ✅ Transação bf7c2455-c102-4330-b75d-988a0b0cf96a conciliada com sucesso
+2025-08-20 13:43:49.910 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 73 transações pendentes do Supabase
+2025-08-20 13:43:53.063 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:43:53.120 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 73 pendentes, 8 conciliados
+2025-08-20 13:43:57.741 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:43:57.834 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 73 pendentes, 8 conciliados
+2025-08-20 13:43:58.264 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:43:58.343 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 73 pendentes, 8 conciliados
+2025-08-20 13:43:58.346 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:43:58.415 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 73 pendentes, 8 conciliados
+2025-08-20 13:43:58.416 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 13:43:58.500 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 13:44:00.305 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 13:44:00.309 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:44:00.410 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 73 pendentes, 8 conciliados
+2025-08-20 13:44:00.412 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 13:44:00.499 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 13:44:02.177 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 13:44:06.399 | INFO     | __main__:get_stats:4214 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 13:44:06.457 | INFO     | __main__:get_stats:4224 - ✅ Stats do Supabase: 81 total, 73 pendentes, 8 conciliados
+2025-08-20 14:19:07.102 | INFO     | __main__:startup:577 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 14:19:07.102 | INFO     | __main__:startup:578 - ✅ Sistema iniciado com sucesso!
+2025-08-20 14:19:07.808 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 71 transações pendentes do Supabase
+2025-08-20 14:19:11.801 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 14:19:11.863 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 14:19:13.749 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 14:19:13.752 | INFO     | __main__:obter_classificacoes:7834 - 🔄 Cache miss - consultando banco otimizado...
+2025-08-20 14:19:13.907 | INFO     | __main__:obter_classificacoes:7885 - ✅ Estrutura carregada: 8 classificações
+2025-08-20 14:19:22.036 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 14:19:22.194 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 14:19:23.602 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 14:19:27.374 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 14:19:27.432 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 14:19:28.936 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 14:21:25.704 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 14:21:26.191 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 14:21:29.400 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup
+2025-08-20 14:21:38.247 | INFO     | __main__:listar_transacoes:4250 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 14:21:38.598 | INFO     | __main__:listar_transacoes:4263 - 📊 Encontradas 81 transações
+2025-08-20 14:21:41.625 | INFO     | __main__:listar_transacoes:4337 - ✅ Processadas 81 transações com lookup

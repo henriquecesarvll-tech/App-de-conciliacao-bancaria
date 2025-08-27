@@ -1,0 +1,1163 @@
+2025-08-19 12:58:38.448 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 12:58:38.449 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 12:58:40.010 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 76 transações pendentes do Supabase
+2025-08-19 12:58:40.032 | INFO     | __main__:obter_classificacoes:7507 - 🔍 Buscando estrutura COMPLETA de classificações do banco...
+2025-08-19 12:58:40.331 | INFO     | __main__:obter_classificacoes:7516 - 📁 Encontradas 8 classificações
+2025-08-19 12:58:40.332 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: CUSTOS AAI (ID: cb49dc87-05d3-4f54-80e8-897a30793723)
+2025-08-19 12:58:40.627 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 6 planos para CUSTOS AAI
+2025-08-19 12:58:40.815 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Advogados' tem 5 itens
+2025-08-19 12:58:40.940 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'E-mail 360' tem 1 itens
+2025-08-19 12:58:41.050 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Gravador de voz' tem 1 itens
+2025-08-19 12:58:41.194 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Relatórios' tem 6 itens
+2025-08-19 12:58:41.296 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa fiscalização CVM' tem 1 itens
+2025-08-19 12:58:41.541 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Treinamento Assessores' tem 1 itens
+2025-08-19 12:58:41.542 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM MARKETING (ID: 196aac03-23c9-4568-9b35-47bcd2d46cfb)
+2025-08-19 12:58:41.664 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para DESPESA COM MARKETING
+2025-08-19 12:58:41.767 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Agência de Mktg' tem 1 itens
+2025-08-19 12:58:41.889 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Almoço com clientes' tem 2 itens
+2025-08-19 12:58:41.992 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Associação Comercial' tem 1 itens
+2025-08-19 12:58:42.093 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Assessores' tem 1 itens
+2025-08-19 12:58:42.220 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Clientes' tem 1 itens
+2025-08-19 12:58:42.372 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartões de Visita' tem 1 itens
+2025-08-19 12:58:42.474 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos' tem 25 itens
+2025-08-19 12:58:42.626 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos Interno Thera' tem 13 itens
+2025-08-19 12:58:42.741 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Facebook Ads' tem 1 itens
+2025-08-19 12:58:42.872 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Google Ads' tem 1 itens
+2025-08-19 12:58:43.017 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais Institucionais' tem 1 itens
+2025-08-19 12:58:43.118 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas Mktg' tem 2 itens
+2025-08-19 12:58:43.229 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Patrocínios' tem 6 itens
+2025-08-19 12:58:43.325 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Site e E-mail Mktg' tem 1 itens
+2025-08-19 12:58:43.325 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM RH (ID: 4246f823-b58f-4b37-ad5c-924a6e7dd913)
+2025-08-19 12:58:43.434 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 7 planos para DESPESA COM RH
+2025-08-19 12:58:43.529 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor Comercial' tem 9 itens
+2025-08-19 12:58:43.640 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor de Produtos' tem 4 itens
+2025-08-19 12:58:43.745 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assistente Operacional' tem 5 itens
+2025-08-19 12:58:43.844 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CLTs' tem 5 itens
+2025-08-19 12:58:43.950 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Diretores' tem 2 itens
+2025-08-19 12:58:44.047 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Operador de Mesa' tem 2 itens
+2025-08-19 12:58:44.152 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Plano de Saúde' tem 6 itens
+2025-08-19 12:58:44.153 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS FINANCEIRAS (ID: 36eac2d1-2ba9-4d90-9e93-166976925a7f)
+2025-08-19 12:58:44.274 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 2 planos para DESPESAS FINANCEIRAS
+2025-08-19 12:58:44.371 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Imposto Retroativo' tem 1 itens
+2025-08-19 12:58:44.471 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 3 itens
+2025-08-19 12:58:44.471 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS OPERACIONAIS (ID: 09f71aae-9381-4088-8668-f4db33bf743b)
+2025-08-19 12:58:44.576 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para DESPESAS OPERACIONAIS
+2025-08-19 12:58:44.680 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Aluguel' tem 5 itens
+2025-08-19 12:58:44.783 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartuchos' tem 1 itens
+2025-08-19 12:58:44.892 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Condomínio' tem 1 itens
+2025-08-19 12:58:44.993 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta de água' tem 1 itens
+2025-08-19 12:58:45.096 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Contabilidade' tem 2 itens
+2025-08-19 12:58:45.193 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CPFL / Energia' tem 1 itens
+2025-08-19 12:58:45.287 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Emissor de notas' tem 1 itens
+2025-08-19 12:58:45.392 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Estacionamento' tem 1 itens
+2025-08-19 12:58:45.497 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Faxineira' tem 3 itens
+2025-08-19 12:58:45.593 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internet' tem 4 itens
+2025-08-19 12:58:45.690 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de escritório' tem 8 itens
+2025-08-19 12:58:45.792 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de limpeza' tem 1 itens
+2025-08-19 12:58:45.905 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas' tem 4 itens
+2025-08-19 12:58:46.007 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Serviços de Manutenção' tem 4 itens
+2025-08-19 12:58:46.101 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Supermercados' tem 1 itens
+2025-08-19 12:58:46.199 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tarifas bancárias' tem 3 itens
+2025-08-19 12:58:46.300 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tecnico Informática' tem 1 itens
+2025-08-19 12:58:46.398 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Telefone' tem 4 itens
+2025-08-19 12:58:46.503 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Uber' tem 1 itens
+2025-08-19 12:58:46.600 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Viagens' tem 8 itens
+2025-08-19 12:58:46.600 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: IMPOSTOS (ID: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd)
+2025-08-19 12:58:46.838 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 8 planos para IMPOSTOS
+2025-08-19 12:58:46.943 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COFINS' tem 1 itens
+2025-08-19 12:58:47.040 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CSLL' tem 4 itens
+2025-08-19 12:58:47.164 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'FGTS' tem 1 itens
+2025-08-19 12:58:47.262 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'GPS' tem 1 itens
+2025-08-19 12:58:47.377 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ' tem 4 itens
+2025-08-19 12:58:47.475 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ ADICIONAL' tem 1 itens
+2025-08-19 12:58:47.585 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'ISS' tem 1 itens
+2025-08-19 12:58:47.687 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'PIS' tem 1 itens
+2025-08-19 12:58:47.687 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA INVESTIMENTOS (ID: 680a68d5-06ad-4f41-a64d-3ce527076717)
+2025-08-19 12:58:47.812 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para RECEITA INVESTIMENTOS
+2025-08-19 12:58:47.911 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Asset' tem 1 itens
+2025-08-19 12:58:48.009 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BM&F' tem 1 itens
+2025-08-19 12:58:48.101 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa' tem 1 itens
+2025-08-19 12:58:48.212 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa FIIs' tem 1 itens
+2025-08-19 12:58:48.309 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BTC' tem 1 itens
+2025-08-19 12:58:48.405 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha Fundos Imobiliários' tem 1 itens
+2025-08-19 12:58:48.506 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha RV' tem 1 itens
+2025-08-19 12:58:48.615 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas' tem 1 itens
+2025-08-19 12:58:48.730 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Clearthrough' tem 3 itens
+2025-08-19 12:58:48.841 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COE' tem 1 itens
+2025-08-19 12:58:48.997 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Desconto de Transferência de Clientes' tem 1 itens
+2025-08-19 12:58:49.122 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Enquadramento RLP' tem 1 itens
+2025-08-19 12:58:49.227 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Erro Operacional' tem 1 itens
+2025-08-19 12:58:49.329 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Fee Fixo' tem 1 itens
+2025-08-19 12:58:49.422 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internacional' tem 1 itens
+2025-08-19 12:58:49.532 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Oferta RF' tem 1 itens
+2025-08-19 12:58:49.628 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 1 itens
+2025-08-19 12:58:49.720 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Produtos Estruturados' tem 1 itens
+2025-08-19 12:58:49.828 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Renda Fixa' tem 1 itens
+2025-08-19 12:58:49.941 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Secundário FIIs' tem 1 itens
+2025-08-19 12:58:49.941 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA OUTROS PRODUTOS (ID: 1e963a52-bf81-4fef-a0af-63017c988b9d)
+2025-08-19 12:58:50.046 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para RECEITA OUTROS PRODUTOS
+2025-08-19 12:58:50.142 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio' tem 1 itens
+2025-08-19 12:58:50.250 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio XP' tem 2 itens
+2025-08-19 12:58:50.340 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas PJ2' tem 1 itens
+2025-08-19 12:58:50.536 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta Global' tem 1 itens
+2025-08-19 12:58:50.628 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito' tem 3 itens
+2025-08-19 12:58:50.733 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito Colaterizado' tem 1 itens
+2025-08-19 12:58:50.828 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IAXP' tem 1 itens
+2025-08-19 12:58:50.931 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Mercado Internacional' tem 1 itens
+2025-08-19 12:58:51.027 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Receitas' tem 1 itens
+2025-08-19 12:58:51.128 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência' tem 1 itens
+2025-08-19 12:58:51.232 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência - Co-corretagem' tem 1 itens
+2025-08-19 12:58:51.331 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'RV' tem 1 itens
+2025-08-19 12:58:51.456 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Seguro de vida' tem 5 itens
+2025-08-19 12:58:51.552 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa de Performance' tem 1 itens
+2025-08-19 12:58:51.552 | INFO     | __main__:obter_classificacoes:7554 - ✅ Estrutura COMPLETA construída:
+2025-08-19 12:58:51.553 | INFO     | __main__:obter_classificacoes:7555 -    📁 8 classificações
+2025-08-19 12:58:51.553 | INFO     | __main__:obter_classificacoes:7556 -    📊 91 planos de contas
+2025-08-19 12:58:51.553 | INFO     | __main__:obter_classificacoes:7557 -    📝 221 itens
+2025-08-19 13:16:03.605 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:16:04.484 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 76 pendentes, 5 conciliados
+2025-08-19 13:16:06.479 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 76 transações pendentes do Supabase
+2025-08-19 13:16:06.494 | INFO     | __main__:obter_classificacoes:7507 - 🔍 Buscando estrutura COMPLETA de classificações do banco...
+2025-08-19 13:16:06.628 | INFO     | __main__:obter_classificacoes:7516 - 📁 Encontradas 8 classificações
+2025-08-19 13:16:06.628 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: CUSTOS AAI (ID: cb49dc87-05d3-4f54-80e8-897a30793723)
+2025-08-19 13:16:06.750 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 6 planos para CUSTOS AAI
+2025-08-19 13:16:07.025 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Advogados' tem 5 itens
+2025-08-19 13:16:07.134 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'E-mail 360' tem 1 itens
+2025-08-19 13:16:07.252 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Gravador de voz' tem 1 itens
+2025-08-19 13:16:07.515 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Relatórios' tem 6 itens
+2025-08-19 13:16:07.640 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa fiscalização CVM' tem 1 itens
+2025-08-19 13:16:07.755 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Treinamento Assessores' tem 1 itens
+2025-08-19 13:16:07.755 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM MARKETING (ID: 196aac03-23c9-4568-9b35-47bcd2d46cfb)
+2025-08-19 13:16:08.191 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para DESPESA COM MARKETING
+2025-08-19 13:16:08.307 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Agência de Mktg' tem 1 itens
+2025-08-19 13:16:08.420 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Almoço com clientes' tem 2 itens
+2025-08-19 13:16:08.531 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Associação Comercial' tem 1 itens
+2025-08-19 13:16:08.647 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Assessores' tem 1 itens
+2025-08-19 13:16:08.766 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Clientes' tem 1 itens
+2025-08-19 13:16:08.874 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartões de Visita' tem 1 itens
+2025-08-19 13:16:08.985 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos' tem 25 itens
+2025-08-19 13:16:09.083 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos Interno Thera' tem 13 itens
+2025-08-19 13:16:09.182 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Facebook Ads' tem 1 itens
+2025-08-19 13:16:09.305 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Google Ads' tem 1 itens
+2025-08-19 13:16:09.410 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais Institucionais' tem 1 itens
+2025-08-19 13:16:09.524 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas Mktg' tem 2 itens
+2025-08-19 13:16:09.628 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Patrocínios' tem 6 itens
+2025-08-19 13:16:09.739 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Site e E-mail Mktg' tem 1 itens
+2025-08-19 13:16:09.739 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM RH (ID: 4246f823-b58f-4b37-ad5c-924a6e7dd913)
+2025-08-19 13:16:09.841 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 7 planos para DESPESA COM RH
+2025-08-19 13:16:09.946 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor Comercial' tem 9 itens
+2025-08-19 13:16:10.066 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor de Produtos' tem 4 itens
+2025-08-19 13:16:10.193 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assistente Operacional' tem 5 itens
+2025-08-19 13:16:10.304 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CLTs' tem 5 itens
+2025-08-19 13:16:10.407 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Diretores' tem 2 itens
+2025-08-19 13:16:10.511 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Operador de Mesa' tem 2 itens
+2025-08-19 13:16:10.618 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Plano de Saúde' tem 6 itens
+2025-08-19 13:16:10.618 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS FINANCEIRAS (ID: 36eac2d1-2ba9-4d90-9e93-166976925a7f)
+2025-08-19 13:16:10.720 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 2 planos para DESPESAS FINANCEIRAS
+2025-08-19 13:16:10.824 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Imposto Retroativo' tem 1 itens
+2025-08-19 13:16:10.929 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 3 itens
+2025-08-19 13:16:10.930 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS OPERACIONAIS (ID: 09f71aae-9381-4088-8668-f4db33bf743b)
+2025-08-19 13:16:11.055 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para DESPESAS OPERACIONAIS
+2025-08-19 13:16:11.155 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Aluguel' tem 5 itens
+2025-08-19 13:16:11.274 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartuchos' tem 1 itens
+2025-08-19 13:16:11.372 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Condomínio' tem 1 itens
+2025-08-19 13:16:11.470 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta de água' tem 1 itens
+2025-08-19 13:16:11.574 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Contabilidade' tem 2 itens
+2025-08-19 13:16:11.675 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CPFL / Energia' tem 1 itens
+2025-08-19 13:16:11.779 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Emissor de notas' tem 1 itens
+2025-08-19 13:16:11.891 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Estacionamento' tem 1 itens
+2025-08-19 13:16:12.011 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Faxineira' tem 3 itens
+2025-08-19 13:16:12.111 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internet' tem 4 itens
+2025-08-19 13:16:12.214 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de escritório' tem 8 itens
+2025-08-19 13:16:12.321 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de limpeza' tem 1 itens
+2025-08-19 13:16:12.421 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas' tem 4 itens
+2025-08-19 13:16:12.526 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Serviços de Manutenção' tem 4 itens
+2025-08-19 13:16:12.626 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Supermercados' tem 1 itens
+2025-08-19 13:16:12.734 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tarifas bancárias' tem 3 itens
+2025-08-19 13:16:12.840 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tecnico Informática' tem 1 itens
+2025-08-19 13:16:12.951 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Telefone' tem 4 itens
+2025-08-19 13:16:13.054 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Uber' tem 1 itens
+2025-08-19 13:16:13.162 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Viagens' tem 8 itens
+2025-08-19 13:16:13.162 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: IMPOSTOS (ID: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd)
+2025-08-19 13:16:13.268 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 8 planos para IMPOSTOS
+2025-08-19 13:16:13.366 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COFINS' tem 1 itens
+2025-08-19 13:16:13.470 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CSLL' tem 4 itens
+2025-08-19 13:16:13.573 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'FGTS' tem 1 itens
+2025-08-19 13:16:13.676 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'GPS' tem 1 itens
+2025-08-19 13:16:13.776 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ' tem 4 itens
+2025-08-19 13:16:13.887 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ ADICIONAL' tem 1 itens
+2025-08-19 13:16:13.991 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'ISS' tem 1 itens
+2025-08-19 13:16:14.147 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'PIS' tem 1 itens
+2025-08-19 13:16:14.148 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA INVESTIMENTOS (ID: 680a68d5-06ad-4f41-a64d-3ce527076717)
+2025-08-19 13:16:14.263 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para RECEITA INVESTIMENTOS
+2025-08-19 13:16:14.365 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Asset' tem 1 itens
+2025-08-19 13:16:14.490 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BM&F' tem 1 itens
+2025-08-19 13:16:14.601 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa' tem 1 itens
+2025-08-19 13:16:14.700 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa FIIs' tem 1 itens
+2025-08-19 13:16:14.802 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BTC' tem 1 itens
+2025-08-19 13:16:14.904 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha Fundos Imobiliários' tem 1 itens
+2025-08-19 13:16:15.006 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha RV' tem 1 itens
+2025-08-19 13:16:15.103 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas' tem 1 itens
+2025-08-19 13:16:15.213 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Clearthrough' tem 3 itens
+2025-08-19 13:16:15.313 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COE' tem 1 itens
+2025-08-19 13:16:15.415 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Desconto de Transferência de Clientes' tem 1 itens
+2025-08-19 13:16:15.513 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Enquadramento RLP' tem 1 itens
+2025-08-19 13:16:15.606 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Erro Operacional' tem 1 itens
+2025-08-19 13:16:15.710 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Fee Fixo' tem 1 itens
+2025-08-19 13:16:15.821 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internacional' tem 1 itens
+2025-08-19 13:16:15.921 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Oferta RF' tem 1 itens
+2025-08-19 13:16:16.026 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 1 itens
+2025-08-19 13:16:16.128 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Produtos Estruturados' tem 1 itens
+2025-08-19 13:16:16.246 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Renda Fixa' tem 1 itens
+2025-08-19 13:16:16.353 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Secundário FIIs' tem 1 itens
+2025-08-19 13:16:16.353 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA OUTROS PRODUTOS (ID: 1e963a52-bf81-4fef-a0af-63017c988b9d)
+2025-08-19 13:16:16.455 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para RECEITA OUTROS PRODUTOS
+2025-08-19 13:16:16.561 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio' tem 1 itens
+2025-08-19 13:16:16.668 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio XP' tem 2 itens
+2025-08-19 13:16:16.784 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas PJ2' tem 1 itens
+2025-08-19 13:16:16.885 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta Global' tem 1 itens
+2025-08-19 13:16:17.035 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito' tem 3 itens
+2025-08-19 13:16:17.130 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito Colaterizado' tem 1 itens
+2025-08-19 13:16:17.238 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IAXP' tem 1 itens
+2025-08-19 13:16:17.343 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Mercado Internacional' tem 1 itens
+2025-08-19 13:16:17.447 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Receitas' tem 1 itens
+2025-08-19 13:16:17.543 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência' tem 1 itens
+2025-08-19 13:16:17.640 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência - Co-corretagem' tem 1 itens
+2025-08-19 13:16:17.749 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'RV' tem 1 itens
+2025-08-19 13:16:17.852 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Seguro de vida' tem 5 itens
+2025-08-19 13:16:17.962 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa de Performance' tem 1 itens
+2025-08-19 13:16:17.962 | INFO     | __main__:obter_classificacoes:7554 - ✅ Estrutura COMPLETA construída:
+2025-08-19 13:16:17.962 | INFO     | __main__:obter_classificacoes:7555 -    📁 8 classificações
+2025-08-19 13:16:17.962 | INFO     | __main__:obter_classificacoes:7556 -    📊 91 planos de contas
+2025-08-19 13:16:17.963 | INFO     | __main__:obter_classificacoes:7557 -    📝 221 itens
+2025-08-19 13:16:19.760 | INFO     | __main__:listar_transacoes:3939 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-19 13:16:19.879 | INFO     | __main__:listar_transacoes:3952 - 📊 Encontradas 81 transações
+2025-08-19 13:16:21.230 | INFO     | __main__:listar_transacoes:4026 - ✅ Processadas 81 transações com lookup
+2025-08-19 13:16:21.233 | INFO     | __main__:obter_classificacoes:7507 - 🔍 Buscando estrutura COMPLETA de classificações do banco...
+2025-08-19 13:16:21.364 | INFO     | __main__:obter_classificacoes:7516 - 📁 Encontradas 8 classificações
+2025-08-19 13:16:21.364 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: CUSTOS AAI (ID: cb49dc87-05d3-4f54-80e8-897a30793723)
+2025-08-19 13:16:21.471 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 6 planos para CUSTOS AAI
+2025-08-19 13:16:21.602 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Advogados' tem 5 itens
+2025-08-19 13:16:21.739 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'E-mail 360' tem 1 itens
+2025-08-19 13:16:21.851 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Gravador de voz' tem 1 itens
+2025-08-19 13:16:21.947 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Relatórios' tem 6 itens
+2025-08-19 13:16:22.047 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa fiscalização CVM' tem 1 itens
+2025-08-19 13:16:22.159 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Treinamento Assessores' tem 1 itens
+2025-08-19 13:16:22.159 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM MARKETING (ID: 196aac03-23c9-4568-9b35-47bcd2d46cfb)
+2025-08-19 13:16:22.279 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para DESPESA COM MARKETING
+2025-08-19 13:16:22.386 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Agência de Mktg' tem 1 itens
+2025-08-19 13:16:22.489 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Almoço com clientes' tem 2 itens
+2025-08-19 13:16:22.594 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Associação Comercial' tem 1 itens
+2025-08-19 13:16:22.701 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Assessores' tem 1 itens
+2025-08-19 13:16:22.803 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Clientes' tem 1 itens
+2025-08-19 13:16:22.908 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartões de Visita' tem 1 itens
+2025-08-19 13:16:23.019 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos' tem 25 itens
+2025-08-19 13:16:23.129 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos Interno Thera' tem 13 itens
+2025-08-19 13:16:23.258 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Facebook Ads' tem 1 itens
+2025-08-19 13:16:23.364 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Google Ads' tem 1 itens
+2025-08-19 13:16:23.470 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais Institucionais' tem 1 itens
+2025-08-19 13:16:23.584 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas Mktg' tem 2 itens
+2025-08-19 13:16:23.686 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Patrocínios' tem 6 itens
+2025-08-19 13:16:23.789 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Site e E-mail Mktg' tem 1 itens
+2025-08-19 13:16:23.789 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM RH (ID: 4246f823-b58f-4b37-ad5c-924a6e7dd913)
+2025-08-19 13:16:23.894 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 7 planos para DESPESA COM RH
+2025-08-19 13:16:23.993 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor Comercial' tem 9 itens
+2025-08-19 13:16:24.098 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor de Produtos' tem 4 itens
+2025-08-19 13:16:24.198 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assistente Operacional' tem 5 itens
+2025-08-19 13:16:24.305 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CLTs' tem 5 itens
+2025-08-19 13:16:24.431 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Diretores' tem 2 itens
+2025-08-19 13:16:24.536 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Operador de Mesa' tem 2 itens
+2025-08-19 13:16:24.634 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Plano de Saúde' tem 6 itens
+2025-08-19 13:16:24.634 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS FINANCEIRAS (ID: 36eac2d1-2ba9-4d90-9e93-166976925a7f)
+2025-08-19 13:16:24.736 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 2 planos para DESPESAS FINANCEIRAS
+2025-08-19 13:16:24.845 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Imposto Retroativo' tem 1 itens
+2025-08-19 13:16:24.943 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 3 itens
+2025-08-19 13:16:24.943 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS OPERACIONAIS (ID: 09f71aae-9381-4088-8668-f4db33bf743b)
+2025-08-19 13:16:25.047 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para DESPESAS OPERACIONAIS
+2025-08-19 13:16:25.160 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Aluguel' tem 5 itens
+2025-08-19 13:16:25.266 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartuchos' tem 1 itens
+2025-08-19 13:16:25.363 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Condomínio' tem 1 itens
+2025-08-19 13:16:25.462 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta de água' tem 1 itens
+2025-08-19 13:16:25.580 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Contabilidade' tem 2 itens
+2025-08-19 13:16:25.681 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CPFL / Energia' tem 1 itens
+2025-08-19 13:16:25.772 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Emissor de notas' tem 1 itens
+2025-08-19 13:16:25.901 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Estacionamento' tem 1 itens
+2025-08-19 13:16:26.004 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Faxineira' tem 3 itens
+2025-08-19 13:16:26.111 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internet' tem 4 itens
+2025-08-19 13:16:26.238 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de escritório' tem 8 itens
+2025-08-19 13:16:26.338 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de limpeza' tem 1 itens
+2025-08-19 13:16:26.435 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas' tem 4 itens
+2025-08-19 13:16:26.533 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Serviços de Manutenção' tem 4 itens
+2025-08-19 13:16:26.647 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Supermercados' tem 1 itens
+2025-08-19 13:16:26.758 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tarifas bancárias' tem 3 itens
+2025-08-19 13:16:26.857 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tecnico Informática' tem 1 itens
+2025-08-19 13:16:26.973 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Telefone' tem 4 itens
+2025-08-19 13:16:27.078 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Uber' tem 1 itens
+2025-08-19 13:16:27.192 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Viagens' tem 8 itens
+2025-08-19 13:16:27.192 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: IMPOSTOS (ID: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd)
+2025-08-19 13:16:27.288 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 8 planos para IMPOSTOS
+2025-08-19 13:16:27.380 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COFINS' tem 1 itens
+2025-08-19 13:16:27.489 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CSLL' tem 4 itens
+2025-08-19 13:16:27.619 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'FGTS' tem 1 itens
+2025-08-19 13:16:27.719 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'GPS' tem 1 itens
+2025-08-19 13:16:27.822 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ' tem 4 itens
+2025-08-19 13:16:27.920 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ ADICIONAL' tem 1 itens
+2025-08-19 13:16:28.015 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'ISS' tem 1 itens
+2025-08-19 13:16:28.112 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'PIS' tem 1 itens
+2025-08-19 13:16:28.112 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA INVESTIMENTOS (ID: 680a68d5-06ad-4f41-a64d-3ce527076717)
+2025-08-19 13:16:28.214 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para RECEITA INVESTIMENTOS
+2025-08-19 13:16:28.323 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Asset' tem 1 itens
+2025-08-19 13:16:28.435 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BM&F' tem 1 itens
+2025-08-19 13:16:28.532 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa' tem 1 itens
+2025-08-19 13:16:28.633 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa FIIs' tem 1 itens
+2025-08-19 13:16:28.730 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BTC' tem 1 itens
+2025-08-19 13:16:28.822 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha Fundos Imobiliários' tem 1 itens
+2025-08-19 13:16:28.930 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha RV' tem 1 itens
+2025-08-19 13:16:29.036 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas' tem 1 itens
+2025-08-19 13:16:29.137 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Clearthrough' tem 3 itens
+2025-08-19 13:16:29.232 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COE' tem 1 itens
+2025-08-19 13:16:29.328 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Desconto de Transferência de Clientes' tem 1 itens
+2025-08-19 13:16:29.446 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Enquadramento RLP' tem 1 itens
+2025-08-19 13:16:29.547 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Erro Operacional' tem 1 itens
+2025-08-19 13:16:29.646 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Fee Fixo' tem 1 itens
+2025-08-19 13:16:29.750 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internacional' tem 1 itens
+2025-08-19 13:16:29.850 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Oferta RF' tem 1 itens
+2025-08-19 13:16:29.956 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 1 itens
+2025-08-19 13:16:30.052 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Produtos Estruturados' tem 1 itens
+2025-08-19 13:16:30.163 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Renda Fixa' tem 1 itens
+2025-08-19 13:16:30.262 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Secundário FIIs' tem 1 itens
+2025-08-19 13:16:30.262 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA OUTROS PRODUTOS (ID: 1e963a52-bf81-4fef-a0af-63017c988b9d)
+2025-08-19 13:16:30.396 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para RECEITA OUTROS PRODUTOS
+2025-08-19 13:16:30.506 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio' tem 1 itens
+2025-08-19 13:16:30.605 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio XP' tem 2 itens
+2025-08-19 13:16:30.721 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas PJ2' tem 1 itens
+2025-08-19 13:16:30.816 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta Global' tem 1 itens
+2025-08-19 13:16:30.923 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito' tem 3 itens
+2025-08-19 13:16:31.026 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito Colaterizado' tem 1 itens
+2025-08-19 13:16:31.136 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IAXP' tem 1 itens
+2025-08-19 13:16:31.232 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Mercado Internacional' tem 1 itens
+2025-08-19 13:16:31.330 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Receitas' tem 1 itens
+2025-08-19 13:16:31.427 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência' tem 1 itens
+2025-08-19 13:16:31.523 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência - Co-corretagem' tem 1 itens
+2025-08-19 13:16:31.621 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'RV' tem 1 itens
+2025-08-19 13:16:31.717 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Seguro de vida' tem 5 itens
+2025-08-19 13:16:31.811 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa de Performance' tem 1 itens
+2025-08-19 13:16:31.811 | INFO     | __main__:obter_classificacoes:7554 - ✅ Estrutura COMPLETA construída:
+2025-08-19 13:16:31.811 | INFO     | __main__:obter_classificacoes:7555 -    📁 8 classificações
+2025-08-19 13:16:31.811 | INFO     | __main__:obter_classificacoes:7556 -    📊 91 planos de contas
+2025-08-19 13:16:31.812 | INFO     | __main__:obter_classificacoes:7557 -    📝 221 itens
+2025-08-19 13:16:43.534 | INFO     | __main__:conciliar_transacao:4114 - 🔖 Conciliando transação: d249551b-13ae-48ce-a7fc-943a08c4ed3c
+2025-08-19 13:16:43.700 | INFO     | __main__:conciliar_transacao:4130 - 🔍 Buscando classificação: CUSTOS AAI
+2025-08-19 13:16:43.811 | INFO     | __main__:conciliar_transacao:4138 - ✅ Classificação encontrada: cb49dc87-05d3-4f54-80e8-897a30793723
+2025-08-19 13:16:43.812 | INFO     | __main__:conciliar_transacao:4141 - 🔍 Buscando plano: Advogados
+2025-08-19 13:16:43.909 | INFO     | __main__:conciliar_transacao:4147 - ✅ Plano encontrado: 00f5575c-b2be-4e2f-a5d4-9dcabc2f2f1a
+2025-08-19 13:16:43.909 | INFO     | __main__:conciliar_transacao:4150 - 🔍 Buscando item: Veritas
+2025-08-19 13:16:44.015 | INFO     | __main__:conciliar_transacao:4156 - ✅ Item encontrado: fe44739c-dc06-4826-9bd8-1546825e0d06
+2025-08-19 13:16:44.124 | INFO     | __main__:conciliar_transacao:4161 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-19 13:16:44.124 | INFO     | __main__:conciliar_transacao:4181 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': 'cb49dc87-05d3-4f54-80e8-897a30793723', 'plano_contas_id': '00f5575c-b2be-4e2f-a5d4-9dcabc2f2f1a', 'item_id': 'fe44739c-dc06-4826-9bd8-1546825e0d06', 'forma_pagamento': 'PIX', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Araraquara', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-04', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-19T13:16:44.124412'}
+2025-08-19 13:16:44.302 | INFO     | __main__:conciliar_transacao:4189 - ✅ Transação d249551b-13ae-48ce-a7fc-943a08c4ed3c conciliada com sucesso
+2025-08-19 13:16:45.828 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 13:16:45.842 | INFO     | __main__:obter_classificacoes:7507 - 🔍 Buscando estrutura COMPLETA de classificações do banco...
+2025-08-19 13:16:45.951 | INFO     | __main__:obter_classificacoes:7516 - 📁 Encontradas 8 classificações
+2025-08-19 13:16:45.951 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: CUSTOS AAI (ID: cb49dc87-05d3-4f54-80e8-897a30793723)
+2025-08-19 13:16:46.045 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 6 planos para CUSTOS AAI
+2025-08-19 13:16:46.146 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Advogados' tem 5 itens
+2025-08-19 13:16:46.240 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'E-mail 360' tem 1 itens
+2025-08-19 13:16:46.360 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Gravador de voz' tem 1 itens
+2025-08-19 13:16:46.463 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Relatórios' tem 6 itens
+2025-08-19 13:16:46.565 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa fiscalização CVM' tem 1 itens
+2025-08-19 13:16:46.674 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Treinamento Assessores' tem 1 itens
+2025-08-19 13:16:46.674 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM MARKETING (ID: 196aac03-23c9-4568-9b35-47bcd2d46cfb)
+2025-08-19 13:16:46.775 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para DESPESA COM MARKETING
+2025-08-19 13:16:46.877 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Agência de Mktg' tem 1 itens
+2025-08-19 13:16:46.985 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Almoço com clientes' tem 2 itens
+2025-08-19 13:16:47.086 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Associação Comercial' tem 1 itens
+2025-08-19 13:16:47.195 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Assessores' tem 1 itens
+2025-08-19 13:16:47.293 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Clientes' tem 1 itens
+2025-08-19 13:16:47.398 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartões de Visita' tem 1 itens
+2025-08-19 13:16:47.520 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos' tem 25 itens
+2025-08-19 13:16:47.683 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos Interno Thera' tem 13 itens
+2025-08-19 13:16:47.860 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Facebook Ads' tem 1 itens
+2025-08-19 13:16:47.986 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Google Ads' tem 1 itens
+2025-08-19 13:16:48.093 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais Institucionais' tem 1 itens
+2025-08-19 13:16:48.193 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas Mktg' tem 2 itens
+2025-08-19 13:16:48.295 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Patrocínios' tem 6 itens
+2025-08-19 13:16:48.391 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Site e E-mail Mktg' tem 1 itens
+2025-08-19 13:16:48.392 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM RH (ID: 4246f823-b58f-4b37-ad5c-924a6e7dd913)
+2025-08-19 13:16:48.515 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 7 planos para DESPESA COM RH
+2025-08-19 13:16:48.627 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor Comercial' tem 9 itens
+2025-08-19 13:16:48.730 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor de Produtos' tem 4 itens
+2025-08-19 13:16:48.823 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assistente Operacional' tem 5 itens
+2025-08-19 13:16:48.929 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CLTs' tem 5 itens
+2025-08-19 13:16:49.056 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Diretores' tem 2 itens
+2025-08-19 13:16:49.157 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Operador de Mesa' tem 2 itens
+2025-08-19 13:16:49.263 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Plano de Saúde' tem 6 itens
+2025-08-19 13:16:49.264 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS FINANCEIRAS (ID: 36eac2d1-2ba9-4d90-9e93-166976925a7f)
+2025-08-19 13:16:49.371 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 2 planos para DESPESAS FINANCEIRAS
+2025-08-19 13:16:49.469 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Imposto Retroativo' tem 1 itens
+2025-08-19 13:16:49.575 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 3 itens
+2025-08-19 13:16:49.575 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS OPERACIONAIS (ID: 09f71aae-9381-4088-8668-f4db33bf743b)
+2025-08-19 13:16:49.676 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para DESPESAS OPERACIONAIS
+2025-08-19 13:16:49.767 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Aluguel' tem 5 itens
+2025-08-19 13:16:49.867 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartuchos' tem 1 itens
+2025-08-19 13:16:49.963 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Condomínio' tem 1 itens
+2025-08-19 13:16:50.061 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta de água' tem 1 itens
+2025-08-19 13:16:50.161 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Contabilidade' tem 2 itens
+2025-08-19 13:16:50.266 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CPFL / Energia' tem 1 itens
+2025-08-19 13:16:50.382 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Emissor de notas' tem 1 itens
+2025-08-19 13:16:50.514 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Estacionamento' tem 1 itens
+2025-08-19 13:16:50.614 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Faxineira' tem 3 itens
+2025-08-19 13:16:50.714 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internet' tem 4 itens
+2025-08-19 13:16:50.813 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de escritório' tem 8 itens
+2025-08-19 13:16:50.923 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de limpeza' tem 1 itens
+2025-08-19 13:16:51.052 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas' tem 4 itens
+2025-08-19 13:16:51.167 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Serviços de Manutenção' tem 4 itens
+2025-08-19 13:16:51.262 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Supermercados' tem 1 itens
+2025-08-19 13:16:51.361 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tarifas bancárias' tem 3 itens
+2025-08-19 13:16:51.455 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tecnico Informática' tem 1 itens
+2025-08-19 13:16:51.562 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Telefone' tem 4 itens
+2025-08-19 13:16:51.658 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Uber' tem 1 itens
+2025-08-19 13:16:51.758 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Viagens' tem 8 itens
+2025-08-19 13:16:51.758 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: IMPOSTOS (ID: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd)
+2025-08-19 13:16:51.856 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 8 planos para IMPOSTOS
+2025-08-19 13:16:51.975 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COFINS' tem 1 itens
+2025-08-19 13:16:52.081 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CSLL' tem 4 itens
+2025-08-19 13:16:52.217 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'FGTS' tem 1 itens
+2025-08-19 13:16:52.325 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'GPS' tem 1 itens
+2025-08-19 13:16:52.419 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ' tem 4 itens
+2025-08-19 13:16:52.513 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ ADICIONAL' tem 1 itens
+2025-08-19 13:16:52.607 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'ISS' tem 1 itens
+2025-08-19 13:16:52.701 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'PIS' tem 1 itens
+2025-08-19 13:16:52.702 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA INVESTIMENTOS (ID: 680a68d5-06ad-4f41-a64d-3ce527076717)
+2025-08-19 13:16:52.807 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para RECEITA INVESTIMENTOS
+2025-08-19 13:16:52.904 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Asset' tem 1 itens
+2025-08-19 13:16:53.005 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BM&F' tem 1 itens
+2025-08-19 13:16:53.115 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa' tem 1 itens
+2025-08-19 13:16:53.217 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa FIIs' tem 1 itens
+2025-08-19 13:16:53.315 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BTC' tem 1 itens
+2025-08-19 13:16:53.416 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha Fundos Imobiliários' tem 1 itens
+2025-08-19 13:16:53.542 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha RV' tem 1 itens
+2025-08-19 13:16:53.646 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas' tem 1 itens
+2025-08-19 13:16:53.745 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Clearthrough' tem 3 itens
+2025-08-19 13:16:53.843 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COE' tem 1 itens
+2025-08-19 13:16:53.941 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Desconto de Transferência de Clientes' tem 1 itens
+2025-08-19 13:16:54.043 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Enquadramento RLP' tem 1 itens
+2025-08-19 13:16:54.161 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Erro Operacional' tem 1 itens
+2025-08-19 13:16:54.273 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Fee Fixo' tem 1 itens
+2025-08-19 13:16:54.391 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internacional' tem 1 itens
+2025-08-19 13:16:54.490 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Oferta RF' tem 1 itens
+2025-08-19 13:16:54.587 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 1 itens
+2025-08-19 13:16:54.688 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Produtos Estruturados' tem 1 itens
+2025-08-19 13:16:54.802 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Renda Fixa' tem 1 itens
+2025-08-19 13:16:54.923 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Secundário FIIs' tem 1 itens
+2025-08-19 13:16:54.923 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA OUTROS PRODUTOS (ID: 1e963a52-bf81-4fef-a0af-63017c988b9d)
+2025-08-19 13:16:55.028 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para RECEITA OUTROS PRODUTOS
+2025-08-19 13:16:55.124 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio' tem 1 itens
+2025-08-19 13:16:55.229 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio XP' tem 2 itens
+2025-08-19 13:16:55.347 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas PJ2' tem 1 itens
+2025-08-19 13:16:55.447 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta Global' tem 1 itens
+2025-08-19 13:16:55.558 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito' tem 3 itens
+2025-08-19 13:16:55.660 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito Colaterizado' tem 1 itens
+2025-08-19 13:16:55.765 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IAXP' tem 1 itens
+2025-08-19 13:16:55.884 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Mercado Internacional' tem 1 itens
+2025-08-19 13:16:55.988 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Receitas' tem 1 itens
+2025-08-19 13:16:56.082 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência' tem 1 itens
+2025-08-19 13:16:56.189 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência - Co-corretagem' tem 1 itens
+2025-08-19 13:16:56.298 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'RV' tem 1 itens
+2025-08-19 13:16:56.406 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Seguro de vida' tem 5 itens
+2025-08-19 13:16:56.512 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa de Performance' tem 1 itens
+2025-08-19 13:16:56.512 | INFO     | __main__:obter_classificacoes:7554 - ✅ Estrutura COMPLETA construída:
+2025-08-19 13:16:56.512 | INFO     | __main__:obter_classificacoes:7555 -    📁 8 classificações
+2025-08-19 13:16:56.513 | INFO     | __main__:obter_classificacoes:7556 -    📊 91 planos de contas
+2025-08-19 13:16:56.513 | INFO     | __main__:obter_classificacoes:7557 -    📝 221 itens
+2025-08-19 13:16:57.450 | INFO     | __main__:listar_transacoes:3939 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-19 13:16:57.558 | INFO     | __main__:listar_transacoes:3952 - 📊 Encontradas 81 transações
+2025-08-19 13:16:59.180 | INFO     | __main__:listar_transacoes:4026 - ✅ Processadas 81 transações com lookup
+2025-08-19 13:16:59.183 | INFO     | __main__:obter_classificacoes:7507 - 🔍 Buscando estrutura COMPLETA de classificações do banco...
+2025-08-19 13:16:59.290 | INFO     | __main__:obter_classificacoes:7516 - 📁 Encontradas 8 classificações
+2025-08-19 13:16:59.290 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: CUSTOS AAI (ID: cb49dc87-05d3-4f54-80e8-897a30793723)
+2025-08-19 13:16:59.404 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 6 planos para CUSTOS AAI
+2025-08-19 13:16:59.508 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Advogados' tem 5 itens
+2025-08-19 13:16:59.608 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'E-mail 360' tem 1 itens
+2025-08-19 13:16:59.736 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Gravador de voz' tem 1 itens
+2025-08-19 13:16:59.839 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Relatórios' tem 6 itens
+2025-08-19 13:16:59.943 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa fiscalização CVM' tem 1 itens
+2025-08-19 13:17:00.044 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Treinamento Assessores' tem 1 itens
+2025-08-19 13:17:00.044 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM MARKETING (ID: 196aac03-23c9-4568-9b35-47bcd2d46cfb)
+2025-08-19 13:17:00.149 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para DESPESA COM MARKETING
+2025-08-19 13:17:00.267 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Agência de Mktg' tem 1 itens
+2025-08-19 13:17:00.368 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Almoço com clientes' tem 2 itens
+2025-08-19 13:17:00.468 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Associação Comercial' tem 1 itens
+2025-08-19 13:17:00.589 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Assessores' tem 1 itens
+2025-08-19 13:17:00.700 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Clientes' tem 1 itens
+2025-08-19 13:17:00.808 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartões de Visita' tem 1 itens
+2025-08-19 13:17:00.919 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos' tem 25 itens
+2025-08-19 13:17:01.017 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos Interno Thera' tem 13 itens
+2025-08-19 13:17:01.121 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Facebook Ads' tem 1 itens
+2025-08-19 13:17:01.232 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Google Ads' tem 1 itens
+2025-08-19 13:17:01.457 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais Institucionais' tem 1 itens
+2025-08-19 13:17:01.565 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas Mktg' tem 2 itens
+2025-08-19 13:17:01.673 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Patrocínios' tem 6 itens
+2025-08-19 13:17:01.798 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Site e E-mail Mktg' tem 1 itens
+2025-08-19 13:17:01.799 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM RH (ID: 4246f823-b58f-4b37-ad5c-924a6e7dd913)
+2025-08-19 13:17:01.917 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 7 planos para DESPESA COM RH
+2025-08-19 13:17:02.032 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor Comercial' tem 9 itens
+2025-08-19 13:17:02.140 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor de Produtos' tem 4 itens
+2025-08-19 13:17:02.248 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assistente Operacional' tem 5 itens
+2025-08-19 13:17:02.354 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CLTs' tem 5 itens
+2025-08-19 13:17:02.456 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Diretores' tem 2 itens
+2025-08-19 13:17:02.596 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Operador de Mesa' tem 2 itens
+2025-08-19 13:17:02.700 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Plano de Saúde' tem 6 itens
+2025-08-19 13:17:02.700 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS FINANCEIRAS (ID: 36eac2d1-2ba9-4d90-9e93-166976925a7f)
+2025-08-19 13:17:02.837 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 2 planos para DESPESAS FINANCEIRAS
+2025-08-19 13:17:02.943 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Imposto Retroativo' tem 1 itens
+2025-08-19 13:17:03.046 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 3 itens
+2025-08-19 13:17:03.046 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS OPERACIONAIS (ID: 09f71aae-9381-4088-8668-f4db33bf743b)
+2025-08-19 13:17:03.179 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para DESPESAS OPERACIONAIS
+2025-08-19 13:17:03.286 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Aluguel' tem 5 itens
+2025-08-19 13:17:03.410 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartuchos' tem 1 itens
+2025-08-19 13:17:03.531 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Condomínio' tem 1 itens
+2025-08-19 13:17:03.636 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta de água' tem 1 itens
+2025-08-19 13:17:03.732 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Contabilidade' tem 2 itens
+2025-08-19 13:17:03.841 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CPFL / Energia' tem 1 itens
+2025-08-19 13:17:03.937 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Emissor de notas' tem 1 itens
+2025-08-19 13:17:04.049 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Estacionamento' tem 1 itens
+2025-08-19 13:17:04.174 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Faxineira' tem 3 itens
+2025-08-19 13:17:04.311 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internet' tem 4 itens
+2025-08-19 13:17:04.438 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de escritório' tem 8 itens
+2025-08-19 13:17:04.547 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de limpeza' tem 1 itens
+2025-08-19 13:17:04.678 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas' tem 4 itens
+2025-08-19 13:17:04.791 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Serviços de Manutenção' tem 4 itens
+2025-08-19 13:17:04.890 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Supermercados' tem 1 itens
+2025-08-19 13:17:04.997 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tarifas bancárias' tem 3 itens
+2025-08-19 13:17:05.107 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tecnico Informática' tem 1 itens
+2025-08-19 13:17:05.215 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Telefone' tem 4 itens
+2025-08-19 13:17:05.318 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Uber' tem 1 itens
+2025-08-19 13:17:05.421 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Viagens' tem 8 itens
+2025-08-19 13:17:05.421 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: IMPOSTOS (ID: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd)
+2025-08-19 13:17:05.524 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 8 planos para IMPOSTOS
+2025-08-19 13:17:05.627 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COFINS' tem 1 itens
+2025-08-19 13:17:05.737 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CSLL' tem 4 itens
+2025-08-19 13:17:05.844 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'FGTS' tem 1 itens
+2025-08-19 13:17:05.950 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'GPS' tem 1 itens
+2025-08-19 13:17:06.056 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ' tem 4 itens
+2025-08-19 13:17:06.162 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ ADICIONAL' tem 1 itens
+2025-08-19 13:17:06.278 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'ISS' tem 1 itens
+2025-08-19 13:17:06.390 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'PIS' tem 1 itens
+2025-08-19 13:17:06.391 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA INVESTIMENTOS (ID: 680a68d5-06ad-4f41-a64d-3ce527076717)
+2025-08-19 13:17:06.491 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para RECEITA INVESTIMENTOS
+2025-08-19 13:17:06.606 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Asset' tem 1 itens
+2025-08-19 13:17:06.707 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BM&F' tem 1 itens
+2025-08-19 13:17:06.818 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa' tem 1 itens
+2025-08-19 13:17:06.960 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa FIIs' tem 1 itens
+2025-08-19 13:17:07.059 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BTC' tem 1 itens
+2025-08-19 13:17:07.165 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha Fundos Imobiliários' tem 1 itens
+2025-08-19 13:17:07.265 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha RV' tem 1 itens
+2025-08-19 13:17:07.367 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas' tem 1 itens
+2025-08-19 13:17:07.465 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Clearthrough' tem 3 itens
+2025-08-19 13:17:07.579 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COE' tem 1 itens
+2025-08-19 13:17:07.697 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Desconto de Transferência de Clientes' tem 1 itens
+2025-08-19 13:17:07.812 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Enquadramento RLP' tem 1 itens
+2025-08-19 13:17:07.919 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Erro Operacional' tem 1 itens
+2025-08-19 13:17:08.023 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Fee Fixo' tem 1 itens
+2025-08-19 13:17:08.135 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internacional' tem 1 itens
+2025-08-19 13:17:08.240 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Oferta RF' tem 1 itens
+2025-08-19 13:17:08.340 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 1 itens
+2025-08-19 13:17:08.453 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Produtos Estruturados' tem 1 itens
+2025-08-19 13:17:08.558 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Renda Fixa' tem 1 itens
+2025-08-19 13:17:08.658 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Secundário FIIs' tem 1 itens
+2025-08-19 13:17:08.658 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA OUTROS PRODUTOS (ID: 1e963a52-bf81-4fef-a0af-63017c988b9d)
+2025-08-19 13:17:08.758 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para RECEITA OUTROS PRODUTOS
+2025-08-19 13:17:08.860 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio' tem 1 itens
+2025-08-19 13:17:08.971 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio XP' tem 2 itens
+2025-08-19 13:17:09.072 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas PJ2' tem 1 itens
+2025-08-19 13:17:09.178 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta Global' tem 1 itens
+2025-08-19 13:17:09.287 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito' tem 3 itens
+2025-08-19 13:17:09.391 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito Colaterizado' tem 1 itens
+2025-08-19 13:17:09.491 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IAXP' tem 1 itens
+2025-08-19 13:17:09.592 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Mercado Internacional' tem 1 itens
+2025-08-19 13:17:09.696 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Receitas' tem 1 itens
+2025-08-19 13:17:09.819 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência' tem 1 itens
+2025-08-19 13:17:09.921 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência - Co-corretagem' tem 1 itens
+2025-08-19 13:17:10.022 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'RV' tem 1 itens
+2025-08-19 13:17:10.132 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Seguro de vida' tem 5 itens
+2025-08-19 13:17:10.235 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa de Performance' tem 1 itens
+2025-08-19 13:17:10.235 | INFO     | __main__:obter_classificacoes:7554 - ✅ Estrutura COMPLETA construída:
+2025-08-19 13:17:10.235 | INFO     | __main__:obter_classificacoes:7555 -    📁 8 classificações
+2025-08-19 13:17:10.235 | INFO     | __main__:obter_classificacoes:7556 -    📊 91 planos de contas
+2025-08-19 13:17:10.236 | INFO     | __main__:obter_classificacoes:7557 -    📝 221 itens
+2025-08-19 13:19:08.608 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:19:08.930 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:19:40.921 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:19:41.252 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:21:48.962 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:21:49.272 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:21:53.177 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:21:53.233 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:25:41.579 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 13:25:41.579 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 13:26:17.958 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:26:18.786 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:26:19.978 | INFO     | __main__:listar_usuarios:8860 - 🔍 Listando usuários...
+2025-08-19 13:26:20.103 | INFO     | __main__:listar_usuarios:8869 - ✅ Query executada, encontrados: 3 usuários
+2025-08-19 13:27:03.673 | INFO     | __main__:criar_usuario:8777 - 🔍 Recebida solicitação para criar usuário: emailteste@teste.com
+2025-08-19 13:27:03.673 | INFO     | __main__:criar_usuario:8796 - ✅ Validações básicas OK
+2025-08-19 13:27:03.673 | INFO     | __main__:criar_usuario:8799 - 🔍 Verificando se email já existe...
+2025-08-19 13:27:03.882 | INFO     | __main__:criar_usuario:8805 - ✅ Email disponível
+2025-08-19 13:27:03.882 | INFO     | __main__:criar_usuario:8808 - 🔐 Criando hash da senha...
+2025-08-19 13:27:04.085 | INFO     | __main__:criar_usuario:8810 - ✅ Hash da senha criado
+2025-08-19 13:27:04.085 | INFO     | __main__:criar_usuario:8813 - 💾 Inserindo usuário no banco...
+2025-08-19 13:27:04.244 | INFO     | __main__:criar_usuario:8830 - ✅ Usuário criado com sucesso! ID: 6a0d6966-b18a-4062-947c-964c285b2b5d
+2025-08-19 13:27:04.247 | INFO     | __main__:listar_usuarios:8860 - 🔍 Listando usuários...
+2025-08-19 13:27:04.400 | INFO     | __main__:listar_usuarios:8869 - ✅ Query executada, encontrados: 4 usuários
+2025-08-19 13:27:36.140 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:27:36.339 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:27:44.205 | INFO     | __main__:login:8136 - 🔍 Tentativa de login: emailteste@teste.com
+2025-08-19 13:27:44.205 | INFO     | __main__:login:8142 - ✅ Supabase configurado, procurando usuário...
+2025-08-19 13:27:44.385 | INFO     | __main__:login:8146 - 🔍 Usuário encontrado na tabela: True
+2025-08-19 13:27:44.385 | INFO     | __main__:login:8153 - ✅ Perfil encontrado: maria teste (supervisor)
+2025-08-19 13:27:44.386 | INFO     | __main__:login:8169 - 🔐 Verificando senha individual com hash...
+2025-08-19 13:27:44.551 | ERROR    | __main__:login:8171 - ❌ Senha incorreta para emailteste@teste.com
+2025-08-19 13:27:49.698 | INFO     | __main__:login:8136 - 🔍 Tentativa de login: emailteste@teste.com
+2025-08-19 13:27:49.698 | INFO     | __main__:login:8142 - ✅ Supabase configurado, procurando usuário...
+2025-08-19 13:27:49.865 | INFO     | __main__:login:8146 - 🔍 Usuário encontrado na tabela: True
+2025-08-19 13:27:49.865 | INFO     | __main__:login:8153 - ✅ Perfil encontrado: maria teste (supervisor)
+2025-08-19 13:27:49.865 | INFO     | __main__:login:8169 - 🔐 Verificando senha individual com hash...
+2025-08-19 13:27:50.030 | INFO     | __main__:login:8174 - ✅ Senha verificada com sucesso!
+2025-08-19 13:27:50.030 | INFO     | __main__:login:8195 - ✅ Login realizado com sucesso: emailteste@teste.com
+2025-08-19 13:27:51.081 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:27:51.195 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:27:56.164 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:27:56.270 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:27:59.032 | INFO     | __main__:listar_conciliados:3388 - 🔍 Buscando transações conciliadas...
+2025-08-19 13:27:59.163 | INFO     | __main__:listar_conciliados:3391 - 📊 Encontradas 6 transações conciliadas
+2025-08-19 13:28:00.986 | INFO     | __main__:listar_conciliados:3434 - ✅ Processadas 6 transações com lookup
+2025-08-19 13:28:00.986 | INFO     | __main__:listar_conciliados:3443 - 📊 Total de conciliados retornados: 6
+2025-08-19 13:28:00.986 | INFO     | __main__:listar_conciliados:3869 - ✅ HTML gerado com sucesso para 6 transações
+2025-08-19 13:28:02.287 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:28:02.387 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:28:03.720 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:28:03.829 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:28:03.831 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:28:03.930 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:28:03.930 | INFO     | __main__:listar_transacoes:3939 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-19 13:28:04.054 | INFO     | __main__:listar_transacoes:3952 - 📊 Encontradas 81 transações
+2025-08-19 13:28:05.563 | INFO     | __main__:listar_transacoes:4026 - ✅ Processadas 81 transações com lookup
+2025-08-19 13:28:05.567 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:28:05.677 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:28:05.678 | INFO     | __main__:listar_transacoes:3939 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-19 13:28:05.808 | INFO     | __main__:listar_transacoes:3952 - 📊 Encontradas 81 transações
+2025-08-19 13:28:07.327 | INFO     | __main__:listar_transacoes:4026 - ✅ Processadas 81 transações com lookup
+2025-08-19 13:28:10.529 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:28:10.634 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:28:13.987 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:28:14.088 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:28:20.228 | INFO     | __main__:login:8136 - 🔍 Tentativa de login: henrique.ferreira@therainvestimentos.com.br
+2025-08-19 13:28:20.229 | INFO     | __main__:login:8142 - ✅ Supabase configurado, procurando usuário...
+2025-08-19 13:28:20.398 | INFO     | __main__:login:8146 - 🔍 Usuário encontrado na tabela: True
+2025-08-19 13:28:20.398 | INFO     | __main__:login:8153 - ✅ Perfil encontrado: Henrique César (admin)
+2025-08-19 13:28:20.398 | INFO     | __main__:login:8169 - 🔐 Verificando senha individual com hash...
+2025-08-19 13:28:20.561 | INFO     | __main__:login:8174 - ✅ Senha verificada com sucesso!
+2025-08-19 13:28:20.561 | INFO     | __main__:login:8195 - ✅ Login realizado com sucesso: henrique.ferreira@therainvestimentos.com.br
+2025-08-19 13:28:21.606 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:28:21.706 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 13:28:27.746 | INFO     | __main__:listar_usuarios:8860 - 🔍 Listando usuários...
+2025-08-19 13:28:27.921 | INFO     | __main__:listar_usuarios:8869 - ✅ Query executada, encontrados: 4 usuários
+2025-08-19 13:28:34.102 | INFO     | __main__:toggle_usuario:8898 - 🔄 Tentando alterar status do usuário: 6a0d6966-b18a-4062-947c-964c285b2b5d
+2025-08-19 13:28:34.248 | INFO     | __main__:toggle_usuario:8905 - 🔍 Usuário encontrado: True
+2025-08-19 13:28:34.248 | INFO     | __main__:toggle_usuario:8913 - 🔄 Alterando status de True para False
+2025-08-19 13:28:34.348 | INFO     | __main__:toggle_usuario:8921 - 💾 Update result: True
+2025-08-19 13:28:34.349 | INFO     | __main__:toggle_usuario:8924 - ✅ Usuário desativado: emailteste@teste.com
+2025-08-19 13:28:34.351 | INFO     | __main__:listar_usuarios:8860 - 🔍 Listando usuários...
+2025-08-19 13:28:34.447 | INFO     | __main__:listar_usuarios:8869 - ✅ Query executada, encontrados: 4 usuários
+2025-08-19 13:29:06.462 | INFO     | __main__:get_stats:3903 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 13:29:06.664 | INFO     | __main__:get_stats:3913 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 14:19:51.662 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 14:19:51.662 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 14:19:57.710 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 14:19:57.866 | INFO     | __main__:obter_classificacoes:7507 - 🔍 Buscando estrutura COMPLETA de classificações do banco...
+2025-08-19 14:19:58.163 | INFO     | __main__:obter_classificacoes:7516 - 📁 Encontradas 8 classificações
+2025-08-19 14:19:58.163 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: CUSTOS AAI (ID: cb49dc87-05d3-4f54-80e8-897a30793723)
+2025-08-19 14:19:58.445 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 6 planos para CUSTOS AAI
+2025-08-19 14:19:58.596 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Advogados' tem 5 itens
+2025-08-19 14:19:58.732 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'E-mail 360' tem 1 itens
+2025-08-19 14:19:58.867 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Gravador de voz' tem 1 itens
+2025-08-19 14:19:58.980 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Relatórios' tem 6 itens
+2025-08-19 14:19:59.093 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa fiscalização CVM' tem 1 itens
+2025-08-19 14:19:59.191 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Treinamento Assessores' tem 1 itens
+2025-08-19 14:19:59.191 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM MARKETING (ID: 196aac03-23c9-4568-9b35-47bcd2d46cfb)
+2025-08-19 14:19:59.311 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para DESPESA COM MARKETING
+2025-08-19 14:19:59.532 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Agência de Mktg' tem 1 itens
+2025-08-19 14:19:59.642 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Almoço com clientes' tem 2 itens
+2025-08-19 14:19:59.756 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Associação Comercial' tem 1 itens
+2025-08-19 14:19:59.878 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Assessores' tem 1 itens
+2025-08-19 14:19:59.998 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Brindes Clientes' tem 1 itens
+2025-08-19 14:20:00.119 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartões de Visita' tem 1 itens
+2025-08-19 14:20:00.270 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos' tem 25 itens
+2025-08-19 14:20:00.393 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Eventos Interno Thera' tem 13 itens
+2025-08-19 14:20:00.550 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Facebook Ads' tem 1 itens
+2025-08-19 14:20:00.663 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Google Ads' tem 1 itens
+2025-08-19 14:20:00.789 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais Institucionais' tem 1 itens
+2025-08-19 14:20:00.906 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas Mktg' tem 2 itens
+2025-08-19 14:20:01.066 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Patrocínios' tem 6 itens
+2025-08-19 14:20:01.183 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Site e E-mail Mktg' tem 1 itens
+2025-08-19 14:20:01.183 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESA COM RH (ID: 4246f823-b58f-4b37-ad5c-924a6e7dd913)
+2025-08-19 14:20:01.311 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 7 planos para DESPESA COM RH
+2025-08-19 14:20:01.433 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor Comercial' tem 9 itens
+2025-08-19 14:20:01.554 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assessor de Produtos' tem 4 itens
+2025-08-19 14:20:01.662 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Assistente Operacional' tem 5 itens
+2025-08-19 14:20:01.781 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CLTs' tem 5 itens
+2025-08-19 14:20:01.890 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Diretores' tem 2 itens
+2025-08-19 14:20:01.995 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Operador de Mesa' tem 2 itens
+2025-08-19 14:20:02.102 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Plano de Saúde' tem 6 itens
+2025-08-19 14:20:02.102 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS FINANCEIRAS (ID: 36eac2d1-2ba9-4d90-9e93-166976925a7f)
+2025-08-19 14:20:02.226 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 2 planos para DESPESAS FINANCEIRAS
+2025-08-19 14:20:02.335 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Imposto Retroativo' tem 1 itens
+2025-08-19 14:20:02.440 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 3 itens
+2025-08-19 14:20:02.440 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: DESPESAS OPERACIONAIS (ID: 09f71aae-9381-4088-8668-f4db33bf743b)
+2025-08-19 14:20:02.546 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para DESPESAS OPERACIONAIS
+2025-08-19 14:20:02.646 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Aluguel' tem 5 itens
+2025-08-19 14:20:02.771 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Cartuchos' tem 1 itens
+2025-08-19 14:20:02.872 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Condomínio' tem 1 itens
+2025-08-19 14:20:02.971 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta de água' tem 1 itens
+2025-08-19 14:20:03.080 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Contabilidade' tem 2 itens
+2025-08-19 14:20:03.197 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CPFL / Energia' tem 1 itens
+2025-08-19 14:20:03.337 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Emissor de notas' tem 1 itens
+2025-08-19 14:20:03.460 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Estacionamento' tem 1 itens
+2025-08-19 14:20:03.577 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Faxineira' tem 3 itens
+2025-08-19 14:20:03.679 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internet' tem 4 itens
+2025-08-19 14:20:03.773 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de escritório' tem 8 itens
+2025-08-19 14:20:03.891 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Materiais de limpeza' tem 1 itens
+2025-08-19 14:20:03.993 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Despesas' tem 4 itens
+2025-08-19 14:20:04.100 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Serviços de Manutenção' tem 4 itens
+2025-08-19 14:20:04.197 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Supermercados' tem 1 itens
+2025-08-19 14:20:04.297 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tarifas bancárias' tem 3 itens
+2025-08-19 14:20:04.400 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Tecnico Informática' tem 1 itens
+2025-08-19 14:20:04.499 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Telefone' tem 4 itens
+2025-08-19 14:20:04.605 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Uber' tem 1 itens
+2025-08-19 14:20:04.721 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Viagens' tem 8 itens
+2025-08-19 14:20:04.721 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: IMPOSTOS (ID: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd)
+2025-08-19 14:20:04.838 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 8 planos para IMPOSTOS
+2025-08-19 14:20:04.948 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COFINS' tem 1 itens
+2025-08-19 14:20:05.050 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'CSLL' tem 4 itens
+2025-08-19 14:20:05.280 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'FGTS' tem 1 itens
+2025-08-19 14:20:05.389 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'GPS' tem 1 itens
+2025-08-19 14:20:05.501 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ' tem 4 itens
+2025-08-19 14:20:05.630 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IRPJ ADICIONAL' tem 1 itens
+2025-08-19 14:20:05.744 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'ISS' tem 1 itens
+2025-08-19 14:20:05.845 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'PIS' tem 1 itens
+2025-08-19 14:20:05.845 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA INVESTIMENTOS (ID: 680a68d5-06ad-4f41-a64d-3ce527076717)
+2025-08-19 14:20:05.950 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 20 planos para RECEITA INVESTIMENTOS
+2025-08-19 14:20:06.054 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Asset' tem 1 itens
+2025-08-19 14:20:06.155 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BM&F' tem 1 itens
+2025-08-19 14:20:06.257 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa' tem 1 itens
+2025-08-19 14:20:06.359 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Bovespa FIIs' tem 1 itens
+2025-08-19 14:20:06.464 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'BTC' tem 1 itens
+2025-08-19 14:20:06.572 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha Fundos Imobiliários' tem 1 itens
+2025-08-19 14:20:06.669 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanha RV' tem 1 itens
+2025-08-19 14:20:06.767 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas' tem 1 itens
+2025-08-19 14:20:06.876 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Clearthrough' tem 3 itens
+2025-08-19 14:20:06.981 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'COE' tem 1 itens
+2025-08-19 14:20:07.081 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Desconto de Transferência de Clientes' tem 1 itens
+2025-08-19 14:20:07.181 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Enquadramento RLP' tem 1 itens
+2025-08-19 14:20:07.281 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Erro Operacional' tem 1 itens
+2025-08-19 14:20:07.380 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Fee Fixo' tem 1 itens
+2025-08-19 14:20:07.667 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Internacional' tem 1 itens
+2025-08-19 14:20:07.795 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Oferta RF' tem 1 itens
+2025-08-19 14:20:07.902 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outros Valores' tem 1 itens
+2025-08-19 14:20:08.009 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Produtos Estruturados' tem 1 itens
+2025-08-19 14:20:08.146 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Renda Fixa' tem 1 itens
+2025-08-19 14:20:08.246 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Secundário FIIs' tem 1 itens
+2025-08-19 14:20:08.246 | INFO     | __main__:obter_classificacoes:7525 - 📊 Processando classificação: RECEITA OUTROS PRODUTOS (ID: 1e963a52-bf81-4fef-a0af-63017c988b9d)
+2025-08-19 14:20:08.389 | INFO     | __main__:obter_classificacoes:7532 - 📋 Encontrados 14 planos para RECEITA OUTROS PRODUTOS
+2025-08-19 14:20:08.497 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio' tem 1 itens
+2025-08-19 14:20:08.639 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Câmbio XP' tem 2 itens
+2025-08-19 14:20:08.759 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Campanhas PJ2' tem 1 itens
+2025-08-19 14:20:08.867 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Conta Global' tem 1 itens
+2025-08-19 14:20:08.985 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito' tem 3 itens
+2025-08-19 14:20:09.107 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Crédito Colaterizado' tem 1 itens
+2025-08-19 14:20:09.227 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'IAXP' tem 1 itens
+2025-08-19 14:20:09.346 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Mercado Internacional' tem 1 itens
+2025-08-19 14:20:09.451 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Outras Receitas' tem 1 itens
+2025-08-19 14:20:09.555 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência' tem 1 itens
+2025-08-19 14:20:09.669 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Previdência - Co-corretagem' tem 1 itens
+2025-08-19 14:20:09.771 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'RV' tem 1 itens
+2025-08-19 14:20:09.871 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Seguro de vida' tem 5 itens
+2025-08-19 14:20:09.996 | INFO     | __main__:obter_classificacoes:7547 - 📝 Plano 'Taxa de Performance' tem 1 itens
+2025-08-19 14:20:09.996 | INFO     | __main__:obter_classificacoes:7554 - ✅ Estrutura COMPLETA construída:
+2025-08-19 14:20:09.997 | INFO     | __main__:obter_classificacoes:7555 -    📁 8 classificações
+2025-08-19 14:20:09.997 | INFO     | __main__:obter_classificacoes:7556 -    📊 91 planos de contas
+2025-08-19 14:20:09.997 | INFO     | __main__:obter_classificacoes:7557 -    📝 221 itens
+2025-08-19 14:26:48.138 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 14:26:48.139 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 14:26:50.875 | INFO     | __main__:get_stats:3672 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 14:26:51.657 | INFO     | __main__:get_stats:3682 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 14:26:55.289 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 14:28:00.135 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 14:28:00.136 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 14:28:01.561 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 14:28:04.326 | INFO     | __main__:get_stats:3737 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 14:28:04.459 | INFO     | __main__:get_stats:3747 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 14:28:05.430 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 14:28:09.788 | INFO     | __main__:listar_transacoes:3773 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-19 14:28:09.945 | INFO     | __main__:listar_transacoes:3786 - 📊 Encontradas 81 transações
+2025-08-19 14:28:11.759 | INFO     | __main__:listar_transacoes:3860 - ✅ Processadas 81 transações com lookup
+2025-08-19 14:28:19.512 | INFO     | __main__:get_stats:3737 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 14:28:19.694 | INFO     | __main__:get_stats:3747 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 14:28:22.244 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 14:28:23.691 | INFO     | __main__:listar_transacoes:3773 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-19 14:28:23.824 | INFO     | __main__:listar_transacoes:3786 - 📊 Encontradas 81 transações
+2025-08-19 14:28:25.631 | INFO     | __main__:listar_transacoes:3860 - ✅ Processadas 81 transações com lookup
+2025-08-19 15:29:48.062 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 15:29:48.063 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 15:29:52.664 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 15:33:33.512 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 15:33:33.512 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 15:33:34.201 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:30:43.609 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 17:30:43.609 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 17:30:45.240 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:30:46.720 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:30:49.554 | INFO     | __main__:get_stats:3792 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 17:30:49.828 | INFO     | __main__:get_stats:3802 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 17:30:51.346 | INFO     | __main__:listar_conciliados:3277 - 🔍 Buscando transações conciliadas...
+2025-08-19 17:30:51.485 | INFO     | __main__:listar_conciliados:3280 - 📊 Encontradas 6 transações conciliadas
+2025-08-19 17:30:53.523 | INFO     | __main__:listar_conciliados:3323 - ✅ Processadas 6 transações com lookup
+2025-08-19 17:30:53.523 | INFO     | __main__:listar_conciliados:3332 - 📊 Total de conciliados retornados: 6
+2025-08-19 17:30:53.523 | INFO     | __main__:listar_conciliados:3758 - ✅ HTML gerado com sucesso para 6 transações
+2025-08-19 17:30:55.357 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:31:39.799 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 17:31:39.799 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 17:31:46.509 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:36:11.306 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 17:36:11.307 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 17:36:13.268 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:36:19.945 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:38:09.411 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 17:38:09.412 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 17:38:15.018 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:39:58.393 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 17:39:58.394 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 17:40:02.482 | INFO     | __main__:get_stats:3675 - 📊 Calculando estatísticas do Supabase...
+2025-08-19 17:40:03.109 | INFO     | __main__:get_stats:3685 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-19 17:40:06.213 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:40:56.800 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 17:40:56.801 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 17:40:59.673 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:46:13.022 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-19 17:46:13.023 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-19 17:46:13.869 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-19 17:46:15.290 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 10:41:48.294 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 10:41:48.295 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-20 10:41:48.658 | INFO     | __main__:get_stats:3619 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 10:41:50.244 | INFO     | __main__:get_stats:3629 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-20 10:41:51.378 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 10:42:38.048 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 10:42:38.048 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-20 10:42:38.741 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 10:42:38.767 | INFO     | __main__:obter_classificacoes:7470 - 🔍 Buscando estrutura COMPLETA de classificações do banco...
+2025-08-20 10:42:38.874 | INFO     | __main__:obter_classificacoes:7479 - 📁 Encontradas 8 classificações
+2025-08-20 10:42:38.874 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: CUSTOS AAI (ID: cb49dc87-05d3-4f54-80e8-897a30793723)
+2025-08-20 10:42:39.019 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 6 planos para CUSTOS AAI
+2025-08-20 10:42:39.107 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Advogados' tem 5 itens
+2025-08-20 10:42:39.236 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'E-mail 360' tem 1 itens
+2025-08-20 10:42:39.322 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Gravador de voz' tem 1 itens
+2025-08-20 10:42:39.376 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Relatórios' tem 6 itens
+2025-08-20 10:42:39.415 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Taxa fiscalização CVM' tem 1 itens
+2025-08-20 10:42:39.458 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Treinamento Assessores' tem 1 itens
+2025-08-20 10:42:39.459 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: DESPESA COM MARKETING (ID: 196aac03-23c9-4568-9b35-47bcd2d46cfb)
+2025-08-20 10:42:39.520 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 14 planos para DESPESA COM MARKETING
+2025-08-20 10:42:39.584 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Agência de Mktg' tem 1 itens
+2025-08-20 10:42:39.650 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Almoço com clientes' tem 2 itens
+2025-08-20 10:42:39.690 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Associação Comercial' tem 1 itens
+2025-08-20 10:42:39.743 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Brindes Assessores' tem 1 itens
+2025-08-20 10:42:39.804 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Brindes Clientes' tem 1 itens
+2025-08-20 10:42:39.850 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Cartões de Visita' tem 1 itens
+2025-08-20 10:42:39.904 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Eventos' tem 25 itens
+2025-08-20 10:42:39.959 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Eventos Interno Thera' tem 13 itens
+2025-08-20 10:42:40.001 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Facebook Ads' tem 1 itens
+2025-08-20 10:42:40.115 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Google Ads' tem 1 itens
+2025-08-20 10:42:40.162 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Materiais Institucionais' tem 1 itens
+2025-08-20 10:42:40.254 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outras Despesas Mktg' tem 2 itens
+2025-08-20 10:42:40.313 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Patrocínios' tem 6 itens
+2025-08-20 10:42:40.450 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Site e E-mail Mktg' tem 1 itens
+2025-08-20 10:42:40.450 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: DESPESA COM RH (ID: 4246f823-b58f-4b37-ad5c-924a6e7dd913)
+2025-08-20 10:42:40.500 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 7 planos para DESPESA COM RH
+2025-08-20 10:42:40.546 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Assessor Comercial' tem 9 itens
+2025-08-20 10:42:40.593 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Assessor de Produtos' tem 4 itens
+2025-08-20 10:42:40.632 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Assistente Operacional' tem 5 itens
+2025-08-20 10:42:40.680 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'CLTs' tem 5 itens
+2025-08-20 10:42:40.727 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Diretores' tem 2 itens
+2025-08-20 10:42:40.766 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Operador de Mesa' tem 2 itens
+2025-08-20 10:42:40.807 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Plano de Saúde' tem 6 itens
+2025-08-20 10:42:40.807 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: DESPESAS FINANCEIRAS (ID: 36eac2d1-2ba9-4d90-9e93-166976925a7f)
+2025-08-20 10:42:40.867 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 2 planos para DESPESAS FINANCEIRAS
+2025-08-20 10:42:40.906 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Imposto Retroativo' tem 1 itens
+2025-08-20 10:42:40.944 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outros Valores' tem 3 itens
+2025-08-20 10:42:40.944 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: DESPESAS OPERACIONAIS (ID: 09f71aae-9381-4088-8668-f4db33bf743b)
+2025-08-20 10:42:40.986 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 20 planos para DESPESAS OPERACIONAIS
+2025-08-20 10:42:41.045 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Aluguel' tem 5 itens
+2025-08-20 10:42:41.090 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Cartuchos' tem 1 itens
+2025-08-20 10:42:41.134 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Condomínio' tem 1 itens
+2025-08-20 10:42:41.173 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Conta de água' tem 1 itens
+2025-08-20 10:42:41.240 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Contabilidade' tem 2 itens
+2025-08-20 10:42:41.279 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'CPFL / Energia' tem 1 itens
+2025-08-20 10:42:41.379 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Emissor de notas' tem 1 itens
+2025-08-20 10:42:41.434 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Estacionamento' tem 1 itens
+2025-08-20 10:42:41.472 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Faxineira' tem 3 itens
+2025-08-20 10:42:41.511 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Internet' tem 4 itens
+2025-08-20 10:42:41.567 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Materiais de escritório' tem 8 itens
+2025-08-20 10:42:41.608 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Materiais de limpeza' tem 1 itens
+2025-08-20 10:42:41.653 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outras Despesas' tem 4 itens
+2025-08-20 10:42:41.690 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Serviços de Manutenção' tem 4 itens
+2025-08-20 10:42:41.730 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Supermercados' tem 1 itens
+2025-08-20 10:42:41.773 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Tarifas bancárias' tem 3 itens
+2025-08-20 10:42:41.846 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Tecnico Informática' tem 1 itens
+2025-08-20 10:42:41.885 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Telefone' tem 4 itens
+2025-08-20 10:42:41.933 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Uber' tem 1 itens
+2025-08-20 10:42:41.996 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Viagens' tem 8 itens
+2025-08-20 10:42:41.996 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: IMPOSTOS (ID: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd)
+2025-08-20 10:42:42.041 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 8 planos para IMPOSTOS
+2025-08-20 10:42:42.095 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'COFINS' tem 1 itens
+2025-08-20 10:42:42.139 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'CSLL' tem 4 itens
+2025-08-20 10:42:42.202 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'FGTS' tem 1 itens
+2025-08-20 10:42:42.257 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'GPS' tem 1 itens
+2025-08-20 10:42:42.300 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'IRPJ' tem 4 itens
+2025-08-20 10:42:42.371 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'IRPJ ADICIONAL' tem 1 itens
+2025-08-20 10:42:42.410 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'ISS' tem 1 itens
+2025-08-20 10:42:42.458 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'PIS' tem 1 itens
+2025-08-20 10:42:42.459 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: RECEITA INVESTIMENTOS (ID: 680a68d5-06ad-4f41-a64d-3ce527076717)
+2025-08-20 10:42:42.500 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 20 planos para RECEITA INVESTIMENTOS
+2025-08-20 10:42:42.539 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Asset' tem 1 itens
+2025-08-20 10:42:42.589 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'BM&F' tem 1 itens
+2025-08-20 10:42:42.641 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Bovespa' tem 1 itens
+2025-08-20 10:42:42.678 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Bovespa FIIs' tem 1 itens
+2025-08-20 10:42:42.726 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'BTC' tem 1 itens
+2025-08-20 10:42:42.767 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Campanha Fundos Imobiliários' tem 1 itens
+2025-08-20 10:42:42.808 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Campanha RV' tem 1 itens
+2025-08-20 10:42:42.847 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Campanhas' tem 1 itens
+2025-08-20 10:42:42.885 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Clearthrough' tem 3 itens
+2025-08-20 10:42:42.928 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'COE' tem 1 itens
+2025-08-20 10:42:42.972 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Desconto de Transferência de Clientes' tem 1 itens
+2025-08-20 10:42:43.009 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Enquadramento RLP' tem 1 itens
+2025-08-20 10:42:43.050 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Erro Operacional' tem 1 itens
+2025-08-20 10:42:43.091 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Fee Fixo' tem 1 itens
+2025-08-20 10:42:43.128 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Internacional' tem 1 itens
+2025-08-20 10:42:43.168 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Oferta RF' tem 1 itens
+2025-08-20 10:42:43.207 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outros Valores' tem 1 itens
+2025-08-20 10:42:43.249 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Produtos Estruturados' tem 1 itens
+2025-08-20 10:42:43.292 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Renda Fixa' tem 1 itens
+2025-08-20 10:42:43.344 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Secundário FIIs' tem 1 itens
+2025-08-20 10:42:43.344 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: RECEITA OUTROS PRODUTOS (ID: 1e963a52-bf81-4fef-a0af-63017c988b9d)
+2025-08-20 10:42:43.380 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 14 planos para RECEITA OUTROS PRODUTOS
+2025-08-20 10:42:43.425 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Câmbio' tem 1 itens
+2025-08-20 10:42:43.467 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Câmbio XP' tem 2 itens
+2025-08-20 10:42:43.512 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Campanhas PJ2' tem 1 itens
+2025-08-20 10:42:43.565 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Conta Global' tem 1 itens
+2025-08-20 10:42:43.607 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Crédito' tem 3 itens
+2025-08-20 10:42:43.647 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Crédito Colaterizado' tem 1 itens
+2025-08-20 10:42:43.690 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'IAXP' tem 1 itens
+2025-08-20 10:42:43.732 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Mercado Internacional' tem 1 itens
+2025-08-20 10:42:43.768 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outras Receitas' tem 1 itens
+2025-08-20 10:42:43.806 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Previdência' tem 1 itens
+2025-08-20 10:42:43.846 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Previdência - Co-corretagem' tem 1 itens
+2025-08-20 10:42:43.885 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'RV' tem 1 itens
+2025-08-20 10:42:43.921 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Seguro de vida' tem 5 itens
+2025-08-20 10:42:43.959 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Taxa de Performance' tem 1 itens
+2025-08-20 10:42:43.959 | INFO     | __main__:obter_classificacoes:7517 - ✅ Estrutura COMPLETA construída:
+2025-08-20 10:42:43.959 | INFO     | __main__:obter_classificacoes:7518 -    📁 8 classificações
+2025-08-20 10:42:43.959 | INFO     | __main__:obter_classificacoes:7519 -    📊 91 planos de contas
+2025-08-20 10:42:43.959 | INFO     | __main__:obter_classificacoes:7520 -    📝 221 itens
+2025-08-20 10:45:56.139 | INFO     | __main__:get_stats:3856 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 10:45:56.712 | INFO     | __main__:get_stats:3866 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-20 10:46:01.104 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 10:46:01.122 | INFO     | __main__:obter_classificacoes:7470 - 🔍 Buscando estrutura COMPLETA de classificações do banco...
+2025-08-20 10:46:01.365 | INFO     | __main__:obter_classificacoes:7479 - 📁 Encontradas 8 classificações
+2025-08-20 10:46:01.365 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: CUSTOS AAI (ID: cb49dc87-05d3-4f54-80e8-897a30793723)
+2025-08-20 10:46:01.495 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 6 planos para CUSTOS AAI
+2025-08-20 10:46:01.595 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Advogados' tem 5 itens
+2025-08-20 10:46:01.707 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'E-mail 360' tem 1 itens
+2025-08-20 10:46:01.804 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Gravador de voz' tem 1 itens
+2025-08-20 10:46:01.914 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Relatórios' tem 6 itens
+2025-08-20 10:46:02.018 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Taxa fiscalização CVM' tem 1 itens
+2025-08-20 10:46:02.132 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Treinamento Assessores' tem 1 itens
+2025-08-20 10:46:02.132 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: DESPESA COM MARKETING (ID: 196aac03-23c9-4568-9b35-47bcd2d46cfb)
+2025-08-20 10:46:02.259 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 14 planos para DESPESA COM MARKETING
+2025-08-20 10:46:02.366 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Agência de Mktg' tem 1 itens
+2025-08-20 10:46:02.487 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Almoço com clientes' tem 2 itens
+2025-08-20 10:46:02.592 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Associação Comercial' tem 1 itens
+2025-08-20 10:46:02.738 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Brindes Assessores' tem 1 itens
+2025-08-20 10:46:02.865 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Brindes Clientes' tem 1 itens
+2025-08-20 10:46:02.980 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Cartões de Visita' tem 1 itens
+2025-08-20 10:46:03.086 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Eventos' tem 25 itens
+2025-08-20 10:46:03.186 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Eventos Interno Thera' tem 13 itens
+2025-08-20 10:46:03.286 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Facebook Ads' tem 1 itens
+2025-08-20 10:46:03.386 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Google Ads' tem 1 itens
+2025-08-20 10:46:03.482 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Materiais Institucionais' tem 1 itens
+2025-08-20 10:46:03.577 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outras Despesas Mktg' tem 2 itens
+2025-08-20 10:46:03.686 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Patrocínios' tem 6 itens
+2025-08-20 10:46:03.789 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Site e E-mail Mktg' tem 1 itens
+2025-08-20 10:46:03.789 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: DESPESA COM RH (ID: 4246f823-b58f-4b37-ad5c-924a6e7dd913)
+2025-08-20 10:46:03.889 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 7 planos para DESPESA COM RH
+2025-08-20 10:46:03.990 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Assessor Comercial' tem 9 itens
+2025-08-20 10:46:04.105 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Assessor de Produtos' tem 4 itens
+2025-08-20 10:46:04.212 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Assistente Operacional' tem 5 itens
+2025-08-20 10:46:04.323 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'CLTs' tem 5 itens
+2025-08-20 10:46:04.429 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Diretores' tem 2 itens
+2025-08-20 10:46:04.526 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Operador de Mesa' tem 2 itens
+2025-08-20 10:46:04.623 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Plano de Saúde' tem 6 itens
+2025-08-20 10:46:04.623 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: DESPESAS FINANCEIRAS (ID: 36eac2d1-2ba9-4d90-9e93-166976925a7f)
+2025-08-20 10:46:04.748 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 2 planos para DESPESAS FINANCEIRAS
+2025-08-20 10:46:04.855 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Imposto Retroativo' tem 1 itens
+2025-08-20 10:46:04.961 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outros Valores' tem 3 itens
+2025-08-20 10:46:04.961 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: DESPESAS OPERACIONAIS (ID: 09f71aae-9381-4088-8668-f4db33bf743b)
+2025-08-20 10:46:05.061 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 20 planos para DESPESAS OPERACIONAIS
+2025-08-20 10:46:05.163 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Aluguel' tem 5 itens
+2025-08-20 10:46:05.263 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Cartuchos' tem 1 itens
+2025-08-20 10:46:05.361 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Condomínio' tem 1 itens
+2025-08-20 10:46:05.461 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Conta de água' tem 1 itens
+2025-08-20 10:46:05.553 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Contabilidade' tem 2 itens
+2025-08-20 10:46:05.663 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'CPFL / Energia' tem 1 itens
+2025-08-20 10:46:05.771 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Emissor de notas' tem 1 itens
+2025-08-20 10:46:05.870 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Estacionamento' tem 1 itens
+2025-08-20 10:46:05.967 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Faxineira' tem 3 itens
+2025-08-20 10:46:06.082 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Internet' tem 4 itens
+2025-08-20 10:46:06.181 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Materiais de escritório' tem 8 itens
+2025-08-20 10:46:06.274 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Materiais de limpeza' tem 1 itens
+2025-08-20 10:46:06.379 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outras Despesas' tem 4 itens
+2025-08-20 10:46:06.475 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Serviços de Manutenção' tem 4 itens
+2025-08-20 10:46:06.582 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Supermercados' tem 1 itens
+2025-08-20 10:46:06.683 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Tarifas bancárias' tem 3 itens
+2025-08-20 10:46:06.782 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Tecnico Informática' tem 1 itens
+2025-08-20 10:46:06.882 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Telefone' tem 4 itens
+2025-08-20 10:46:06.977 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Uber' tem 1 itens
+2025-08-20 10:46:07.073 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Viagens' tem 8 itens
+2025-08-20 10:46:07.074 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: IMPOSTOS (ID: 6dc35ba6-3f9f-4e76-9568-59ca7ce821bd)
+2025-08-20 10:46:07.166 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 8 planos para IMPOSTOS
+2025-08-20 10:46:07.264 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'COFINS' tem 1 itens
+2025-08-20 10:46:07.362 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'CSLL' tem 4 itens
+2025-08-20 10:46:07.465 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'FGTS' tem 1 itens
+2025-08-20 10:46:07.561 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'GPS' tem 1 itens
+2025-08-20 10:46:07.664 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'IRPJ' tem 4 itens
+2025-08-20 10:46:07.761 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'IRPJ ADICIONAL' tem 1 itens
+2025-08-20 10:46:07.858 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'ISS' tem 1 itens
+2025-08-20 10:46:07.962 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'PIS' tem 1 itens
+2025-08-20 10:46:07.962 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: RECEITA INVESTIMENTOS (ID: 680a68d5-06ad-4f41-a64d-3ce527076717)
+2025-08-20 10:46:08.067 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 20 planos para RECEITA INVESTIMENTOS
+2025-08-20 10:46:08.165 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Asset' tem 1 itens
+2025-08-20 10:46:08.259 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'BM&F' tem 1 itens
+2025-08-20 10:46:08.362 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Bovespa' tem 1 itens
+2025-08-20 10:46:08.467 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Bovespa FIIs' tem 1 itens
+2025-08-20 10:46:08.576 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'BTC' tem 1 itens
+2025-08-20 10:46:08.676 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Campanha Fundos Imobiliários' tem 1 itens
+2025-08-20 10:46:08.778 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Campanha RV' tem 1 itens
+2025-08-20 10:46:08.880 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Campanhas' tem 1 itens
+2025-08-20 10:46:08.990 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Clearthrough' tem 3 itens
+2025-08-20 10:46:09.087 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'COE' tem 1 itens
+2025-08-20 10:46:09.185 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Desconto de Transferência de Clientes' tem 1 itens
+2025-08-20 10:46:09.290 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Enquadramento RLP' tem 1 itens
+2025-08-20 10:46:09.390 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Erro Operacional' tem 1 itens
+2025-08-20 10:46:09.491 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Fee Fixo' tem 1 itens
+2025-08-20 10:46:09.596 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Internacional' tem 1 itens
+2025-08-20 10:46:09.714 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Oferta RF' tem 1 itens
+2025-08-20 10:46:09.811 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outros Valores' tem 1 itens
+2025-08-20 10:46:09.910 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Produtos Estruturados' tem 1 itens
+2025-08-20 10:46:10.034 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Renda Fixa' tem 1 itens
+2025-08-20 10:46:10.131 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Secundário FIIs' tem 1 itens
+2025-08-20 10:46:10.131 | INFO     | __main__:obter_classificacoes:7488 - 📊 Processando classificação: RECEITA OUTROS PRODUTOS (ID: 1e963a52-bf81-4fef-a0af-63017c988b9d)
+2025-08-20 10:46:10.233 | INFO     | __main__:obter_classificacoes:7495 - 📋 Encontrados 14 planos para RECEITA OUTROS PRODUTOS
+2025-08-20 10:46:10.339 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Câmbio' tem 1 itens
+2025-08-20 10:46:10.436 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Câmbio XP' tem 2 itens
+2025-08-20 10:46:10.549 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Campanhas PJ2' tem 1 itens
+2025-08-20 10:46:10.642 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Conta Global' tem 1 itens
+2025-08-20 10:46:10.752 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Crédito' tem 3 itens
+2025-08-20 10:46:10.851 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Crédito Colaterizado' tem 1 itens
+2025-08-20 10:46:10.997 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'IAXP' tem 1 itens
+2025-08-20 10:46:11.105 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Mercado Internacional' tem 1 itens
+2025-08-20 10:46:11.210 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Outras Receitas' tem 1 itens
+2025-08-20 10:46:11.311 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Previdência' tem 1 itens
+2025-08-20 10:46:11.411 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Previdência - Co-corretagem' tem 1 itens
+2025-08-20 10:46:11.523 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'RV' tem 1 itens
+2025-08-20 10:46:11.627 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Seguro de vida' tem 5 itens
+2025-08-20 10:46:11.719 | INFO     | __main__:obter_classificacoes:7510 - 📝 Plano 'Taxa de Performance' tem 1 itens
+2025-08-20 10:46:11.719 | INFO     | __main__:obter_classificacoes:7517 - ✅ Estrutura COMPLETA construída:
+2025-08-20 10:46:11.719 | INFO     | __main__:obter_classificacoes:7518 -    📁 8 classificações
+2025-08-20 10:46:11.719 | INFO     | __main__:obter_classificacoes:7519 -    📊 91 planos de contas
+2025-08-20 10:46:11.719 | INFO     | __main__:obter_classificacoes:7520 -    📝 221 itens
+2025-08-20 12:14:22.412 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 12:14:22.412 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-20 12:14:28.458 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 12:16:56.952 | INFO     | __main__:startup:544 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 12:16:56.952 | INFO     | __main__:startup:545 - ✅ Sistema iniciado com sucesso!
+2025-08-20 12:17:00.978 | INFO     | __main__:get_stats:3705 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:17:01.650 | INFO     | __main__:get_stats:3715 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-20 12:17:07.444 | INFO     | __main__:listar_pendentes:1679 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 12:50:49.042 | INFO     | __main__:startup:577 - 🚀 Iniciando Sistema de Conciliação Bancária...
+2025-08-20 12:50:49.043 | INFO     | __main__:startup:578 - ✅ Sistema iniciado com sucesso!
+2025-08-20 12:50:53.238 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 12:51:02.053 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:51:02.388 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-20 12:51:05.564 | INFO     | __main__:listar_usuarios:9189 - 🔍 Listando usuários...
+2025-08-20 12:51:05.858 | INFO     | __main__:listar_usuarios:9198 - ✅ Query executada, encontrados: 3 usuários
+2025-08-20 12:51:06.675 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:51:06.848 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-20 12:51:12.947 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 12:51:14.995 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:51:15.131 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 75 pendentes, 6 conciliados
+2025-08-20 12:51:21.204 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 75 transações pendentes do Supabase
+2025-08-20 12:51:22.633 | INFO     | __main__:obter_classificacoes:7836 - 🔄 Cache miss - consultando banco otimizado...
+2025-08-20 12:51:23.023 | INFO     | __main__:obter_classificacoes:7887 - ✅ Estrutura carregada: 8 classificações
+2025-08-20 12:51:23.024 | INFO     | __main__:listar_transacoes:4252 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 12:51:23.182 | INFO     | __main__:listar_transacoes:4265 - 📊 Encontradas 81 transações
+2025-08-20 12:51:24.968 | INFO     | __main__:listar_transacoes:4339 - ✅ Processadas 81 transações com lookup
+2025-08-20 12:51:36.559 | INFO     | __main__:conciliar_transacao:4427 - 🔖 Conciliando transação: a0ff5c73-cf2a-4375-98c6-4df9f4466ab5
+2025-08-20 12:51:36.840 | INFO     | __main__:conciliar_transacao:4443 - 🔍 Buscando classificação: CUSTOS AAI
+2025-08-20 12:51:36.925 | INFO     | __main__:conciliar_transacao:4451 - ✅ Classificação encontrada: cb49dc87-05d3-4f54-80e8-897a30793723
+2025-08-20 12:51:36.925 | INFO     | __main__:conciliar_transacao:4454 - 🔍 Buscando plano: Advogados
+2025-08-20 12:51:37.027 | INFO     | __main__:conciliar_transacao:4460 - ✅ Plano encontrado: 00f5575c-b2be-4e2f-a5d4-9dcabc2f2f1a
+2025-08-20 12:51:37.027 | INFO     | __main__:conciliar_transacao:4463 - 🔍 Buscando item: Veritas
+2025-08-20 12:51:37.120 | INFO     | __main__:conciliar_transacao:4469 - ✅ Item encontrado: fe44739c-dc06-4826-9bd8-1546825e0d06
+2025-08-20 12:51:37.216 | INFO     | __main__:conciliar_transacao:4474 - ✅ Usuário para conciliação: f58a43b4-999b-4c35-a485-fdabd41501a2
+2025-08-20 12:51:37.217 | INFO     | __main__:conciliar_transacao:4494 - 💾 Atualizando transação com dados: {'status': 'CONCILIADO', 'classificacao_id': 'cb49dc87-05d3-4f54-80e8-897a30793723', 'plano_contas_id': '00f5575c-b2be-4e2f-a5d4-9dcabc2f2f1a', 'item_id': 'fe44739c-dc06-4826-9bd8-1546825e0d06', 'forma_pagamento': 'Boleto', 'banco_origem': 'EDUCAÇÃO', 'centro_custo': 'Campinas', 'nome_recebedor': '', 'contraparte': 'Não identificado', 'data_pagamento': '2025-07-01', 'data_referencia': None, 'observacoes': '', 'conciliado_por': 'f58a43b4-999b-4c35-a485-fdabd41501a2', 'conciliado_em': '2025-08-20T12:51:37.217029'}
+2025-08-20 12:51:37.352 | INFO     | __main__:conciliar_transacao:4502 - ✅ Transação a0ff5c73-cf2a-4375-98c6-4df9f4466ab5 conciliada com sucesso
+2025-08-20 12:51:39.113 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 74 transações pendentes do Supabase
+2025-08-20 12:51:42.601 | INFO     | __main__:listar_transacoes:4252 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 12:51:42.681 | INFO     | __main__:listar_transacoes:4265 - 📊 Encontradas 81 transações
+2025-08-20 12:51:43.791 | INFO     | __main__:listar_transacoes:4339 - ✅ Processadas 81 transações com lookup
+2025-08-20 12:51:43.793 | INFO     | __main__:obter_classificacoes:7833 - ✅ Usando classificações do CACHE
+2025-08-20 12:51:48.270 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:51:48.387 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 12:51:49.745 | INFO     | __main__:obter_classificacoes:7833 - ✅ Usando classificações do CACHE
+2025-08-20 12:51:49.747 | INFO     | __main__:listar_transacoes:4252 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 12:51:49.813 | INFO     | __main__:listar_transacoes:4265 - 📊 Encontradas 81 transações
+2025-08-20 12:51:51.126 | INFO     | __main__:listar_transacoes:4339 - ✅ Processadas 81 transações com lookup
+2025-08-20 12:52:04.752 | INFO     | __main__:criar_item_normalizado:8199 - ✅ Item criado: TESTETESTETESTE em CUSTOS AAI/Advogados
+2025-08-20 12:52:04.755 | INFO     | __main__:obter_classificacoes:7836 - 🔄 Cache miss - consultando banco otimizado...
+2025-08-20 12:52:05.076 | INFO     | __main__:obter_classificacoes:7887 - ✅ Estrutura carregada: 8 classificações
+2025-08-20 12:52:05.078 | INFO     | __main__:listar_transacoes:4252 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 12:52:05.185 | INFO     | __main__:listar_transacoes:4265 - 📊 Encontradas 81 transações
+2025-08-20 12:52:07.165 | INFO     | __main__:listar_transacoes:4339 - ✅ Processadas 81 transações com lookup
+2025-08-20 12:52:08.038 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:52:08.142 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 12:52:11.650 | INFO     | __main__:listar_pendentes:1712 - 📋 Carregando 74 transações pendentes do Supabase
+2025-08-20 12:52:14.354 | INFO     | __main__:listar_transacoes:4252 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 12:52:14.474 | INFO     | __main__:listar_transacoes:4265 - 📊 Encontradas 81 transações
+2025-08-20 12:52:16.514 | INFO     | __main__:listar_transacoes:4339 - ✅ Processadas 81 transações com lookup
+2025-08-20 12:52:16.516 | INFO     | __main__:obter_classificacoes:7833 - ✅ Usando classificações do CACHE
+2025-08-20 12:52:22.954 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:52:23.111 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 12:52:37.199 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:52:37.547 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 12:52:37.550 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:52:37.656 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 12:52:37.658 | INFO     | __main__:listar_transacoes:4252 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 12:52:37.764 | INFO     | __main__:listar_transacoes:4265 - 📊 Encontradas 81 transações
+2025-08-20 12:52:39.757 | INFO     | __main__:listar_transacoes:4339 - ✅ Processadas 81 transações com lookup
+2025-08-20 12:52:39.760 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:52:39.863 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
+2025-08-20 12:52:39.864 | INFO     | __main__:listar_transacoes:4252 - 🔍 Consultando transações - Status: None, Banco: None
+2025-08-20 12:52:39.975 | INFO     | __main__:listar_transacoes:4265 - 📊 Encontradas 81 transações
+2025-08-20 12:52:41.959 | INFO     | __main__:listar_transacoes:4339 - ✅ Processadas 81 transações com lookup
+2025-08-20 12:52:41.994 | INFO     | __main__:get_stats:4216 - 📊 Calculando estatísticas do Supabase...
+2025-08-20 12:52:42.088 | INFO     | __main__:get_stats:4226 - ✅ Stats do Supabase: 81 total, 74 pendentes, 7 conciliados
