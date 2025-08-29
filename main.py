@@ -2,12 +2,6 @@ from fastapi import FastAPI, HTTPException, UploadFile, Depends, File, Form, Req
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
-try:
-    import pandas as pd
-    PANDAS_AVAILABLE = True
-except ImportError:
-    PANDAS_AVAILABLE = False
-    pd = None
 from cache_service import cache
 import io
 import uuid
