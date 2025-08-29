@@ -1,0 +1,12 @@
+[phases]
+setup = { nixPkgs = ["python39", "nodejs"] }
+install = [
+    "cd backend && pip install -r requirements.txt",
+    "cd frontend && npm install || yarn install"
+]
+build = [
+    "cd frontend && npm run build || yarn build"
+]
+
+[start]
+cmd = "cd backend && python main.py || python -m uvicorn main:app --host 0.0.0.0 --port $PORT"
