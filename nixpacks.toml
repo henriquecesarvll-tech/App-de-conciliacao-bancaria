@@ -1,10 +1,16 @@
 [phases]
-setup = { nixPkgs = ["python39"] }
+setup = { nixPkgs = ["python39", "nodejs"] }
 
 [phases.install]
 cmds = [
-    "python3 -m pip install --break-system-packages -r backend/requirements.txt"
+    "python3 -m pip install --user -r backend/requirements.txt",
+    "cd frontend && (npm install || yarn install || true)"
+]
+
+[phases.build]
+cmds = [
+    "cd frontend && (npm run build || yarn build || true)"
 ]
 
 [start]
-cmd = "cd backend && python3 main.py || python3 -m uvicorn main:app --host 0.0.0.0 --port $PORT"
+cmd = "cd backend && PYTHONPATH=/root/.local/lib/python3.9/site-packages python3 main.py || python3 -m uvicorn main:app --host 0.0.0.0 --port $PORT"
