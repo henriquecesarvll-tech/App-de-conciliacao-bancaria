@@ -1,9 +1,12 @@
-[phases.setup]
-nixPkgs = ["python39", "nodejs"]
+[phases]
+setup = { 
+    nixPkgs = ["python39", "nodejs-18.x", "pip"] 
+}
 
 [phases.install]
 cmds = [
-    "pip install -r backend/requirements.txt",
+    "python -m pip install --upgrade pip",
+    "python -m pip install -r backend/requirements.txt",
     "cd frontend && (npm install || yarn install || true)"
 ]
 
@@ -13,4 +16,7 @@ cmds = [
 ]
 
 [start]
-cmd = "cd backend && (python main.py || python -m uvicorn main:app --host 0.0.0.0 --port $PORT)"
+cmd = "cd backend && python main.py || python -m uvicorn main:app --host 0.0.0.0 --port $PORT"
+
+[build]
+baseImage = "ubuntu:20.04"
