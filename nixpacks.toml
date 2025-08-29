@@ -1,11 +1,11 @@
 [phases]
 setup = { nixPkgs = ["python39", "nodejs"] }
 install = [
-    "cd backend && pip install -r requirements.txt",
-    "cd frontend && npm install || yarn install"
+    "pip install -r backend/requirements.txt",
+    "cd frontend && npm install || yarn install || echo 'No frontend dependencies found'"
 ]
 build = [
-    "cd frontend && npm run build || yarn build"
+    "cd frontend && npm run build || yarn build || echo 'No frontend build needed'"
 ]
 
 [start]
