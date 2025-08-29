@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException, UploadFile, Depends, File, Form, Req
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
+import pandas as pd
 from cache_service import cache
 import io
 import uuid
@@ -322,9 +323,7 @@ def processar_valor_moeda(valor_raw):
 def processar_arquivo(file_content: bytes, filename: str, banco: str):
     """Processar arquivo CSV ou Excel e extrair transações"""
     try:
-        if not PANDAS_AVAILABLE:
-            raise ValueError("Pandas não disponível - funcionalidade de processamento de arquivos limitada")
-        
+                
         logger.info(f"Iniciando processamento de {filename} para banco {banco}")
         
         # Detectar tipo de arquivo
