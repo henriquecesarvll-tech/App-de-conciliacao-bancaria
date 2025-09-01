@@ -2554,7 +2554,7 @@ async def listar_pendentes():
                                <label>Centro de Custo <span class="required">*</span></label>
                                <select id="centro-custo" required>
                                    <option value="">Selecionar centro de custo...</option>""" + \
-                                    ''.join([f'<option value="{centro}">{centro}</option>' for centro in centros_custo]) + r"""
+                                    ''.join([f'<option value="{centro}">{centro}</option>' for centro in centros_custo]) + """
                                </select>
                            </div>
                            <div class="form-group">
